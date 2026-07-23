@@ -1,5 +1,7 @@
 // Shared helpers for parsing the QUIZ_*.txt question bank format:
-// Question Num|Question|Option-A|Option-B|Option-C|Option-D|Answer|
+// Question Num|Question|Option-A|Option-B|...|Option-N|Answer|Explanation|
+// The number of options is read from the header row, so banks with 4, 5,
+// or more options are all supported.
 
 function escapeHtml(str) {
   return String(str)
@@ -27,21 +29,31 @@ function parseQuizBank(text) {
   const lines = text.split(/\r?\n/).filter((l) => l.trim().length > 0);
   if (lines.length === 0) return [];
 
-  // First line is the header, skip it.
+  // The header row's "Option-X" columns tell us how many options (and
+  // which letters) this bank uses, e.g. A-D or A-E.
+  const header = lines[0].split("|");
+  let optionLetters = header
+    .filter((h) => /^Option-[A-Z]$/i.test(h.trim()))
+    .map((h) => h.trim().slice(-1).toUpperCase());
+  if (optionLetters.length === 0) {
+    optionLetters = ["A", "B", "C", "D"];
+  }
+
   const rows = lines.slice(1);
 
   return rows.map((line) => {
     const cols = line.split("|");
-    const [num, question, a, b, c, d, answer, explanation] = cols;
+    const options = {};
+    optionLetters.forEach((letter, i) => {
+      options[letter] = (cols[2 + i] || "").trim();
+    });
+    const answer = cols[2 + optionLetters.length];
+    const explanation = cols[3 + optionLetters.length];
     return {
-      num: (num || "").trim(),
-      question: (question || "").trim(),
-      options: {
-        A: (a || "").trim(),
-        B: (b || "").trim(),
-        C: (c || "").trim(),
-        D: (d || "").trim(),
-      },
+      num: (cols[0] || "").trim(),
+      question: (cols[1] || "").trim(),
+      options,
+      optionLetters,
       answer: (answer || "").trim().toUpperCase(),
       explanation: (explanation || "").trim(),
     };

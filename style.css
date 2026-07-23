@@ -8,6 +8,8 @@
   --purple-light: #ede9fe;
   --yellow: #fbbf24;
   --yellow-light: #fef3c7;
+  --sky: #38bdf8;
+  --sky-light: #e0f2fe;
   --text-dark: #4a2e2a;
   --bg: #fff7fb;
 }
@@ -205,8 +207,13 @@ body {
   gap: 18px;
 }
 
+.options-grid .option:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
 @media (max-width: 560px) {
   .options-grid { grid-template-columns: 1fr; }
+  .options-grid .option:last-child:nth-child(odd) { grid-column: auto; }
 }
 
 .option {

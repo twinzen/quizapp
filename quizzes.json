@@ -16,5 +16,23 @@
     "name": "Synonyms Quiz 3",
     "description": "Test your knowledge of English synonyms",
     "number_of_questions": 20
+  },
+  {
+    "file": "QUIZ_Antonym-1.txt",
+    "name": "Antonyms Quiz 1",
+    "description": "Test your knowledge of English antonyms",
+    "number_of_questions": 20
+  },
+  {
+    "file": "QUIZ_Antonym-2.txt",
+    "name": "Antonyms Quiz 2",
+    "description": "Test your knowledge of English antonyms",
+    "number_of_questions": 20
+  },
+  {
+    "file": "QUIZ_Antonym-3.txt",
+    "name": "Antonyms Quiz 3",
+    "description": "Test your knowledge of English antonyms",
+    "number_of_questions": 20
   }
 ]

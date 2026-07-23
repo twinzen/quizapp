@@ -21,6 +21,7 @@
       B: "var(--teal)",
       C: "var(--purple)",
       D: "var(--yellow)",
+      E: "var(--sky)",
     };
 
     const params = new URLSearchParams(window.location.search);
@@ -96,7 +97,7 @@
         </div>
 
         <div class="options-grid" id="options-grid">
-          ${["A", "B", "C", "D"].map((letter) => `
+          ${(q.optionLetters || Object.keys(q.options)).map((letter) => `
             <div class="option" data-letter="${letter}" style="--opt-color:${OPTION_COLORS[letter]}">
               <div class="badge">${letter}</div>
               <div class="option-text">${renderInline(q.options[letter])}</div>
