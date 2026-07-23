@@ -1,0 +1,50 @@
+Question_Num|Question|Option-A|Option-B|Option-C|Option-D|Answer|Explanation|
+39|The kettle's whistle was **shrill** and went on forever.|horrible|piercing|annoying|rumbling|B|"Shrill" describes a sound that is very high and sharp, like a "piercing" sound.|
+40|She looked out of the window **sorrowfully**, thinking about the sad conversation.|quizzically|hopefully|angrily|dejectedly|D|"Sorrowfully" means feeling very sad, just like "dejectedly".|
+41|He stated his opinion confidently and **emphatically**.|quickly|assertively|creatively|excitedly|B|"Emphatically" means saying something in a strong, confident way, like "assertively".|
+42|The teacher **begrudgingly** gave her loudest student the best grade in the class.|unhappily|willingly|gladly|reluctantly|D|"Begrudgingly" means doing something without really wanting to, just like "reluctantly".|
+43|We will **lament** the loss of this tree for a long time to come.|bare|feel|mourn|notice|C|To "lament" means to feel very sad about something, just like to "mourn".|
+44|He will go down in history as one of the most **formidable** men of his time.|aggressive|dangerous|powerful|popular|C|"Formidable" describes someone very strong and impressive, like "powerful".|
+45|The sociology lecture **provoked** discussion about the class system.|instigated|incubated|eradicated|indicated|A|"Provoked" means to have started something happening, just like "instigated".|
+46|It is best not to **retaliate** when bullies make mean comments.|acknowledge|respond|reinstate|relate|B|To "retaliate" means to react to something someone did to you, just like to "respond".|
+47|We will **emancipate** all those who have been imprisoned by this unjust law.|free|celebrate|deny|compensate|A|"Emancipate" means to let someone go, just like to set them "free".|
+48|The dog had been **conditioned** to respond to the bell by raising its paw.|groomed|indoctrinated|trained|encouraged|C|Being "conditioned" means being taught to do something automatically, just like being "trained".|
+49|The river was very long and **meandering**.|winding|flowing|heaving|forceful|A|"Meandering" describes a path that twists and turns a lot, just like "winding".|
+50|I was **sceptical** about what the salesman told me.|judgemental|accepting|doubtful|scornful|C|"Sceptical" means not being sure if something is true, just like feeling "doubtful".|
+51|Nobody could **withstand** the heat that close up; it was too much!|endure|enjoy|emanate|escape|A|To "withstand" means to keep going without being harmed by something, just like to "endure" it.|
+52|They **sacrificed** everything they had worked so hard for.|endangered|renounced|repossessed|risked|B|"Sacrificed" means giving up something important, just like to "renounce" it.|
+53|The teacher raised an eyebrow **dubiously**.|graciously|inquisitively|suspiciously|patronisingly|C|"Dubiously" means feeling unsure and not fully trusting something, just like "suspiciously".|
+54|The sky was a **miraculous** shade of blue and there were no clouds at all.|pure|monochrome|vivid|magical|D|"Miraculous" describes something amazing and hard to believe, just like "magical".|
+55|The classroom was **eerily** quiet after the children left.|entirely|too|strangely|horrifyingly|C|"Eerily" means in a way that feels strange and a little scary, just like "strangely".|
+56|First, you have to **weave** the twigs together like this.|entwine|encapsulate|laminate|build|A|To "weave" means to twist things together, just like to "entwine" them.|
+57|The food was **lodged** in my throat, which meant it was hard to breathe.|still|encased|stuck|gathered|C|"Lodged" means firmly caught in one place, just like "stuck".|
+58|I tried to **ascertain** the true meaning behind his words.|fathom|enquire|insure|answer|A|To "ascertain" means to find out or understand something, just like to "fathom" it.|
+70|Dolores **flaunted** her shoes.|dangled|paraded|danced|detailed|B|"Flaunted" means showing something off proudly, just like "paraded".|
+71|The waiter attended to us in a very **ingratiating** manner; he wanted a good tip.|coy|hopeful|grating|fawning|D|"Ingratiating" means trying hard to make someone like you, just like being "fawning".|
+72|Anthony thought the lemon pie tasted **sublime**.|slimy|tart|acidic|glorious|D|"Sublime" means wonderful and amazing, just like "glorious".|
+73|Their communication skills were **flowering** in debating club.|developing|escalating|seeding|multiplying|A|Here, "flowering" means growing and getting better, just like "developing".|
+74|My school days were **shambolic**; I'm not sure I learnt anything.|shameful|disgruntling|chaotic|haunting|C|"Shambolic" means very messy and disorganised, just like "chaotic".|
+75|The revolutionaries created tension in society with **hyperbolic** arguments.|belligerent|hypothetical|hypnotic|exaggerated|D|"Hyperbolic" describes something made to sound much bigger than it really is, just like "exaggerated".|
+76|My mother **favoured** roast chicken on Sundays.|chose|cooked|preferred|had|C|To "favour" something means to like it more than other things, just like to "prefer" it.|
+77|Malcolm was as **shallow** as a puddle.|facile|short|thoughtless|superficial|D|"Shallow" can describe a person who doesn't think deeply about things, just like being "superficial".|
+78|The ringing of the phone **slightly** disturbed my thoughts.|somewhat|considerably|greatly|moderate|A|"Slightly" means just a little bit, just like "somewhat".|
+79|I **savoured** the flavours as they danced across my tongue.|seasoned|salivated|relished|recalled|C|To "savour" means to enjoy something fully, just like to "relish" it.|
+80|The scent **wafting** from the candle was heavenly.|drifting|flourishing|omitted|seeping|A|"Wafting" means moving gently through the air, just like "drifting".|
+81|I was incredibly **curious** about whether the cat was in the basket or not.|intrigued|pondering|thoughtful|unsure|A|"Curious" means wanting to know more about something, just like being "intrigued".|
+82|The flowers **wilted** as the sun continued to beat down mercilessly.|decayed|disintegrated|diminished|drooped|D|"Wilted" means becoming weak and bending over from heat, just like flowers that "droop".|
+83|As the singer hit the high note, the windows **trembled**.|shattered|quaked|quilled|shaking|B|"Trembled" means shaking, just like the windows "quaked".|
+39|I hope to **inspire** future generations.|passion|encouraging|motivate|dissuade|C|To "inspire" means to encourage someone to do something, just like to "motivate" them.|
+40|You have been **courageous** despite the danger.|feeble|fearless|feisty|strong|B|"Courageous" means being brave and not scared, just like "fearless".|
+41|Please be **courteous** to the others while I am gone.|sociable|talkative|subservient|respectful|D|"Courteous" means being polite, just like "respectful".|
+42|We all looked up in awe at the **gargantuan** pillars.|colossal|minute|masterful|breath-taking|A|"Gargantuan" means extremely huge, just like "colossal".|
+43|I **loathe** the sound of nails on a chalkboard.|despise|fear|endure|tolerate|A|To "loathe" means to hate something a lot, just like to "despise" it.|
+44|I **recoiled** in disgust when she showed me her spider collection.|grimaced|winced|whinged|retaliated|B|"Recoiled" means pulling back quickly because you don't like something, just like to "wince".|
+45|The bed was **laden** with all her clothes.|messy|overloaded|covering|heavy|B|"Laden" means carrying too much, just like being "overloaded".|
+46|Nobody interrupted since they were all **mesmerised** by the speaker.|hypnotised|relaxed|soothed|captivated|D|Being "mesmerised" means so interested that you can't look away, just like being "captivated".|
+47|"Well, your theory certainly **provokes** arguments," said Marge.|discourages|instigates|creation|challenges|B|To "provoke" means to make something happen, just like to "instigate" it.|
+48|"I don't mean to **lumber** you with too many tasks," my boss explained.|saddle|saturate|sink|suppress|A|To "lumber" someone means to give them a difficult job, just like to "saddle" them with it.|
+49|My grandma had a kindly **countenance** and was very friendly.|personality|tone|demeanour|appearance|D|A person's "countenance" means the look on their face, or their "appearance".|
+50|It was **thoughtless** of you not to wear a helmet.|convenient|mean|forgetful|heedless|D|"Thoughtless" means not thinking about what might happen, just like being "heedless".|
+51|The great, heavy Rowan tree **bowed** low due to its weight.|wiggled|shrivelled|stooped|lengthened|C|To "bow" means to bend down low, just like to "stoop".|
+52|The main character was so **impulsive** that I couldn't predict their next step.|impetuous|magical|mysterious|indecisive|A|"Impulsive" means doing things quickly without thinking first, just like being "impetuous".|
+53|She told us not to worry about her dog because it was very **docile**.|dozing|loving|angry|obedient|D|"Docile" means gentle and easy to control, just like being "obedient".|

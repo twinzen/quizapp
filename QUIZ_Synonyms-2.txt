@@ -1,0 +1,51 @@
+Question Num|Question|Option-A|Option-B|Option-C|Option-D|Answer|Explanation|
+54|She remained remarkably **placid** while chaos reigned around her.|safe|composed|undeterred|unharmed|B|"Placid" means calm and not easily upset, so it matches "composed".|
+55|The size of the campus could be **intimidating** to new students.|confusing|encapsulating|strange|frightening|D|"Intimidating" means something that makes you feel scared, like "frightening".|
+56|Hazel was **overjoyed** when she found her old hat, which she had lost.|rapturous|blithe|nonchalant|excited|A|"Overjoyed" means extremely happy, so it matches "rapturous".|
+57|When John lost his wallet, he was **forced** to borrow his taxi fare from Brian.|affected|necessitated|obliged|requirement|C|If you are "forced" to do something, you have no choice — you are "obliged" to do it.|
+58|We have studied our verbs **diligently**.|fully|busily|assiduously|careful|C|"Diligently" means working hard and carefully, which is what "assiduously" means.|
+16|We were **flabbergasted** to hear that she was leaving college.|unruffled|stupefied|passionate|indifferent|B|"Flabbergasted" means extremely surprised, so it matches "stupefied".|
+17|"Why do you always have to **contradict** me on every decision?" Pamela asked.|counter|test|acknowledge|fail|A|To "contradict" means to say the opposite of what someone said, which is to "counter" it.|
+18|The smell of burnt bread has **permeated** the entire house.|resolved|closed|bound|pervaded|D|"Permeated" means spread all through something, which is what "pervaded" means.|
+19|iPods have now become quite **obsolete**.|recent|respected|outmoded|remodelled|C|"Obsolete" means old and no longer used, so it matches "outmoded".|
+20|Trekking in the Himalayas involves a lot of **risk**.|shield|peril|rebel|courage|B|"Risk" means being in danger, which is what "peril" means.|
+21|In the aftermath of the floods, the riverbanks were littered with **refuse**.|debris|conflict|revenge|dumpster|A|"Refuse" means rubbish, or things thrown away, like "debris".|
+22|I suggest you take the headteacher's **advice** into account.|expectation|counsel|recommend|favour|B|"Advice" means helpful suggestions, which is the same as "counsel".|
+23|Don't **discount** his opinion without good reason.|sell|dislike|dismiss|object|C|To "discount" an idea means to ignore it, or "dismiss" it.|
+24|Sophie **intends** to finish her summer project by the second week of June.|aspires|rehearses|strives|strategizes|A|To "intend" to do something means to plan, or "aspire", to do it.|
+25|Anne was too busy **plotting** against her cousin Dan.|betray|sowing|developing|conspiring|D|"Plotting" means making secret plans, which is the same as "conspiring".|
+26|It is important to get one's information from **reputable** sources.|trustworthy|popular|well-known|durable|A|"Reputable" means well-trusted, so it matches "trustworthy".|
+27|Everyone else tried to **extract** themselves from the awkward situation.|excerpt|escape|separate|distant|C|To "extract" yourself from something means to get away, or "separate" from it.|
+28|Daphne was always rather **patronising** towards her younger sister.|jealous|condescending|mocking|unfeeling|B|"Patronising" means acting like you are better than someone else, or being "condescending".|
+29|The McKenzies were on **intimate** terms with the Sharmas.|compassionate|withdrawn|tender|familiar|D|"Intimate" means very close and friendly, like being "familiar" with someone.|
+30|Johnny was **attracted** by the idea of going to Disneyland.|hypnotised|interested|seduced|affected|B|Being "attracted" to an idea means you like it and are "interested" in it.|
+31|The two suspects neither **confirmed** nor denied taking the sweets.|admitted|claimed|reasoned|agreed|A|To "confirm" means to say something is true, so not confirming means they had not "admitted" it.|
+32|Henry took a step back, **overwhelmed** by the strangeness of the scene.|overflowed|unnerved|drenched|shattered|B|"Overwhelmed" means having very strong feelings, which can make you feel "unnerved".|
+33|On a school trip to the wilderness, Lola **acquired** many useful survival skills.|obtain|adopted|collected|developed|D|To "acquire" a skill means to learn it, or "develop" it.|
+6|When I was younger, I **seldom** went to the theatre.|hardly|recurrently|customarily|frequently|A|"Seldom" means not very often, close to "hardly ever".|
+7|She remained **composed** throughout the competition.|confident|serious|perturbed|calm|D|"Composed" means staying "calm" and in control of your feelings.|
+8|The snowman was **prominent** in the field.|obscured|noticeable|pale|influential|B|"Prominent" means easy to see, or "noticeable".|
+9|He apologised and explained that he did not wish to **intrude**.|demand|disturb|complain|ignore|B|To "intrude" means to interrupt, or "disturb", someone.|
+10|They strongly believed that the decision was extremely **illogical**.|unexpected|practical|senseless|impulsive|C|"Illogical" means not making sense, or "senseless".|
+27|The idea of travelling back in time is **inconceivable**.|preposterous|fascinating|futile|unimaginable|D|"Inconceivable" means impossible to imagine, so it matches "unimaginable".|
+28|His friends described his financial situation as **precarious**.|stable|dangerous|struggling|affluent|B|"Precarious" means unsafe, or "dangerous".|
+29|They were told that the documents were **confidential**.|critical|unpublished|private|authoritative|C|"Confidential" means secret, or "private".|
+30|She thought her siblings spoke to her in a very **juvenile** way.|pretentious|assertive|immature|ignorant|C|"Juvenile" means childish, or "immature", behaviour.|
+31|In a **dignified** manner, she stood up and continued ice skating.|composed|humiliated|careful|arrogant|A|"Dignified" means behaving calmly and with respect, or "composed".|
+32|Her **fickle** nature made it challenging to predict what she would do next.|demanding|inconstant|deceptive|private|B|"Fickle" means often changing your mind, or being "inconstant".|
+33|The country experienced **tumultuous** times as political unrest swept across the nation.|noisy|volatile|desperate|wild|B|"Tumultuous" means very chaotic and unsettled, or "volatile".|
+34|The princess gushed over how **valiantly** the knight had fought.|brave|bold|respectfully|courageously|D|"Valiantly" means bravely, or "courageously".|
+35|The **prolific** writer published three best-selling novels in the span of just one year.|imaginative|productive|proficient|dedicated|B|"Prolific" means making a lot of something, so it matches "productive".|
+36|The **discerning** art collector carefully examined each and every painting.|intelligent|perceptive|cautious|finest|B|"Discerning" means noticing small details well, or "perceptive".|
+26|She was becoming more **eccentric** as she got older.|thoughtful|frightened|unconventional|generous|C|"Eccentric" means unusual or different, or "unconventional".|
+27|They were **agitated** when their friend did not answer their phone call.|distressed|surprised|horrified|unperturbed|A|"Agitated" means feeling worried or upset, or "distressed".|
+28|This year, all the staff at the bank were given a **meagre** pay rise.|deserved|advanced|disgraceful|insufficient|D|"Meagre" means too small or not enough, or "insufficient".|
+29|They were unable to **ascertain** the cause of the misfortune.|accept|locate|determine|comprehend|C|To "ascertain" means to find out for sure, or "determine" it.|
+30|The teacher was **aghast** at how badly the students scored in their latest test.|appalled|furious|bewildered|dissatisfied|A|"Aghast" means shocked or horrified, like being "appalled".|
+16|They held their new toy **aloft**, showing off to their small group of friends.|tentatively|proudly|high|tight|C|"Aloft" means up in the air, or "high" up.|
+17|My health **deteriorated** rapidly after the injury.|declined|disintegrated|halted|languished|A|"Deteriorated" means getting worse, or "declined".|
+18|The man's expression remained **dispassionate** when he was told the bad news.|perplexed|furious|impassive|intense|C|"Dispassionate" means showing no strong feelings, or "impassive".|
+19|They were certainly **satiated** by the end of their five-course meal.|overwhelmed|uncomfortable|bloated|satisfied|D|"Satiated" means feeling completely full, or "satisfied".|
+20|Clare thought the puppy looked very **endearing** as she sat patiently on her lap.|sleepy|picturesque|charming|composed|C|"Endearing" means sweet and lovable, or "charming".|
+31|Eating one apple a day is **allegedly** very good for your health.|supposedly|bizarrely|interestingly|traditionally|A|"Allegedly" means people say it is true, or "supposedly" true.|
+32|They have had **sporadic** contact since they met for the first time last year.|increasing|occasional|daily|frequent|B|"Sporadic" means happening now and then, or "occasional".|

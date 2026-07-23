@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <a class="back-link" href="index.html">← Back to Quiz List</a>
+    <div id="quiz-root">
+      <div class="loading">Loading questions…</div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script>
+    const OPTION_COLORS = {
+      A: "var(--pink)",
+      B: "var(--teal)",
+      C: "var(--purple)",
+      D: "var(--yellow)",
+    };
+
+    const params = new URLSearchParams(window.location.search);
+    const file = params.get("file");
+
+    let questions = [];
+    let current = 0;
+    let score = 0;
+    let answered = false;
+
+    const root = document.getElementById("quiz-root");
+
+    async function init() {
+      if (!file) {
+        root.innerHTML = `<div class="error-state">No quiz file specified. Please choose a quiz from the quiz list page.</div>`;
+        return;
+      }
+      let bank;
+      try {
+        bank = await fetchQuizBank(file);
+      } catch (err) {
+        root.innerHTML = `<div class="error-state">
+          Failed to load question bank "${escapeHtml(file)}".<br />
+          Make sure the file exists and this page is opened via a local server.
+        </div>`;
+        return;
+      }
+      if (!bank.length) {
+        root.innerHTML = `<div class="error-state">This quiz has no questions.</div>`;
+        return;
+      }
+
+      let numberOfQuestions = null;
+      try {
+        const res = await fetch("quizzes.json", { cache: "no-store" });
+        if (res.ok) {
+          const manifest = await res.json();
+          const entry = manifest.find((q) => q.file === file);
+          if (entry) numberOfQuestions = entry.number_of_questions;
+        }
+      } catch (err) {
+        // Non-fatal: fall back to using the full question bank.
+      }
+
+      questions = pickRandomQuestions(bank, numberOfQuestions);
+      renderQuestion();
+    }
+
+    function renderQuestion() {
+      answered = false;
+      const q = questions[current];
+      const total = questions.length;
+      const { subtitle, main } = splitQuestion(q.question);
+      const progressPct = Math.round((current / total) * 100);
+
+      root.innerHTML = `
+        <div class="quiz-top">
+          <div class="progress-label">Question ${current + 1} / ${total}</div>
+          <div class="score-badge">Score: ${score}</div>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" style="width:${progressPct}%"></div>
+        </div>
+
+        <div class="question-card">
+          <div class="q-tag">💡 Q.${current + 1}</div>
+          ${subtitle ? `<div class="q-subtitle">${renderInline(subtitle)}</div>` : ""}
+          <p class="q-main">${renderInline(main)}</p>
+        </div>
+
+        <div class="answer-row">
+          <span>👆 Choose one answer:</span>
+        </div>
+
+        <div class="options-grid" id="options-grid">
+          ${["A", "B", "C", "D"].map((letter) => `
+            <div class="option" data-letter="${letter}" style="--opt-color:${OPTION_COLORS[letter]}">
+              <div class="badge">${letter}</div>
+              <div class="option-text">${renderInline(q.options[letter])}</div>
+            </div>
+          `).join("")}
+        </div>
+
+        <div id="explanation-box"></div>
+
+        <div class="next-row">
+          <button class="next-btn" id="next-btn" disabled>
+            ${current === total - 1 ? "Finish Quiz" : "Next Question"}
+          </button>
+        </div>
+      `;
+
+      document.querySelectorAll(".option").forEach((el) => {
+        el.addEventListener("click", () => selectAnswer(el.dataset.letter));
+      });
+      document.getElementById("next-btn").addEventListener("click", nextQuestion);
+    }
+
+    function selectAnswer(letter) {
+      if (answered) return;
+      answered = true;
+      const q = questions[current];
+      const correct = q.answer;
+
+      document.querySelectorAll(".option").forEach((el) => {
+        el.classList.add("disabled");
+        const l = el.dataset.letter;
+        if (l === correct) {
+          el.insertAdjacentHTML("beforeend", `<div class="correct-badge">✓ Correct</div>`);
+        } else if (l === letter) {
+          el.classList.add("incorrect");
+        }
+      });
+
+      if (letter === correct) {
+        score++;
+        document.querySelector(".score-badge").textContent = `Score: ${score}`;
+      }
+
+      if (q.explanation) {
+        document.getElementById("explanation-box").innerHTML = `
+          <div class="explanation-card">
+            <div class="explanation-label">💬 Explanation</div>
+            <div class="explanation-text">${renderInline(q.explanation)}</div>
+          </div>
+        `;
+      }
+
+      document.getElementById("next-btn").disabled = false;
+    }
+
+    function nextQuestion() {
+      if (!answered) return;
+      if (current < questions.length - 1) {
+        current++;
+        renderQuestion();
+      } else {
+        renderResults();
+      }
+    }
+
+    function renderResults() {
+      const total = questions.length;
+      const pct = Math.round((score / total) * 100);
+      root.innerHTML = `
+        <div class="results-card">
+          <div>🎉 Quiz Complete!</div>
+          <div class="score-big">${score} / ${total}</div>
+          <div>Accuracy ${pct}%</div>
+          <div class="results-actions">
+            <button class="btn-primary" id="retry-btn">🔄 Retry Quiz</button>
+            <a class="btn-secondary" href="index.html">📚 Back to Quiz List</a>
+          </div>
+        </div>
+      `;
+      document.getElementById("retry-btn").addEventListener("click", () => {
+        current = 0;
+        score = 0;
+        renderQuestion();
+      });
+    }
+
+    init();
+  </script>
+</body>
+</html>

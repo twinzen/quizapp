@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Center</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <div class="list-header">
+      <h1>📚 Quiz Center</h1>
+      <p>Choose a quiz to start the challenge</p>
+    </div>
+
+    <div id="quiz-grid" class="quiz-grid">
+      <div class="loading">Loading quiz list…</div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script>
+    async function loadQuizList() {
+      const grid = document.getElementById("quiz-grid");
+      let manifest;
+      try {
+        const res = await fetch("quizzes.json", { cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        manifest = await res.json();
+      } catch (err) {
+        grid.innerHTML = `<div class="error-state">
+          Failed to load quiz list (quizzes.json).<br />
+          Make sure this page is opened via a local server (not by double-clicking index.html directly).
+        </div>`;
+        return;
+      }
+
+      if (!manifest.length) {
+        grid.innerHTML = `<div class="empty-state">No quizzes available right now.</div>`;
+        return;
+      }
+
+      grid.innerHTML = "";
+      for (const quiz of manifest) {
+        const card = document.createElement("div");
+        card.className = "quiz-card";
+        const name = quiz.name || quizDisplayNameFromFile(quiz.file);
+        card.innerHTML = `
+          <div class="info">
+            <h2>${escapeHtml(name)}</h2>
+            <p>${escapeHtml(quiz.description || "")}</p>
+            <div class="count" data-count-for="${escapeHtml(quiz.file)}">Loading question count…</div>
+          </div>
+          <a class="start-btn" href="quiz.html?file=${encodeURIComponent(quiz.file)}">Start Quiz</a>
+        `;
+        grid.appendChild(card);
+
+        // Fetch just to show the question count; failures are non-fatal here.
+        fetchQuizBank(quiz.file)
+          .then((questions) => {
+            const el = card.querySelector(`[data-count-for="${CSS.escape(quiz.file)}"]`);
+            const count = quiz.number_of_questions
+              ? Math.min(quiz.number_of_questions, questions.length)
+              : questions.length;
+            if (el) el.textContent = `${count} questions`;
+          })
+          .catch(() => {
+            const el = card.querySelector(`[data-count-for="${CSS.escape(quiz.file)}"]`);
+            if (el) el.textContent = "Failed to load question bank";
+          });
+      }
+    }
+
+    loadQuizList();
+  </script>
+</body>
+</html>

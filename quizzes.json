@@ -1,0 +1,20 @@
+[
+  {
+    "file": "QUIZ_Synonyms-1.txt",
+    "name": "Synonyms Quiz 1",
+    "description": "Test your knowledge of English synonyms",
+    "number_of_questions": 20
+  },
+  {
+    "file": "QUIZ_Synonyms-2.txt",
+    "name": "Synonyms Quiz 2",
+    "description": "Test your knowledge of English synonyms",
+    "number_of_questions": 20
+  },
+  {
+    "file": "QUIZ_Synonyms-3.txt",
+    "name": "Synonyms Quiz 3",
+    "description": "Test your knowledge of English synonyms",
+    "number_of_questions": 20
+  }
+]

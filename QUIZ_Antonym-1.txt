@@ -1,0 +1,44 @@
+Question Num|Question|Option-A|Option-B|Option-C|Option-D|Answer|Explanation|
+33|The amateur drama group’s performances were often met with **derision**.|ridicule|humour|support|compliments|A|"Derision" means people are laughing at someone and making fun of them, like "ridicule".|
+34|The duchess made a lasting impression due to her air of **grandeur**.|arrogance|magnificence|shame|confidence|B|"Grandeur" means looking grand and impressive, like "magnificence".|
+35|The winner wasn’t the largest fighter, but he was **sinewy** and agile.|tall|determined|tough|aggressive|C|"Sinewy" describes someone lean and strong, like being "tough".|
+1|After **traversing** many mountains, plains, and rivers, they finally reached their destination.|discussing|navigating|crossing|struggling|C|To "traverse" means to travel across something, like "crossing".|
+2|Everyone stopped laughing immediately when they saw the **grave** look on his face.|mischievous|serious|comical|dejected|B|"Grave" here means very serious, not happy or funny.|
+3|The oldest member held such **sway** over the rest of the committee.|hammer|swing|influence|vertigo|C|To have "sway" over people means you have power or "influence" over them.|
+4|The student spoke to the famous professor with great **diffidence**.|arrogance|enthusiasm|shame|timidity|D|"Diffidence" means feeling shy or unsure of yourself, like "timidity".|
+5|Many **belligerent** children liked to hang around by the school gates and pick fights.|chatty|antagonistic|cheeky|irritated|B|"Belligerent" means acting angry and ready to fight, like being "antagonistic".|
+6|Her **exuberance** was infectious; before long, her colleagues were all grinning.|humour|contentedness|wit|cheerfulness|D|"Exuberance" means being full of happy energy, like "cheerfulness".|
+7|You have absolutely no evidence for that **baseless** accusation.|unstable|unfounded|unsustainable|biased|B|"Baseless" means there is no proof for it, like being "unfounded".|
+8|After his illness, his face was pale and **drawn**.|green|pictured|swollen|gaunt|D|A "drawn" face looks thin and tired, like being "gaunt".|
+9|The warlock that **dwelt** in the depths of the forest had not been seen for thousands of years.|lived|seethed|remained|hid|A|"Dwelt" is another word for "lived" somewhere.|
+10|After the concert, Brijesh and his friends **convened** in the entrance hall.|congregated|loitered|hastened|conversed|A|"Convened" means people came together in a group, like they "congregated".|
+11|There were still a few **residual** traces of my new room’s previous occupant.|minor|inexcusable|tiny|remaining|D|"Residual" means what is left over, like "remaining".|
+12|His face flushed with **indignation** as he listened to their scathing comments.|shock|embarrassment|resentment|disbelief|C|"Indignation" means feeling angry because something is unfair, like "resentment".|
+13|The criminal hoped that the new evidence might earn her a **reprieve**.|clue|answer|punishment|pardon|D|A "reprieve" means a punishment is cancelled or put off, like a "pardon".|
+14|**Amid** the chaos, they remained calm and composed.|Considering|Surrounded by|Overwhelmed by|Despite|B|"Amid" means being in the middle of something, like "surrounded by".|
+15|I think footballers earn an **exorbitant** amount of money.|an excessive|a small|a generous|a large|A|"Exorbitant" means something costs way too much, like "an excessive" amount.|
+36|Mr. Chapman marked his students’ work **rigorously**.|thoroughly|carelessly|constantly|rapidly|A|"Rigorously" means doing something very carefully and properly, like "thoroughly".|
+37|The **secluded** cottage could be found deep in the forest.|peaceful|convenient|hidden|ancient|C|"Secluded" means a place that is quiet and hard to find, like being "hidden".|
+38|Sarah demonstrated an impressive level of **stamina** on the fitness test.|strength|endurance|potential|ability|B|"Stamina" means being able to keep going for a long time, like "endurance".|
+39|After collecting her prize, Eleanor delivered a **humble** speech.|boring|ineffective|quiet|modest|D|Being "humble" means not boasting about yourself, like being "modest".|
+40|Many of the jurors agreed that the crime was **inexcusable**.|horrific|unforgivable|justified|legal|B|"Inexcusable" means something is so bad it can't be forgiven, like "unforgivable".|
+11|The absence of the groom at his own wedding was **ominous**.|foreboding|forbidden|mournful|terrible|A|"Ominous" means it feels like something bad is about to happen, like "foreboding".|
+12|Cecilia’s **devotion** to her new job was impressive, if a little overzealous.|inattentiveness|reference|commitment|resistance|C|"Devotion" means caring about something a lot and working hard for it, like "commitment".|
+13|Everyone at the party was very nice, except Jonathan; he was just so **arrogant**!|clumsy|talented|boring|condescending|D|Being "arrogant" means thinking you're better than everyone else, like being "condescending".|
+14|We made a **spontaneous** decision to drive to Scotland for a weekend hiking trip.|outrageous|impulsive|disorganised|poor|B|"Spontaneous" means doing something suddenly without planning, like being "impulsive".|
+15|Jess has **integrated** very well at her new school.|accepted|trialled|simulated|assimilated|D|"Integrated" means fitting in well with a new group, like being "assimilated".|
+16|“How could you be so **reckless** as to drive my car without a licence?” Mum shrieked.|overconfident|sensitive|helpless|irresponsible|D|"Reckless" means not thinking about what could go wrong, like being "irresponsible".|
+17|Daniel was rather **sheepish** when confronted about stealing the money.|aggressive|embarrassed|adamant|laidback|B|"Sheepish" means feeling shy or awkward after doing something wrong, like being "embarrassed".|
+18|Even though I’ve done all the revision I can, I still feel **apprehensive** about this test.|unlikely|watchful|uneasy|sure|C|"Apprehensive" means feeling worried that something bad might happen, like feeling "uneasy".|
+19|Your story is very vivid and well written, but your villain is rather **stereotypical**.|archetypal|ludicrous|humorous|lacklustre|A|"Stereotypical" means fitting the usual idea of something, like being "archetypal".|
+20|The production of exquisite porcelain vases reached its **prime** during Ming dynasty China.|legend|destruction|origin|peak|D|Reaching your "prime" means being at your very best, like reaching the "peak".|
+35|“The flavours **complement** one another very well,” the waiter agreed.|reject|thank|clash with|harmonise with|D|"Complement" means two things go well together, like they "harmonise with" each other.|
+36|I **abhor** bad handwriting, and I have spent years trying to make my own perfect.|see|forget|adore|hate|D|"Abhor" is a strong word for "hate".|
+37|We agreed that Zara could be **industrious**, but only if she put her mind to it.|talented|hardworking|strong|smart|B|"Industrious" means someone works hard, like being "hardworking".|
+38|Just then, the door creaked open, and a **monstrous** figure emerged from within...|horrible|hairy|gigantic|evil|A|"Monstrous" means something looks scary like a monster, like being "horrible".|
+39|Lola was filled with **remorse** when she realised how many people would be affected.|help|pity|regret|emotion|C|"Remorse" means feeling sorry for doing something wrong, like "regret".|
+40|Darren shuffled **furtively** towards the exit, hoping he wouldn’t be seen.|awkwardly|sensitively|noisily|secretively|D|"Furtively" means doing something quietly so no one notices, like "secretively".|
+41|“I will make an **exception** for you, of course,” the kindly prison guard winked.|exclusion|allowance|example|argument|B|Making an "exception" means breaking the usual rule just this once, like giving an "allowance".|
+42|I am very well **versed** in the works of Shakespeare and can quote any play.|experienced|sung|rhythmic|certain|A|Being "versed" in something means you know a lot about it, like being "experienced".|
+43|The world is full of a vast **spectrum** of people from all walks of life.|pot|range|width|concept|B|A "spectrum" means a wide "range" of different things.|
+44|The room was sparsely decorated and **devoid** of any distinctive features.|distant|benefitting|growing|empty|D|"Devoid" means completely without something, like being "empty".|
