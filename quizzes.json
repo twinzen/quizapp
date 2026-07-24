@@ -52,5 +52,17 @@
     "name": "Antonyms Quiz 3",
     "description": "Test your knowledge of English antonyms",
     "number_of_questions": 20
+  },
+  {
+    "file": "QUIZ_Problem_Solving-1.txt",
+    "name": "Problem Solving Quiz 1",
+    "description": "Find the correct formula to solve multi-step shopping and capacity/remainder word problems",
+    "number_of_questions": 10
+  },
+  {
+    "file": "QUIZ_Problem_Solving-2.txt",
+    "name": "Problem Solving Quiz 2",
+    "description": "Slightly harder two-step shopping and capacity/remainder word problems with more varied scenarios",
+    "number_of_questions": 5
   }
 ]

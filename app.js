@@ -2,6 +2,11 @@
 // Question Num|Question|Option-A|Option-B|...|Option-N|Answer|Explanation|
 // The number of options is read from the header row, so banks with 4, 5,
 // or more options are all supported.
+//
+// Since each question is a single line in the file, a literal "\n" (the two
+// characters backslash + n, not an actual newline) can be used inside a
+// field to force a line break when rendered — handy for multi-step
+// explanations. See renderInline().
 
 function escapeHtml(str) {
   return String(str)
@@ -10,9 +15,11 @@ function escapeHtml(str) {
     .replace(/>/g, "&gt;");
 }
 
-// Renders **bold** spans inside already-escaped text.
+// Renders **bold** spans and literal "\n" line breaks inside already-escaped text.
 function renderInline(str) {
-  return escapeHtml(str).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+  return escapeHtml(str)
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/\\n/g, "<br>");
 }
 
 // A Question field may optionally use "Subtitle::Main question" to show
