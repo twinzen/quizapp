@@ -294,6 +294,15 @@ body {
   line-height: 1.5;
 }
 
+.feedback-card {
+  background: #fef2f2;
+  border-color: #ef4444;
+}
+
+.feedback-card .explanation-label {
+  color: #b91c1c;
+}
+
 .next-row {
   display: flex;
   justify-content: center;

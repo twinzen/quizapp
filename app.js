@@ -1,7 +1,8 @@
 // Shared helpers for parsing the QUIZ_*.txt question bank format:
-// Question Num|Question|Option-A|Option-B|...|Option-N|Answer|Explanation|
+// Question Num|Question|Option-A|Option-B|...|Option-N|Answer|Explanation|Feedback-A|Feedback-B|...|Feedback-N|
 // The number of options is read from the header row, so banks with 4, 5,
-// or more options are all supported.
+// or more options are all supported. The trailing Feedback-X columns are
+// optional — banks without them just parse with an empty feedback map.
 //
 // Since each question is a single line in the file, a literal "\n" (the two
 // characters backslash + n, not an actual newline) can be used inside a
@@ -46,6 +47,12 @@ function parseQuizBank(text) {
     optionLetters = ["A", "B", "C", "D"];
   }
 
+  // Optional "Feedback-X" columns hold, per option, why that specific
+  // option is wrong (e.g. the meaning of the word a student picked).
+  const feedbackLetters = header
+    .filter((h) => /^Feedback-[A-Z]$/i.test(h.trim()))
+    .map((h) => h.trim().slice(-1).toUpperCase());
+
   const rows = lines.slice(1);
 
   return rows.map((line) => {
@@ -56,6 +63,10 @@ function parseQuizBank(text) {
     });
     const answer = cols[2 + optionLetters.length];
     const explanation = cols[3 + optionLetters.length];
+    const feedback = {};
+    feedbackLetters.forEach((letter, i) => {
+      feedback[letter] = (cols[4 + optionLetters.length + i] || "").trim();
+    });
     return {
       num: (cols[0] || "").trim(),
       question: (cols[1] || "").trim(),
@@ -63,6 +74,7 @@ function parseQuizBank(text) {
       optionLetters,
       answer: (answer || "").trim().toUpperCase(),
       explanation: (explanation || "").trim(),
+      feedback,
     };
   });
 }

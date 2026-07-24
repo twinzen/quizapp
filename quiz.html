@@ -14,7 +14,7 @@
     </div>
   </div>
 
-  <script src="app.js?v=2"></script>
+  <script src="app.js?v=3"></script>
   <script>
     const OPTION_COLORS = {
       A: "var(--pink)",
@@ -141,14 +141,24 @@
         document.querySelector(".score-badge").textContent = `Score: ${score}`;
       }
 
+      let explanationHtml = "";
+      if (letter !== correct && q.feedback && q.feedback[letter]) {
+        explanationHtml += `
+          <div class="explanation-card feedback-card">
+            <div class="explanation-label">❌ "${escapeHtml(q.options[letter])}" means</div>
+            <div class="explanation-text">${renderInline(q.feedback[letter])}</div>
+          </div>
+        `;
+      }
       if (q.explanation) {
-        document.getElementById("explanation-box").innerHTML = `
+        explanationHtml += `
           <div class="explanation-card">
             <div class="explanation-label">💬 Explanation</div>
             <div class="explanation-text">${renderInline(q.explanation)}</div>
           </div>
         `;
       }
+      document.getElementById("explanation-box").innerHTML = explanationHtml;
 
       document.getElementById("next-btn").disabled = false;
     }
