@@ -16,11 +16,17 @@ function escapeHtml(str) {
     .replace(/>/g, "&gt;");
 }
 
-// Renders **bold** spans and literal "\n" line breaks inside already-escaped text.
+// Renders **bold** spans, literal "\n" line breaks, and simple "N/D"
+// fractions (e.g. "3/5") as stacked numerator-over-denominator spans,
+// inside already-escaped text.
 function renderInline(str) {
   return escapeHtml(str)
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-    .replace(/\\n/g, "<br>");
+    .replace(/\\n/g, "<br>")
+    .replace(
+      /(\d+)\/(\d+)/g,
+      '<span class="frac"><span class="frac-num">$1</span><span class="frac-den">$2</span></span>'
+    );
 }
 
 // A Question field may optionally use "Subtitle::Main question" to show

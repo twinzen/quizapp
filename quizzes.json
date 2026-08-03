@@ -64,5 +64,23 @@
     "name": "Problem Solving Quiz 2",
     "description": "Slightly harder two-step shopping and capacity/remainder word problems with more varied scenarios",
     "number_of_questions": 5
+  },
+  {
+    "file": "QUIZ_Problem_Solving-3.txt",
+    "name": "Problem Solving Quiz 3",
+    "description": "Simple word problems on fractions, decimals, and percentages — find the correct formula",
+    "number_of_questions": 10
+  },
+  {
+    "file": "QUIZ_Math-1.txt",
+    "name": "Math Quiz 1: Algebraic Equations",
+    "description": "Simple mental-math algebra questions using Expanding Brackets and Clearing Fractions",
+    "number_of_questions": 20
+  },
+  {
+    "file": "QUIZ_Math-2.txt",
+    "name": "Math Quiz 2: Fractions, Decimals & Percentages",
+    "description": "Mental-math conversions between fractions, decimals, and percentages, plus multiplying whole numbers by them",
+    "number_of_questions": 20
   }
 ]

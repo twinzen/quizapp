@@ -193,6 +193,25 @@ body {
   color: var(--pink);
 }
 
+.frac {
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 1.15;
+  margin: 0 2px;
+  font-size: 0.72em;
+}
+
+.frac-num {
+  border-bottom: 1.5px solid currentColor;
+  padding: 0 2px;
+}
+
+.frac-den {
+  padding: 0 2px;
+}
+
 .answer-row {
   display: flex;
   align-items: center;
