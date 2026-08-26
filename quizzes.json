@@ -72,6 +72,12 @@
     "number_of_questions": 10
   },
   {
+    "file": "QUIZ_Problem_Solving-4.txt",
+    "name": "Problem Solving Quiz 4: Fractions & Percentages",
+    "description": "Fraction, percentage, and algebra word problems — find the smart single-step formula, or the correct equation for \"find the original\" problems",
+    "number_of_questions": 10
+  },
+  {
     "file": "QUIZ_Math-1.txt",
     "name": "Math Quiz 1: Algebraic Equations",
     "description": "Simple mental-math algebra questions using Expanding Brackets and Clearing Fractions",
@@ -82,5 +88,17 @@
     "name": "Math Quiz 2: Fractions, Decimals & Percentages",
     "description": "Mental-math conversions between fractions, decimals, and percentages, plus multiplying whole numbers by them",
     "number_of_questions": 20
+  },
+  {
+    "file": "QUIZ_Math-3.txt",
+    "name": "Math Quiz 3: Algebraic Equations",
+    "description": "Harder algebra questions where the variable appears on both sides of the equation, including fractions with the variable in the numerator",
+    "number_of_questions": 20
+  },
+  {
+    "file": "QUIZ_Prefix-1.txt",
+    "name": "Prefix Quiz 1",
+    "description": "Choose the correct prefix to make an antonym or complete a sentence — each prefix is used exactly once within its set of 6",
+    "number_of_questions": 24
   }
 ]

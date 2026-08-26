@@ -16,13 +16,17 @@ function escapeHtml(str) {
     .replace(/>/g, "&gt;");
 }
 
-// Renders **bold** spans, literal "\n" line breaks, and simple "N/D"
-// fractions (e.g. "3/5") as stacked numerator-over-denominator spans,
-// inside already-escaped text.
+// Renders **bold** spans, literal "\n" line breaks, "(expr)/N" fractions
+// (e.g. "(3x + 49)/5"), and simple "N/D" fractions (e.g. "3/5") as stacked
+// numerator-over-denominator spans, inside already-escaped text.
 function renderInline(str) {
   return escapeHtml(str)
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\\n/g, "<br>")
+    .replace(
+      /\(([^()]+)\)\s*\/\s*(\d+)/g,
+      '<span class="frac"><span class="frac-num">$1</span><span class="frac-den">$2</span></span>'
+    )
     .replace(
       /(\d+)\/(\d+)/g,
       '<span class="frac"><span class="frac-num">$1</span><span class="frac-den">$2</span></span>'
