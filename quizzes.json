@@ -78,6 +78,12 @@
     "number_of_questions": 10
   },
   {
+    "file": "QUIZ_Problem_Solving-5.txt",
+    "name": "Problem Solving Quiz 5: Harder Fractions & Percentages",
+    "description": "Harder multi-item word problems — one item priced as a fraction/percentage more or less than another, combined totals, multi-item bundles, and backward equations",
+    "number_of_questions": 10
+  },
+  {
     "file": "QUIZ_Math-1.txt",
     "name": "Math Quiz 1: Algebraic Equations",
     "description": "Simple mental-math algebra questions using Expanding Brackets and Clearing Fractions",
@@ -93,6 +99,12 @@
     "file": "QUIZ_Math-3.txt",
     "name": "Math Quiz 3: Algebraic Equations",
     "description": "Harder algebra questions where the variable appears on both sides of the equation, including fractions with the variable in the numerator",
+    "number_of_questions": 20
+  },
+  {
+    "file": "QUIZ_Math-4.txt",
+    "name": "Math Quiz 4: Number Sense",
+    "description": "Use a known multiplication or division fact to work out a related fact by doubling, halving, or scaling by 100 — includes decimal answers",
     "number_of_questions": 20
   },
   {
