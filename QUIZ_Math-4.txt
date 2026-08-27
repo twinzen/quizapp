@@ -49,3 +49,13 @@ Question_Num|Question|Option-A|Option-B|Option-C|Option-D|Answer|Explanation|
 48|Use 14 × 8 = 112 to find 14 × 7.|112|126|84|98|D|14 × 7 is one fewer group of 14 than 14 × 8, so subtract 14: 112 − 14 = 98.|
 49|Use 18 × 5 = 90 to find 18 × 6.|108|90|72|126|A|18 × 6 is one more group of 18 than 18 × 5, so add 18: 90 + 18 = 108.|
 50|Use 15 × 7 = 105 to find 15 × 6.|105|90|120|75|B|15 × 6 is one fewer group of 15 than 15 × 7, so subtract 15: 105 − 15 = 90.|
+51|Use 12 × 15 = 180 to find 14 × 15.|210|180|240|200|A|14 is 12 plus 2 more groups of 15, so add 2 × 15 = 30 to 180: 180 + 30 = 210.|
+52|Use 16 × 9 = 144 to find 13 × 9.|144|117|153|126|B|13 is 16 minus 3 groups of 9, so subtract 3 × 9 = 27 from 144: 144 − 27 = 117.|
+53|Use 11 × 23 = 253 to find 13 × 23.|253|276|299|322|C|13 is 11 plus 2 more groups of 23, so add 2 × 23 = 46 to 253: 253 + 46 = 299.|
+54|Use 9 × 24 = 216 to find 19 × 24.|432|408|480|456|D|19 is double 9 plus 1 more group (9 × 2 + 1 = 19), so double 216 to get 432, then add one more 24: 432 + 24 = 456.|
+55|Use 7 × 18 = 126 to find 15 × 18.|270|252|288|261|A|15 is double 7 plus 1 more group (7 × 2 + 1 = 15), so double 126 to get 252, then add one more 18: 252 + 18 = 270.|
+56|Use 6 × 14 = 84 and 3 × 14 = 42 to find 9 × 14.|84|126|168|112|B|9 is 6 plus 3, so add the two products: 84 + 42 = 126.|
+57|Use 8 × 13 = 104 and 2 × 13 = 26 to find 6 × 13.|104|130|78|91|C|6 is 8 minus 2, so subtract the two products: 104 − 26 = 78.|
+58|Use 6 × 25 = 150 to find 6 × 27.|150|156|168|162|D|27 is 25 plus 2, so add 2 more groups of 6: 150 + (2 × 6) = 150 + 12 = 162.|
+59|Use 8 × 30 = 240 to find 8 × 28.|224|216|232|208|A|28 is 30 minus 2, so subtract 2 groups of 8: 240 − (2 × 8) = 240 − 16 = 224.|
+60|Use 9 × 9 = 81 to find 9 × 11.|81|99|108|90|B|11 is 9 plus 2, so add 2 more groups of 9: 81 + (2 × 9) = 81 + 18 = 99.|

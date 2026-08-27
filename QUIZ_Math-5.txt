@@ -1,0 +1,51 @@
+Question_Num|Question|Option-A|Option-B|Option-C|Option-D|Answer|Explanation|
+1|How long is it between 12:53am and 5:31am?|5 hours 38 minutes|3 hours 38 minutes|5 hours 8 minutes|4 hours 38 minutes|D|12:53am to 5:31am is 278 minutes in total, which is 4 hours 38 minutes (4×60 + 38 = 278).|
+2|How long is it between 6:46am and 9:24am?|2 hours 38 minutes|3 hours 38 minutes|3 hours 8 minutes|1 hour 38 minutes|A|6:46am to 9:24am is 158 minutes in total, which is 2 hours 38 minutes (2×60 + 38 = 158).|
+3|How many hours are between 02:45 and 14:00?|10.25 hours|12.25 hours|11.75 hours|11.25 hours|D|From 02:45 to 14:00 is 675 minutes. 675 ÷ 60 = 11.25 hours.|
+4|How long is it between 8:10am and 10:24am?|2 hours 44 minutes|1 hour 14 minutes|2 hours 14 minutes|3 hours 14 minutes|C|8:10am to 10:24am is 134 minutes in total, which is 2 hours 14 minutes (2×60 + 14 = 134).|
+5|How many minutes are between 01:49 and 08:07?|438 minutes|408 minutes|318 minutes|378 minutes|D|From 01:49 to 08:07 is 378 minutes. That's 6 hour(s) 18 minutes, or 6×60 + 18 = 378 minutes.|
+6|How long is it between 9:25am and 12:44pm?|2 hours 19 minutes|3 hours 19 minutes|4 hours 19 minutes|3 hours 49 minutes|B|9:25am to 12:44pm is 199 minutes in total, which is 3 hours 19 minutes (3×60 + 19 = 199).|
+7|How long is it between 9:25am and 11:30am?|1 hour 5 minutes|3 hours 5 minutes|2 hours 35 minutes|2 hours 5 minutes|D|9:25am to 11:30am is 125 minutes in total, which is 2 hours 5 minutes (2×60 + 5 = 125).|
+8|How many hours are between 04:30 and 14:15?|9.75 hours|8.75 hours|10.75 hours|10.25 hours|A|From 04:30 to 14:15 is 585 minutes. 585 ÷ 60 = 9.75 hours.|
+9|How many minutes are between 01:09 and 05:56?|227 minutes|317 minutes|347 minutes|287 minutes|D|From 01:09 to 05:56 is 287 minutes. That's 4 hour(s) 47 minutes, or 4×60 + 47 = 287 minutes.|
+10|How many minutes are between 05:14 and 09:29?|315 minutes|255 minutes|195 minutes|285 minutes|B|From 05:14 to 09:29 is 255 minutes. That's 4 hour(s) 15 minutes, or 4×60 + 15 = 255 minutes.|
+11|How long is it between 8:18am and 8:56am?|38 minutes|8 minutes|1 hour 38 minutes|1 hour 8 minutes|A|8:18am to 8:56am is 38 minutes in total, which is 38 minutes (under an hour, so it stays as 38 minutes).|
+12|How many minutes are between 04:36 and 11:21?|465 minutes|435 minutes|345 minutes|405 minutes|D|From 04:36 to 11:21 is 405 minutes. That's 6 hour(s) 45 minutes, or 6×60 + 45 = 405 minutes.|
+13|How many minutes are between 13:57 and 16:05?|128 minutes|68 minutes|188 minutes|158 minutes|A|From 13:57 to 16:05 is 128 minutes. That's 2 hour(s) 8 minutes, or 2×60 + 8 = 128 minutes.|
+14|How many minutes are between 12:06 and 13:51?|45 minutes|105 minutes|165 minutes|135 minutes|B|From 12:06 to 13:51 is 105 minutes. That's 1 hour(s) 45 minutes, or 1×60 + 45 = 105 minutes.|
+15|How many hours are between 00:15 and 08:00?|6.75 hours|8.25 hours|7.75 hours|8.75 hours|C|From 00:15 to 08:00 is 465 minutes. 465 ÷ 60 = 7.75 hours.|
+16|How long is it between 4:03am and 8:41am?|5 hours 8 minutes|4 hours 38 minutes|3 hours 38 minutes|5 hours 38 minutes|B|4:03am to 8:41am is 278 minutes in total, which is 4 hours 38 minutes (4×60 + 38 = 278).|
+17|How many minutes are between 14:06 and 15:13?|97 minutes|67 minutes|127 minutes|7 minutes|B|From 14:06 to 15:13 is 67 minutes. That's 1 hour(s) 7 minutes, or 1×60 + 7 = 67 minutes.|
+18|How many hours are between 15:45 and 16:30?|0.75 hours|1.25 hours|0.25 hours|1.75 hours|A|From 15:45 to 16:30 is 45 minutes. 45 ÷ 60 = 0.75 hours.|
+19|How many hours are between 03:00 and 07:45?|4.75 hours|3.75 hours|5.75 hours|5.25 hours|A|From 03:00 to 07:45 is 285 minutes. 285 ÷ 60 = 4.75 hours.|
+20|How many hours are between 13:30 and 14:00?|1 hour|0.75 hours|0.5 hours|1.5 hours|C|From 13:30 to 14:00 is 30 minutes. 30 ÷ 60 = 0.5 hours.|
+21|How long is it between 11:16am and 1:04pm?|2 hours 48 minutes|2 hours 18 minutes|48 minutes|1 hour 48 minutes|D|11:16am to 1:04pm is 108 minutes in total, which is 1 hour 48 minutes (1×60 + 48 = 108).|
+22|How many hours are between 09:30 and 10:15?|0.25 hours|1.75 hours|1.25 hours|0.75 hours|D|From 09:30 to 10:15 is 45 minutes. 45 ÷ 60 = 0.75 hours.|
+23|How long is it between 5:55am and 10:33am?|4 hours 38 minutes|5 hours 38 minutes|5 hours 8 minutes|3 hours 38 minutes|A|5:55am to 10:33am is 278 minutes in total, which is 4 hours 38 minutes (4×60 + 38 = 278).|
+24|How many minutes are between 01:22 and 11:35?|613 minutes|643 minutes|553 minutes|673 minutes|A|From 01:22 to 11:35 is 613 minutes. That's 10 hour(s) 13 minutes, or 10×60 + 13 = 613 minutes.|
+25|How many hours are between 05:15 and 14:00?|7.75 hours|9.25 hours|8.75 hours|9.75 hours|C|From 05:15 to 14:00 is 525 minutes. 525 ÷ 60 = 8.75 hours.|
+26|How many minutes are between 17:51 and 18:38?|47 minutes|17 minutes|77 minutes|107 minutes|A|From 17:51 to 18:38 is 47 minutes. Counting on from 17:51 to 18:38 gives 47 minutes.|
+27|How many hours are between 11:00 and 11:15?|0.25 hours|0.75 hours|0.5 hours|1.25 hours|A|From 11:00 to 11:15 is 15 minutes. 15 ÷ 60 = 0.25 hours.|
+28|How many minutes are between 09:44 and 10:51?|67 minutes|127 minutes|7 minutes|97 minutes|A|From 09:44 to 10:51 is 67 minutes. That's 1 hour(s) 7 minutes, or 1×60 + 7 = 67 minutes.|
+29|How many minutes are between 11:05 and 11:52?|17 minutes|107 minutes|47 minutes|77 minutes|C|From 11:05 to 11:52 is 47 minutes. Counting on from 11:05 to 11:52 gives 47 minutes.|
+30|How long is it between 7:21am and 8:23am?|2 hours 2 minutes|1 hour 2 minutes|2 minutes|1 hour 32 minutes|B|7:21am to 8:23am is 62 minutes in total, which is 1 hour 2 minutes (1×60 + 2 = 62).|
+31|How many minutes are between 13:58 and 15:05?|97 minutes|67 minutes|7 minutes|127 minutes|B|From 13:58 to 15:05 is 67 minutes. That's 1 hour(s) 7 minutes, or 1×60 + 7 = 67 minutes.|
+32|How long is it between 3:50am and 1:08pm?|10 hours 18 minutes|9 hours 48 minutes|9 hours 18 minutes|8 hours 18 minutes|C|3:50am to 1:08pm is 558 minutes in total, which is 9 hours 18 minutes (9×60 + 18 = 558).|
+33|How many minutes are between 03:50 and 13:06?|496 minutes|616 minutes|586 minutes|556 minutes|D|From 03:50 to 13:06 is 556 minutes. That's 9 hour(s) 16 minutes, or 9×60 + 16 = 556 minutes.|
+34|How many minutes are between 03:25 and 13:12?|617 minutes|587 minutes|527 minutes|647 minutes|B|From 03:25 to 13:12 is 587 minutes. That's 9 hour(s) 47 minutes, or 9×60 + 47 = 587 minutes.|
+35|How long is it between 1:08am and 5:23am?|4 hours 15 minutes|4 hours 45 minutes|3 hours 15 minutes|5 hours 15 minutes|A|1:08am to 5:23am is 255 minutes in total, which is 4 hours 15 minutes (4×60 + 15 = 255).|
+36|How long is it between 6:41am and 11:46am?|5 hours 5 minutes|6 hours 5 minutes|4 hours 5 minutes|5 hours 35 minutes|A|6:41am to 11:46am is 305 minutes in total, which is 5 hours 5 minutes (5×60 + 5 = 305).|
+37|How many hours are between 01:15 and 05:30?|4.75 hours|4.25 hours|3.25 hours|5.25 hours|B|From 01:15 to 05:30 is 255 minutes. 255 ÷ 60 = 4.25 hours.|
+38|How many hours are between 14:15 and 16:30?|1.25 hours|2.75 hours|3.25 hours|2.25 hours|D|From 14:15 to 16:30 is 135 minutes. 135 ÷ 60 = 2.25 hours.|
+39|How long is it between 2:13am and 8:15am?|6 hours 2 minutes|6 hours 32 minutes|5 hours 2 minutes|7 hours 2 minutes|A|2:13am to 8:15am is 362 minutes in total, which is 6 hours 2 minutes (6×60 + 2 = 362).|
+40|How long is it between 8:34am and 10:11am?|37 minutes|2 hours 7 minutes|1 hour 37 minutes|2 hours 37 minutes|C|8:34am to 10:11am is 97 minutes in total, which is 1 hour 37 minutes (1×60 + 37 = 97).|
+41|How long is it between 9:42am and 11:56am?|3 hours 14 minutes|2 hours 14 minutes|1 hour 14 minutes|2 hours 44 minutes|B|9:42am to 11:56am is 134 minutes in total, which is 2 hours 14 minutes (2×60 + 14 = 134).|
+42|How many hours are between 04:15 and 12:30?|8.75 hours|7.25 hours|8.25 hours|9.25 hours|C|From 04:15 to 12:30 is 495 minutes. 495 ÷ 60 = 8.25 hours.|
+43|How long is it between 4:00am and 1:44pm?|8 hours 44 minutes|10 hours 14 minutes|10 hours 44 minutes|9 hours 44 minutes|D|4:00am to 1:44pm is 584 minutes in total, which is 9 hours 44 minutes (9×60 + 44 = 584).|
+44|How many minutes are between 13:39 and 14:06?|42 minutes|57 minutes|87 minutes|27 minutes|D|From 13:39 to 14:06 is 27 minutes. Counting on from 13:39 to 14:06 gives 27 minutes.|
+45|How many hours are between 18:00 and 20:45?|3.25 hours|2.75 hours|3.75 hours|1.75 hours|B|From 18:00 to 20:45 is 165 minutes. 165 ÷ 60 = 2.75 hours.|
+46|How many minutes are between 10:02 and 10:29?|87 minutes|27 minutes|57 minutes|42 minutes|B|From 10:02 to 10:29 is 27 minutes. Counting on from 10:02 to 10:29 gives 27 minutes.|
+47|How many hours are between 00:45 and 07:30?|6.75 hours|7.25 hours|5.75 hours|7.75 hours|A|From 00:45 to 07:30 is 405 minutes. 405 ÷ 60 = 6.75 hours.|
+48|How many minutes are between 03:32 and 11:50?|558 minutes|498 minutes|438 minutes|528 minutes|B|From 03:32 to 11:50 is 498 minutes. That's 8 hour(s) 18 minutes, or 8×60 + 18 = 498 minutes.|
+49|How many hours are between 17:30 and 20:15?|3.75 hours|3.25 hours|2.75 hours|1.75 hours|C|From 17:30 to 20:15 is 165 minutes. 165 ÷ 60 = 2.75 hours.|
+50|How many hours are between 12:00 and 14:15?|3.25 hours|1.25 hours|2.25 hours|2.75 hours|C|From 12:00 to 14:15 is 135 minutes. 135 ÷ 60 = 2.25 hours.|

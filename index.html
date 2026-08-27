@@ -13,6 +13,8 @@
       <p>Choose a quiz to start the challenge</p>
     </div>
 
+    <div id="quiz-tabs" class="quiz-tabs"></div>
+
     <div id="quiz-grid" class="quiz-grid">
       <div class="loading">Loading quiz list…</div>
     </div>
@@ -20,9 +22,12 @@
 
   <script src="app.js?v=3"></script>
   <script>
+    const CATEGORIES = ["English", "Math", "Problem Solving"];
+    let manifest = [];
+    let activeCategory = CATEGORIES[0];
+
     async function loadQuizList() {
       const grid = document.getElementById("quiz-grid");
-      let manifest;
       try {
         const res = await fetch("quizzes.json", { cache: "no-store" });
         if (!res.ok) throw new Error("HTTP " + res.status);
@@ -40,8 +45,39 @@
         return;
       }
 
+      renderTabs();
+      renderGrid();
+    }
+
+    function renderTabs() {
+      const tabsEl = document.getElementById("quiz-tabs");
+      tabsEl.innerHTML = "";
+      for (const category of CATEGORIES) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "tab-btn" + (category === activeCategory ? " active" : "");
+        btn.textContent = category;
+        btn.addEventListener("click", () => {
+          if (activeCategory === category) return;
+          activeCategory = category;
+          renderTabs();
+          renderGrid();
+        });
+        tabsEl.appendChild(btn);
+      }
+    }
+
+    function renderGrid() {
+      const grid = document.getElementById("quiz-grid");
+      const quizzes = manifest.filter((quiz) => (quiz.category || "English") === activeCategory);
+
+      if (!quizzes.length) {
+        grid.innerHTML = `<div class="empty-state">No quizzes in this category yet.</div>`;
+        return;
+      }
+
       grid.innerHTML = "";
-      for (const quiz of manifest) {
+      for (const quiz of quizzes) {
         const card = document.createElement("div");
         card.className = "quiz-card";
         const name = quiz.name || quizDisplayNameFromFile(quiz.file);

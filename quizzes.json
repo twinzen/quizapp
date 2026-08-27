@@ -3,132 +3,161 @@
     "file": "QUIZ_Synonyms-1.txt",
     "name": "Synonyms Quiz 1",
     "description": "Test your knowledge of English synonyms",
-    "number_of_questions": 20
+    "number_of_questions": 20,
+    "category": "English"
   },
   {
     "file": "QUIZ_Synonyms-2.txt",
     "name": "Synonyms Quiz 2",
     "description": "Test your knowledge of English synonyms",
-    "number_of_questions": 20
+    "number_of_questions": 20,
+    "category": "English"
   },
   {
     "file": "QUIZ_Synonyms-3.txt",
     "name": "Synonyms Quiz 3",
     "description": "Test your knowledge of English synonyms",
-    "number_of_questions": 20
+    "number_of_questions": 20,
+    "category": "English"
   },
-    {
+  {
     "file": "QUIZ_Synonyms-4.txt",
     "name": "Synonyms Quiz 4",
     "description": "Test your knowledge of English synonyms",
-    "number_of_questions": 20
+    "number_of_questions": 20,
+    "category": "English"
   },
   {
     "file": "QUIZ_Synonyms-5.txt",
     "name": "Synonyms Quiz 5",
     "description": "Test your knowledge of English synonyms",
-    "number_of_questions": 20
+    "number_of_questions": 20,
+    "category": "English"
   },
   {
     "file": "QUIZ_Synonyms-6.txt",
     "name": "Synonyms Quiz 6",
     "description": "Test your knowledge of English synonyms",
-    "number_of_questions": 20
+    "number_of_questions": 20,
+    "category": "English"
   },
   {
     "file": "QUIZ_Antonym-1.txt",
     "name": "Antonyms Quiz 1",
     "description": "Test your knowledge of English antonyms",
-    "number_of_questions": 20
+    "number_of_questions": 20,
+    "category": "English"
   },
   {
     "file": "QUIZ_Antonym-2.txt",
     "name": "Antonyms Quiz 2",
     "description": "Test your knowledge of English antonyms",
-    "number_of_questions": 20
+    "number_of_questions": 20,
+    "category": "English"
   },
   {
     "file": "QUIZ_Antonym-3.txt",
     "name": "Antonyms Quiz 3",
     "description": "Test your knowledge of English antonyms",
-    "number_of_questions": 20
+    "number_of_questions": 20,
+    "category": "English"
   },
   {
     "file": "QUIZ_Problem_Solving-1.txt",
     "name": "Problem Solving Quiz 1",
     "description": "Find the correct formula to solve multi-step shopping and capacity/remainder word problems",
-    "number_of_questions": 10
+    "number_of_questions": 10,
+    "category": "Problem Solving"
   },
   {
     "file": "QUIZ_Problem_Solving-2.txt",
     "name": "Problem Solving Quiz 2",
     "description": "Slightly harder two-step shopping and capacity/remainder word problems with more varied scenarios",
-    "number_of_questions": 5
+    "number_of_questions": 5,
+    "category": "Problem Solving"
   },
   {
     "file": "QUIZ_Problem_Solving-3.txt",
     "name": "Problem Solving Quiz 3",
-    "description": "Simple word problems on fractions, decimals, and percentages — find the correct formula",
-    "number_of_questions": 10
+    "description": "Simple word problems on fractions, decimals, and percentages \u2014 find the correct formula",
+    "number_of_questions": 10,
+    "category": "Problem Solving"
   },
   {
     "file": "QUIZ_Problem_Solving-4.txt",
     "name": "Problem Solving Quiz 4: Fractions & Percentages",
-    "description": "Fraction, percentage, and algebra word problems — find the smart single-step formula, or the correct equation for \"find the original\" problems",
-    "number_of_questions": 15
+    "description": "Fraction, percentage, and algebra word problems \u2014 find the smart single-step formula, or the correct equation for \"find the original\" problems",
+    "number_of_questions": 15,
+    "category": "Problem Solving"
   },
   {
     "file": "QUIZ_Problem_Solving-5.txt",
     "name": "Problem Solving Quiz 5: Harder Fractions & Percentages",
-    "description": "Harder multi-item word problems — one item priced as a fraction/percentage more or less than another, combined totals, multi-item bundles, and backward equations",
-    "number_of_questions": 10
+    "description": "Harder multi-item word problems \u2014 one item priced as a fraction/percentage more or less than another, combined totals, multi-item bundles, and backward equations",
+    "number_of_questions": 10,
+    "category": "Problem Solving"
   },
   {
     "file": "QUIZ_Problem_Solving-6.txt",
     "name": "Problem Solving Quiz 6: Speed, Distance & Time (Foundations)",
-    "description": "Basic speed, distance, and time word problems — find the correct single-step formula, including converting minutes to a fraction of an hour",
-    "number_of_questions": 50
+    "description": "Basic speed, distance, and time word problems \u2014 find the correct single-step formula, including converting minutes to a fraction of an hour",
+    "number_of_questions": 20,
+    "category": "Problem Solving"
   },
   {
     "file": "QUIZ_Problem_Solving-7.txt",
     "name": "Problem Solving Quiz 7: Speed, Distance & Time (Multi-Step)",
-    "description": "Harder speed, distance, and time word problems — two-stage journeys, average speed, meeting/catch-up problems, and backward equations",
-    "number_of_questions": 9
+    "description": "Harder speed, distance, and time word problems \u2014 two-stage journeys, average speed, meeting/catch-up problems, and backward equations",
+    "number_of_questions": 10,
+    "category": "Problem Solving"
   },
   {
     "file": "QUIZ_Math-1.txt",
     "name": "Math Quiz 1: Algebraic Equations",
     "description": "Simple mental-math algebra questions using Expanding Brackets and Clearing Fractions",
-    "number_of_questions": 20
+    "number_of_questions": 20,
+    "category": "Math"
   },
   {
     "file": "QUIZ_Math-2.txt",
     "name": "Math Quiz 2: Fractions, Decimals & Percentages",
     "description": "Mental-math conversions between fractions, decimals, and percentages, plus multiplying whole numbers by them",
-    "number_of_questions": 20
+    "number_of_questions": 20,
+    "category": "Math"
   },
   {
     "file": "QUIZ_Math-3.txt",
     "name": "Math Quiz 3: Algebraic Equations",
     "description": "Harder algebra questions where the variable appears on both sides of the equation, including fractions with the variable in the numerator",
-    "number_of_questions": 20
+    "number_of_questions": 20,
+    "category": "Math"
   },
   {
     "file": "QUIZ_Math-4.txt",
     "name": "Math Quiz 4: Number Sense",
-    "description": "Use a known multiplication or division fact to work out a related fact by doubling, halving, or scaling by 100 — includes decimal answers",
-    "number_of_questions": 20
+    "description": "Use a known multiplication or division fact to work out a related fact by doubling, halving, or scaling by 100 \u2014 includes decimal answers",
+    "number_of_questions": 20,
+    "category": "Math"
+  },
+  {
+    "file": "QUIZ_Math-5.txt",
+    "name": "Math Quiz 5: Time Differences",
+    "description": "Work out the difference between two clock times — in minutes, as \"X hours Y minutes\", or as decimal hours",
+    "number_of_questions": 20,
+    "category": "Math"
   },
   {
     "file": "QUIZ_Prefix-1.txt",
     "name": "Prefix Quiz 1",
-    "description": "Choose the correct prefix to make an antonym or complete a sentence — each prefix is used exactly once within its set of 6",
-    "number_of_questions": 24
+    "description": "Choose the correct prefix to make an antonym or complete a sentence \u2014 each prefix is used exactly once within its set of 6",
+    "number_of_questions": 24,
+    "category": "English"
   },
   {
     "file": "QUIZ_Suffix-1.txt",
     "name": "Suffix Quiz 1",
-    "description": "Choose the correct suffix to complete a sentence, or spot the word that cannot take a given suffix — each suffix is used exactly once within its set of 5",
-    "number_of_questions": 20
+    "description": "Choose the correct suffix to complete a sentence, or spot the word that cannot take a given suffix \u2014 each suffix is used exactly once within its set of 5",
+    "number_of_questions": 20,
+    "category": "English"
   }
 ]
