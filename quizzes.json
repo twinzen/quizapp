@@ -75,13 +75,25 @@
     "file": "QUIZ_Problem_Solving-4.txt",
     "name": "Problem Solving Quiz 4: Fractions & Percentages",
     "description": "Fraction, percentage, and algebra word problems — find the smart single-step formula, or the correct equation for \"find the original\" problems",
-    "number_of_questions": 10
+    "number_of_questions": 15
   },
   {
     "file": "QUIZ_Problem_Solving-5.txt",
     "name": "Problem Solving Quiz 5: Harder Fractions & Percentages",
     "description": "Harder multi-item word problems — one item priced as a fraction/percentage more or less than another, combined totals, multi-item bundles, and backward equations",
     "number_of_questions": 10
+  },
+  {
+    "file": "QUIZ_Problem_Solving-6.txt",
+    "name": "Problem Solving Quiz 6: Speed, Distance & Time (Foundations)",
+    "description": "Basic speed, distance, and time word problems — find the correct single-step formula, including converting minutes to a fraction of an hour",
+    "number_of_questions": 50
+  },
+  {
+    "file": "QUIZ_Problem_Solving-7.txt",
+    "name": "Problem Solving Quiz 7: Speed, Distance & Time (Multi-Step)",
+    "description": "Harder speed, distance, and time word problems — two-stage journeys, average speed, meeting/catch-up problems, and backward equations",
+    "number_of_questions": 9
   },
   {
     "file": "QUIZ_Math-1.txt",
@@ -112,5 +124,11 @@
     "name": "Prefix Quiz 1",
     "description": "Choose the correct prefix to make an antonym or complete a sentence — each prefix is used exactly once within its set of 6",
     "number_of_questions": 24
+  },
+  {
+    "file": "QUIZ_Suffix-1.txt",
+    "name": "Suffix Quiz 1",
+    "description": "Choose the correct suffix to complete a sentence, or spot the word that cannot take a given suffix — each suffix is used exactly once within its set of 5",
+    "number_of_questions": 20
   }
 ]

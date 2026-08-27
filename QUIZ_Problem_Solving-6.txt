@@ -1,0 +1,51 @@
+Question_Num|Question|Option-A|Option-B|Option-C|Option-D|Answer|Explanation|
+1|A car travels 210km in 3 hours. What is its average speed (in km/h)?|210 × 3|210 ÷ 3|3 ÷ 210|210 + 3|B|Speed = distance ÷ time — divide the distance by the time taken: 210 ÷ 3.|
+2|A cyclist covers 96km in 6 hours. What is her average speed (in km/h)?|96 × 6|6 ÷ 96|96 + 6|96 ÷ 6|D|Speed = distance ÷ time — divide the distance by the time taken: 96 ÷ 6.|
+3|A train travels 480km in 8 hours. What is its average speed (in km/h)?|480 ÷ 8|480 × 8|8 ÷ 480|480 + 8|A|Speed = distance ÷ time — divide the distance by the time taken: 480 ÷ 8.|
+4|A hiker treks 42km in 7 hours. What is his average speed (in km/h)?|42 × 7|7 ÷ 42|42 ÷ 7|42 + 7|C|Speed = distance ÷ time — divide the distance by the time taken: 42 ÷ 7.|
+5|A ferry travels 150km in 5 hours. What is its average speed (in km/h)?|150 × 5|150 ÷ 5|5 ÷ 150|150 + 5|B|Speed = distance ÷ time — divide the distance by the time taken: 150 ÷ 5.|
+6|A lorry travels 260km in 4 hours. What is its average speed (in km/h)?|260 × 4|4 ÷ 260|260 + 4|260 ÷ 4|D|Speed = distance ÷ time — divide the distance by the time taken: 260 ÷ 4.|
+7|A tram travels 54km in 3 hours. What is its average speed (in km/h)?|54 ÷ 3|54 × 3|3 ÷ 54|54 + 3|A|Speed = distance ÷ time — divide the distance by the time taken: 54 ÷ 3.|
+8|A speedboat covers 175km in 5 hours. What is its average speed (in km/h)?|175 × 5|5 ÷ 175|175 ÷ 5|175 + 5|C|Speed = distance ÷ time — divide the distance by the time taken: 175 ÷ 5.|
+9|A tractor covers 24km in 4 hours. What is its average speed (in km/h)?|24 × 4|24 ÷ 4|4 ÷ 24|24 + 4|B|Speed = distance ÷ time — divide the distance by the time taken: 24 ÷ 4.|
+10|An airliner covers 3,000km in 5 hours. What is its average speed (in km/h)?|3000 × 5|5 ÷ 3000|3000 + 5|3000 ÷ 5|D|Speed = distance ÷ time — divide the distance by the time taken: 3000 ÷ 5.|
+11|A motorbike travels at 72km/h for 3 hours. How far does it travel?|72 ÷ 3|3 ÷ 72|72 × 3|72 + 3|C|Distance = speed × time — multiply the speed by the time travelled: 72 × 3.|
+12|A van travels at 48km/h for 5 hours. How far does it travel?|48 × 5|48 ÷ 5|5 ÷ 48|48 + 5|A|Distance = speed × time — multiply the speed by the time travelled: 48 × 5.|
+13|A ship sails at 22km/h for 6 hours. How far does it sail?|22 ÷ 6|6 ÷ 22|22 + 6|22 × 6|D|Distance = speed × time — multiply the speed by the time travelled: 22 × 6.|
+14|A cyclist rides at 16km/h for 4 hours. How far does she ride?|16 ÷ 4|16 × 4|4 ÷ 16|16 + 4|B|Distance = speed × time — multiply the speed by the time travelled: 16 × 4.|
+15|A bus travels at 35km/h for 2 hours. How far does it travel?|35 ÷ 2|2 ÷ 35|35 × 2|35 + 2|C|Distance = speed × time — multiply the speed by the time travelled: 35 × 2.|
+16|An aeroplane flies at 550km/h for 3 hours. How far does it fly?|550 × 3|550 ÷ 3|3 ÷ 550|550 + 3|A|Distance = speed × time — multiply the speed by the time travelled: 550 × 3.|
+17|A horse trots at 14km/h for 3 hours. How far does it travel?|14 ÷ 3|3 ÷ 14|14 + 3|14 × 3|D|Distance = speed × time — multiply the speed by the time travelled: 14 × 3.|
+18|A canal boat travels at 8km/h for 5 hours. How far does it travel?|8 ÷ 5|8 × 5|5 ÷ 8|8 + 5|B|Distance = speed × time — multiply the speed by the time travelled: 8 × 5.|
+19|A scooter travels at 25km/h for 4 hours. How far does it travel?|25 ÷ 4|4 ÷ 25|25 × 4|25 + 4|C|Distance = speed × time — multiply the speed by the time travelled: 25 × 4.|
+20|A racing car travels at 200km/h for 2 hours. How far does it travel?|200 × 2|200 ÷ 2|2 ÷ 200|200 + 2|A|Distance = speed × time — multiply the speed by the time travelled: 200 × 2.|
+21|A car travels 240km at a speed of 60km/h. How long does the journey take (in hours)?|240 × 60|60 ÷ 240|240 + 60|240 ÷ 60|D|Time = distance ÷ speed — divide the distance by the speed: 240 ÷ 60.|
+22|A cyclist travels 63km at a speed of 9km/h. How long does the journey take (in hours)?|63 × 9|63 ÷ 9|9 ÷ 63|63 + 9|B|Time = distance ÷ speed — divide the distance by the speed: 63 ÷ 9.|
+23|A ferry travels 96km at a speed of 24km/h. How long does the journey take (in hours)?|96 × 24|24 ÷ 96|96 ÷ 24|96 + 24|C|Time = distance ÷ speed — divide the distance by the speed: 96 ÷ 24.|
+24|A train covers 350km at a speed of 70km/h. How long does the journey take (in hours)?|350 ÷ 70|350 × 70|70 ÷ 350|350 + 70|A|Time = distance ÷ speed — divide the distance by the speed: 350 ÷ 70.|
+25|A hiker walks 20km at a speed of 5km/h. How long does the walk take (in hours)?|20 × 5|5 ÷ 20|20 + 5|20 ÷ 5|D|Time = distance ÷ speed — divide the distance by the speed: 20 ÷ 5.|
+26|A lorry travels 176km at a speed of 44km/h. How long does the journey take (in hours)?|176 × 44|176 ÷ 44|44 ÷ 176|176 + 44|B|Time = distance ÷ speed — divide the distance by the speed: 176 ÷ 44.|
+27|A jet travels 2,400km at a speed of 800km/h. How long does the flight take (in hours)?|2400 × 800|800 ÷ 2400|2400 ÷ 800|2400 + 800|C|Time = distance ÷ speed — divide the distance by the speed: 2400 ÷ 800.|
+28|A rowing boat covers 18km at a speed of 6km/h. How long does the journey take (in hours)?|18 ÷ 6|18 × 6|6 ÷ 18|18 + 6|A|Time = distance ÷ speed — divide the distance by the speed: 18 ÷ 6.|
+29|A delivery van covers 245km at a speed of 35km/h. How long does the journey take (in hours)?|245 × 35|35 ÷ 245|245 + 35|245 ÷ 35|D|Time = distance ÷ speed — divide the distance by the speed: 245 ÷ 35.|
+30|A tram covers 45km at a speed of 15km/h. How long does the journey take (in hours)?|45 × 15|45 ÷ 15|15 ÷ 45|45 + 15|B|Time = distance ÷ speed — divide the distance by the speed: 45 ÷ 15.|
+31|A jogger runs 9km in 45 minutes. What is her speed in km/h? (Hint: write 45 minutes as a fraction of an hour, 45/60)|9 × 45/60|9 ÷ 45/60|45 ÷ 9|9 × 45|B|Speed = distance ÷ time, but 45 minutes must first be written as a fraction of an hour — divide the distance by the time in hours: 9 ÷ 45/60.|
+32|A swimmer swims 3km in 20 minutes. What is her speed in km/h?|3 ÷ 20/60|3 × 20/60|20 ÷ 3|3 × 20|A|Write 20 minutes as a fraction of an hour, 20/60, then divide the distance by this time: 3 ÷ 20/60.|
+33|A go-kart travels 8km in 15 minutes. What is its speed in km/h?|8 × 15/60|8 ÷ 15/60|15 ÷ 8|8 + 15/60|B|Write 15 minutes as a fraction of an hour, 15/60, then divide the distance by this time: 8 ÷ 15/60.|
+34|A delivery van covers 21km in 36 minutes. What is its speed in km/h?|21 ÷ 36/60|21 × 36/60|36 ÷ 21|21 − 36/60|A|Write 36 minutes as a fraction of an hour, 36/60, then divide the distance by this time: 21 ÷ 36/60.|
+35|A rower covers 4km in 30 minutes. What is her speed in km/h?|4 × 30/60|4 ÷ 30/60|30 ÷ 4|4 × 30|B|Write 30 minutes as a fraction of an hour, 30/60, then divide the distance by this time: 4 ÷ 30/60.|
+36|A skateboarder travels 2km in 12 minutes. What is his speed in km/h?|2 ÷ 12/60|2 × 12/60|12 ÷ 2|2 + 12/60|A|Write 12 minutes as a fraction of an hour, 12/60, then divide the distance by this time: 2 ÷ 12/60.|
+37|A tram covers 6km in 24 minutes. What is its speed in km/h?|6 × 24/60|6 ÷ 24/60|24 ÷ 6|6 − 24/60|B|Write 24 minutes as a fraction of an hour, 24/60, then divide the distance by this time: 6 ÷ 24/60.|
+38|A moped covers 5km in 10 minutes. What is its speed in km/h?|5 ÷ 10/60|5 × 10/60|10 ÷ 5|5 × 10|A|Write 10 minutes as a fraction of an hour, 10/60, then divide the distance by this time: 5 ÷ 10/60.|
+39|A canoeist covers 3km in 40 minutes. What is her speed in km/h?|3 × 40/60|3 ÷ 40/60|40 ÷ 3|3 + 40/60|B|Write 40 minutes as a fraction of an hour, 40/60, then divide the distance by this time: 3 ÷ 40/60.|
+40|A cyclist covers 7km in 28 minutes. What is her speed in km/h?|7 ÷ 28/60|7 × 28/60|28 ÷ 7|7 − 28/60|A|Write 28 minutes as a fraction of an hour, 28/60, then divide the distance by this time: 7 ÷ 28/60.|
+41|A cyclist rides at 24km/h for 15 minutes. How far does she travel?|24 × 15/60|24 ÷ 15/60|15 ÷ 24|24 × 15|A|Distance = speed × time, but 15 minutes must first be written as a fraction of an hour — multiply the speed by the time in hours: 24 × 15/60.|
+42|A car travels at 60km/h for 20 minutes. How far does it travel?|60 ÷ 20/60|60 × 20/60|20 ÷ 60|60 + 20/60|B|Distance = speed × time, but 20 minutes must first be written as a fraction of an hour — multiply the speed by the time in hours: 60 × 20/60.|
+43|A jogger runs at 10km/h for 42 minutes. How far does he run?|10 × 42/60|10 ÷ 42/60|42 ÷ 10|10 × 42|A|Distance = speed × time, but 42 minutes must first be written as a fraction of an hour — multiply the speed by the time in hours: 10 × 42/60.|
+44|A train travels at 100km/h for 9 minutes. How far does it travel?|100 ÷ 9/60|100 × 9/60|9 ÷ 100|100 − 9/60|B|Distance = speed × time, but 9 minutes must first be written as a fraction of an hour — multiply the speed by the time in hours: 100 × 9/60.|
+45|A speedboat travels at 45km/h for 40 minutes. How far does it travel?|45 × 40/60|45 ÷ 40/60|40 ÷ 45|45 × 40|A|Distance = speed × time, but 40 minutes must first be written as a fraction of an hour — multiply the speed by the time in hours: 45 × 40/60.|
+46|A bus travels at 36km/h for 25 minutes. How far does it travel?|36 ÷ 25/60|36 × 25/60|25 ÷ 36|36 + 25/60|B|Distance = speed × time, but 25 minutes must first be written as a fraction of an hour — multiply the speed by the time in hours: 36 × 25/60.|
+47|A drone flies at 48km/h for 5 minutes. How far does it fly?|48 × 5/60|48 ÷ 5/60|5 ÷ 48|48 × 5|A|Distance = speed × time, but 5 minutes must first be written as a fraction of an hour — multiply the speed by the time in hours: 48 × 5/60.|
+48|A tractor travels at 12km/h for 55 minutes. How far does it travel?|12 ÷ 55/60|12 × 55/60|55 ÷ 12|12 − 55/60|B|Distance = speed × time, but 55 minutes must first be written as a fraction of an hour — multiply the speed by the time in hours: 12 × 55/60.|
+49|A ferry sails at 18km/h for 50 minutes. How far does it sail?|18 × 50/60|18 ÷ 50/60|50 ÷ 18|18 × 50|A|Distance = speed × time, but 50 minutes must first be written as a fraction of an hour — multiply the speed by the time in hours: 18 × 50/60.|
+50|A motorbike travels at 80km/h for 27 minutes. How far does it travel?|80 ÷ 27/60|80 × 27/60|27 ÷ 80|80 + 27/60|B|Distance = speed × time, but 27 minutes must first be written as a fraction of an hour — multiply the speed by the time in hours: 80 × 27/60.|

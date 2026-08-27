@@ -16,13 +16,16 @@
 
   <script src="app.js?v=3"></script>
   <script>
-    const OPTION_COLORS = {
-      A: "var(--pink)",
-      B: "var(--teal)",
-      C: "var(--purple)",
-      D: "var(--yellow)",
-      E: "var(--sky)",
-    };
+    const OPTION_COLOR_CYCLE = [
+      "var(--pink)",
+      "var(--teal)",
+      "var(--purple)",
+      "var(--yellow)",
+      "var(--sky)",
+    ];
+    function optionColor(index) {
+      return OPTION_COLOR_CYCLE[index % OPTION_COLOR_CYCLE.length];
+    }
 
     const params = new URLSearchParams(window.location.search);
     const file = params.get("file");
@@ -97,8 +100,8 @@
         </div>
 
         <div class="options-grid" id="options-grid">
-          ${(q.optionLetters || Object.keys(q.options)).map((letter) => `
-            <div class="option" data-letter="${letter}" style="--opt-color:${OPTION_COLORS[letter]}">
+          ${(q.optionLetters || Object.keys(q.options)).map((letter, i) => `
+            <div class="option" data-letter="${letter}" style="--opt-color:${optionColor(i)}">
               <div class="badge">${letter}</div>
               <div class="option-text">${renderInline(q.options[letter])}</div>
             </div>
