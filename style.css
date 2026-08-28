@@ -392,6 +392,13 @@ body {
   box-shadow: 0 4px 0 var(--pink-light);
 }
 
+.results-card .results-quiz-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #666;
+  margin-top: 6px;
+}
+
 .results-card .score-big {
   font-size: 3rem;
   font-weight: 900;

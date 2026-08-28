@@ -34,6 +34,7 @@
     let current = 0;
     let score = 0;
     let answered = false;
+    let quizName = "";
 
     const root = document.getElementById("quiz-root");
 
@@ -63,11 +64,15 @@
         if (res.ok) {
           const manifest = await res.json();
           const entry = manifest.find((q) => q.file === file);
-          if (entry) numberOfQuestions = entry.number_of_questions;
+          if (entry) {
+            numberOfQuestions = entry.number_of_questions;
+            quizName = entry.name || "";
+          }
         }
       } catch (err) {
         // Non-fatal: fall back to using the full question bank.
       }
+      if (!quizName) quizName = quizDisplayNameFromFile(file);
 
       questions = pickRandomQuestions(bank, numberOfQuestions);
       renderQuestion();
@@ -182,6 +187,7 @@
       root.innerHTML = `
         <div class="results-card">
           <div>🎉 Quiz Complete!</div>
+          <div class="results-quiz-name">${escapeHtml(quizName)}</div>
           <div class="score-big">${score} / ${total}</div>
           <div>Accuracy ${pct}%</div>
           <div class="results-actions">
