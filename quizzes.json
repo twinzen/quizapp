@@ -136,13 +136,41 @@
     "file": "QUIZ_Math-4.txt",
     "name": "Math Quiz 4: Number Sense",
     "description": "Use a known multiplication or division fact to work out a related fact by doubling, halving, or scaling by 100 \u2014 includes decimal answers",
-    "number_of_questions": 20,
+    "number_of_questions": 15,
     "category": "Math"
   },
   {
     "file": "QUIZ_Math-5.txt",
     "name": "Math Quiz 5: Time Differences",
     "description": "Work out the difference between two clock times — in minutes, as \"X hours Y minutes\", or as decimal hours",
+    "number_of_questions": 20,
+    "category": "Math"
+  },
+  {
+    "file": "QUIZ_Math-6.txt",
+    "name": "Math Quiz 6: Fraction Calculations",
+    "description": "Mental-math fraction arithmetic — add, subtract, multiply, divide, mixed numbers, and fractions raised to a power",
+    "number_of_questions": 20,
+    "category": "Math"
+  },
+  {
+    "file": "QUIZ_Math-7.txt",
+    "name": "Math Quiz 7: Order of Operations (BODMAS)",
+    "description": "Mental-math sense-checking of brackets and calculation sequence — spot how brackets change the answer and apply × ÷ before + −, left to right",
+    "number_of_questions": 15,
+    "category": "Math"
+  },
+  {
+    "file": "QUIZ_Math-8.txt",
+    "name": "Math Quiz 8: Number Sense — Formula Reasoning",
+    "description": "Given a known multiplication or division fact, pick the formula that correctly derives a related fact via scaling, compensation, or decimal shifts — without recalculating from scratch",
+    "number_of_questions": 15,
+    "category": "Math"
+  },
+  {
+    "file": "QUIZ_Math-9.txt",
+    "name": "Math Quiz 9: Estimating Division",
+    "description": "Roughly guess big-number ÷ big-number by rounding to friendly numbers or testing the options — 100-question bank, 20 picked per quiz",
     "number_of_questions": 20,
     "category": "Math"
   },

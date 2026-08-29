@@ -70,3 +70,53 @@ Question_Num|Question|Option-A|Option-B|Option-C|Option-D|Answer|Explanation|
 69|(3x + 50) / 4 = 2x|11|10|13|7|B|Clearing Fractions: multiply both sides by 4 to get 3x + 50 = 8x. Collect x terms: subtract 3x from both sides to get 50 = 5x, then divide by 5 -> x = 10.|
 70|(6x + 30) / 3 = 4x|5|4|6|3|A|Clearing Fractions: multiply both sides by 3 to get 6x + 30 = 12x. Collect x terms: subtract 6x from both sides to get 30 = 6x, then divide by 6 -> x = 5.|
 71|(2x + 10) / 2 = 2x|7|2|6|5|D|Clearing Fractions: multiply both sides by 2 to get 2x + 10 = 4x. Collect x terms: subtract 2x from both sides to get 10 = 2x, then divide by 2 -> x = 5.|
+72|(x)/7 × 3/2 = -2|-34/3|-10|-28/3|-7|C|Multiplying Fractions: combine the left side to get (3x)/14 = -2. Clear the Fraction: multiply both sides by 14 to get 3x = -28. Divide by 3 -> x = -28/3.|
+73|(x)/4 - 14 = -5|-36|34|36|35|C|Isolate the Fraction: add 14 to both sides to get (x)/4 = 9. Clear the Fraction: multiply both sides by 4 -> x = 4(9) = 36.|
+74|-1 - (x)/6 = -3|-12|10|12|11|C|Isolate the Fraction: add 1 to both sides to get -(x)/6 = -2. Multiply both sides by -6 -> x = 12.|
+75|7 - (x)/9 = 9|-14|-18|18|-19|B|Isolate the Fraction: subtract 7 from both sides to get -(x)/9 = 2. Multiply both sides by -9 -> x = -18.|
+76|(x)/4 × 3/7 = -1/2|-17/3|-14/3|-13/3|14/3|B|Multiplying Fractions: combine the left side to get (3x)/28 = -1/2. Clear the Fraction: multiply both sides by 28 to get 3x = -14. Divide by 3 -> x = -14/3.|
+77|(x)/3 + (x)/7 = -1|-21/10|-23/10|21/10|-7/3|A|Combine Fractions: common denominator 21 gives (7x)/21 + (3x)/21 = -1, so (10x)/21 = -1. Clear the Fraction: multiply both sides by 21 to get 10x = -21. Divide by 10 -> x = -21/10.|
+78|(5x)/9 + 10 = 15|10|-9|9|7|C|Isolate the Fraction: subtract 10 from both sides to get (5x)/9 = 5. Clear the Fraction: multiply both sides by 9 to get 5x = 45. Divide by 5 -> x = 9.|
+79|(x)/9 - 4 = 7|100|103|99|98|C|Isolate the Fraction: add 4 to both sides to get (x)/9 = 11. Clear the Fraction: multiply both sides by 9 -> x = 9(11) = 99.|
+80|(2x)/3 - 8 = -7|1/2|3/2|1|-3/2|B|Isolate the Fraction: add 8 to both sides to get (2x)/3 = 1. Clear the Fraction: multiply both sides by 3 to get 2x = 3. Divide by 2 -> x = 3/2.|
+81|(3x)/4 - 10 = 0|40/3|-40/3|34/3|10|A|Isolate the Fraction: add 10 to both sides to get (3x)/4 = 10. Clear the Fraction: multiply both sides by 4 to get 3x = 40. Divide by 3 -> x = 40/3.|
+82|(x)/5 + 1 = -5|-28|-34|-30|-32|C|Isolate the Fraction: subtract 1 from both sides to get (x)/5 = -6. Clear the Fraction: multiply both sides by 5 -> x = 5(-6) = -30.|
+83|8 - (x)/2 = 5|7|2|6|-6|C|Isolate the Fraction: subtract 8 from both sides to get -(x)/2 = -3. Multiply both sides by -2 -> x = 6.|
+84|(x)/7 × 5/4 = -1|-28/5|-14/3|28/5|-23/5|A|Multiplying Fractions: combine the left side to get (5x)/28 = -1. Clear the Fraction: multiply both sides by 28 to get 5x = -28. Divide by 5 -> x = -28/5.|
+85|10/x = 2|5|3|6|2|A|Inverse Relationship: multiply both sides by x to get 10 = 2x. Divide both sides by 2 -> x = 5.|
+86|(x)/8 + (x)/5 = 1/2|20/13|10/7|5/3|18/13|A|Combine Fractions: common denominator 40 gives (5x)/40 + (8x)/40 = 1/2, so (13x)/40 = 1/2. Clear the Fraction: multiply both sides by 40 to get 13x = 20. Divide by 13 -> x = 20/13.|
+87|(x - 4)/6 = 7/4|25/2|-29/2|29/2|15|C|Cross Multiplying: 4(x - 4) = 6(7) -> 4x - 16 = 42. Collect x terms: add 16 to both sides to get 4x = 58. Divide by 4 -> x = 29/2.|
+88|(x + 6)/4 = 1/2|4|0|-4|-3|C|Cross Multiplying: 2(x + 6) = 4(1) -> 2x + 12 = 4. Collect x terms: subtract 12 from both sides to get 2x = -8. Divide by 2 -> x = -4.|
+89|(4x)/9 - 14 = -4|45|-45/2|15|45/2|D|Isolate the Fraction: add 14 to both sides to get (4x)/9 = 10. Clear the Fraction: multiply both sides by 9 to get 4x = 90. Divide by 4 -> x = 45/2.|
+90|(x)/5 × 1/4 = 1/2|6|10|14|9|B|Multiplying Fractions: combine the left side to get (x)/20 = 1/2. Clear the Fraction: multiply both sides by 20 -> x = 10.|
+91|(x)/4 + 6 = 12|26|24|21|-24|B|Isolate the Fraction: subtract 6 from both sides to get (x)/4 = 6. Clear the Fraction: multiply both sides by 4 -> x = 4(6) = 24.|
+92|(x)/4 + 12 = 18|25|-24|24|23|C|Isolate the Fraction: subtract 12 from both sides to get (x)/4 = 6. Clear the Fraction: multiply both sides by 4 -> x = 4(6) = 24.|
+93|(x)/2 + (x)/8 = 2|18/5|16/5|-16/5|21/5|B|Combine Fractions: common denominator 16 gives (8x)/16 + (2x)/16 = 2, so (10x)/16 = 2. Clear the Fraction: multiply both sides by 16 to get 10x = 32. Divide by 10 -> x = 16/5.|
+94|(x)/6 - 4 = 0|21|24|27|25|B|Isolate the Fraction: add 4 to both sides to get (x)/6 = 4. Clear the Fraction: multiply both sides by 6 -> x = 6(4) = 24.|
+95|(x + 3)/4 = 2/6|1/3|4/3|-1|-5/3|D|Cross Multiplying: 6(x + 3) = 4(2) -> 6x + 18 = 8. Collect x terms: subtract 18 from both sides to get 6x = -10. Divide by 6 -> x = -5/3.|
+96|(x)/4 × 2/7 = 1|14|11|-14|13|A|Multiplying Fractions: combine the left side to get (2x)/28 = 1. Clear the Fraction: multiply both sides by 28 to get 2x = 28. Divide by 2 -> x = 14.|
+97|(x + 5)/3 = 8/4|3|2|1|-1|C|Cross Multiplying: 4(x + 5) = 3(8) -> 4x + 20 = 24. Collect x terms: subtract 20 from both sides to get 4x = 4. Divide by 4 -> x = 1.|
+98|6 - (x)/3 = 1|-15|17|15|11|C|Isolate the Fraction: subtract 6 from both sides to get -(x)/3 = -5. Multiply both sides by -3 -> x = 15.|
+99|(6x)/7 + 10 = 14|7|14/3|-14/3|7/2|B|Isolate the Fraction: subtract 10 from both sides to get (6x)/7 = 4. Clear the Fraction: multiply both sides by 7 to get 6x = 28. Divide by 6 -> x = 14/3.|
+100|(x)/7 - 5 = 4|-63|62|63|59|C|Isolate the Fraction: add 5 to both sides to get (x)/7 = 9. Clear the Fraction: multiply both sides by 7 -> x = 7(9) = 63.|
+101|(4x)/9 + 10 = 20|45/2|45|43/2|-45/2|A|Isolate the Fraction: subtract 10 from both sides to get (4x)/9 = 10. Clear the Fraction: multiply both sides by 9 to get 4x = 90. Divide by 4 -> x = 45/2.|
+102|(x)/7 + (x)/4 = 3/2|-42/11|42/11|7/2|20/11|B|Combine Fractions: common denominator 28 gives (4x)/28 + (7x)/28 = 3/2, so (11x)/28 = 3/2. Clear the Fraction: multiply both sides by 28 to get 11x = 42. Divide by 11 -> x = 42/11.|
+103|12/x = 3|4|3|7|6|A|Inverse Relationship: multiply both sides by x to get 12 = 3x. Divide both sides by 3 -> x = 4.|
+104|(x)/5 - 3 = 8|51|55|-55|59|B|Isolate the Fraction: add 3 to both sides to get (x)/5 = 11. Clear the Fraction: multiply both sides by 5 -> x = 5(11) = 55.|
+105|16/x = 8|1|-1|2|-2|C|Inverse Relationship: multiply both sides by x to get 16 = 8x. Divide both sides by 8 -> x = 2.|
+106|(x)/3 + (x)/6 = 1|1|2|6|-2|B|Combine Fractions: common denominator 18 gives (6x)/18 + (3x)/18 = 1, so (9x)/18 = 1. Clear the Fraction: multiply both sides by 18 to get 9x = 18. Divide by 9 -> x = 2.|
+107|(x)/4 + 11 = 16|17|20|21|24|B|Isolate the Fraction: subtract 11 from both sides to get (x)/4 = 5. Clear the Fraction: multiply both sides by 4 -> x = 4(5) = 20.|
+108|(5x)/6 + 10 = 15|10|6|3|4|B|Isolate the Fraction: subtract 10 from both sides to get (5x)/6 = 5. Clear the Fraction: multiply both sides by 6 to get 5x = 30. Divide by 5 -> x = 6.|
+109|(x + 8)/4 = 7/6|-3|-5|-5/2|-10/3|D|Cross Multiplying: 6(x + 8) = 4(7) -> 6x + 48 = 28. Collect x terms: subtract 48 from both sides to get 6x = -20. Divide by 6 -> x = -10/3.|
+110|(x)/2 × 2/6 = 1|6|2|8|7|A|Multiplying Fractions: combine the left side to get (2x)/12 = 1. Clear the Fraction: multiply both sides by 12 to get 2x = 12. Divide by 2 -> x = 6.|
+111|(5x)/6 + 13 = 19|31/5|-36/5|6|36/5|D|Isolate the Fraction: subtract 13 from both sides to get (5x)/6 = 6. Clear the Fraction: multiply both sides by 6 to get 5x = 36. Divide by 5 -> x = 36/5.|
+112|12 - (x)/7 = 10|12|14|16|15|B|Isolate the Fraction: subtract 12 from both sides to get -(x)/7 = -2. Multiply both sides by -7 -> x = 14.|
+113|(x)/6 + 15 = 22|40|46|42|38|C|Isolate the Fraction: subtract 15 from both sides to get (x)/6 = 7. Clear the Fraction: multiply both sides by 6 -> x = 6(7) = 42.|
+114|(5x)/6 + 7 = 15|48/5|8|-48/5|47/5|A|Isolate the Fraction: subtract 7 from both sides to get (5x)/6 = 8. Clear the Fraction: multiply both sides by 6 to get 5x = 48. Divide by 5 -> x = 48/5.|
+115|11/x = 1|11|7|-11|13|A|Inverse Relationship: multiply both sides by x to get 11 = 1x. Divide both sides by 1 -> x = 11.|
+116|(3x)/4 - 8 = -2|6|4|8|11|C|Isolate the Fraction: add 8 to both sides to get (3x)/4 = 6. Clear the Fraction: multiply both sides by 4 to get 3x = 24. Divide by 3 -> x = 8.|
+117|(x)/7 - 8 = -7|7|4|-7|3|A|Isolate the Fraction: add 8 to both sides to get (x)/7 = 1. Clear the Fraction: multiply both sides by 7 -> x = 7(1) = 7.|
+118|(x)/8 + 2 = 10|68|60|64|-64|C|Isolate the Fraction: subtract 2 from both sides to get (x)/8 = 8. Clear the Fraction: multiply both sides by 8 -> x = 8(8) = 64.|
+119|(3x)/4 - 4 = -8|-16/3|-8|-4|-10/3|A|Isolate the Fraction: add 4 to both sides to get (3x)/4 = -4. Clear the Fraction: multiply both sides by 4 to get 3x = -16. Divide by 3 -> x = -16/3.|
+120|15/x = 3/2|12|-10|7|10|D|Inverse Relationship: multiply both sides by x to get 15 = 3/2x. Divide both sides by 3/2 -> x = 10.|
+121|(5x)/7 - 13 = -8|5|7|4|-7|B|Isolate the Fraction: add 13 to both sides to get (5x)/7 = 5. Clear the Fraction: multiply both sides by 7 to get 5x = 35. Divide by 5 -> x = 7.|

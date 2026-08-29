@@ -1,0 +1,81 @@
+Question_Num|Question|Option-A|Option-B|Option-C|Option-D|Answer|Explanation|
+1|4 × (6 − 2) + 6 × 4 = ?|42|40|46|88|B|Brackets first, then × ÷ before + −, left to right: 6 − 2 = 4 → 4 × 4 = 16 → 6 × 4 = 24 → 16 + 24 = 40.|
+2|9 × (5 − 11) ÷ 2 = ?|39.5|−29|−27|−25|C|Brackets first, then × ÷ before + −, left to right: 5 − 11 = −6 → 9 × −6 = −54 → −54 ÷ 2 = −27.|
+3|(9 × 5) − 10 ÷ 2 = ?|42|17.5|38|40|D|Brackets first, then × ÷ before + −, left to right: 9 × 5 = 45 → 10 ÷ 2 = 5 → 45 − 5 = 40.|
+4|30 ÷ (6 + 9) × 2 = ?|2|23|4|6|C|Brackets first, then × ÷ before + −, left to right: 6 + 9 = 15 → 30 ÷ 15 = 2 → 2 × 2 = 4.|
+5|30 ÷ 6 + 9 × 2 = ?|23|21|25|28|A|× ÷ before + −, left to right: 30 ÷ 6 = 5 → 9 × 2 = 18 → 5 + 18 = 23.|
+6|5 × (8 − 3) − 4 × 2 = ?|29|19|17|42|C|Brackets first, then × ÷ before + −, left to right: 8 − 3 = 5 → 5 × 5 = 25 → 4 × 2 = 8 → 25 − 8 = 17.|
+7|(12 − 4) × 3 + 7 = ?|33|31|7|29|B|Brackets first, then × ÷ before + −, left to right: 12 − 4 = 8 → 8 × 3 = 24 → 24 + 7 = 31.|
+8|12 − 4 × 3 + 7 = ?|31|7|9|5|B|× ÷ before + −, left to right: 4 × 3 = 12 → 12 − 12 = 0 → 0 + 7 = 7.|
+9|6 + 2 × (9 − 5) = ?|32|19|16|14|D|Brackets first, then × ÷ before + −, left to right: 9 − 5 = 4 → 2 × 4 = 8 → 6 + 8 = 14.|
+10|(6 + 2) × 9 − 5 = ?|69|65|67|19|C|Brackets first, then × ÷ before + −, left to right: 6 + 2 = 8 → 8 × 9 = 72 → 72 − 5 = 67.|
+11|18 ÷ (9 − 6) + 4 = ?|8|12|10|0|C|Brackets first, then × ÷ before + −, left to right: 9 − 6 = 3 → 18 ÷ 3 = 6 → 6 + 4 = 10.|
+12|18 ÷ 9 − 6 + 4 = ?|−2|10|0|2|C|× ÷ before + −, left to right: 18 ÷ 9 = 2 → 2 − 6 = −4 → −4 + 4 = 0.|
+13|3 × (7 + 2) − 5 × 4 = ?|88|9|3|7|D|Brackets first, then × ÷ before + −, left to right: 7 + 2 = 9 → 3 × 9 = 27 → 5 × 4 = 20 → 27 − 20 = 7.|
+14|3 × 7 + 2 − 5 × 4 = ?|1|72|3|5|C|× ÷ before + −, left to right: 3 × 7 = 21 → 21 + 2 = 23 → 5 × 4 = 20 → 23 − 20 = 3.|
+15|40 − (6 + 4) × 3 = ?|10|46|12|90|A|Brackets first, then × ÷ before + −, left to right: 6 + 4 = 10 → 10 × 3 = 30 → 40 − 30 = 10.|
+16|40 − 6 + 4 × 3 = ?|46|44|48|114|A|× ÷ before + −, left to right: 40 − 6 = 34 → 4 × 3 = 12 → 34 + 12 = 46.|
+17|(16 − 6) × (3 + 2) = ?|48|50|0|52|B|Brackets first, then × ÷ before + −, left to right: 16 − 6 = 10 → 3 + 2 = 5 → 10 × 5 = 50.|
+18|16 − 6 × 3 + 2 = ?|0|32|−2|2|A|× ÷ before + −, left to right: 6 × 3 = 18 → 16 − 18 = −2 → −2 + 2 = 0.|
+19|8 × (3 + 4) − 2 × 6 = ?|46|16|44|324|C|Brackets first, then × ÷ before + −, left to right: 3 + 4 = 7 → 8 × 7 = 56 → 2 × 6 = 12 → 56 − 12 = 44.|
+20|8 × 3 + 4 − 2 × 6 = ?|16|18|156|14|A|× ÷ before + −, left to right: 8 × 3 = 24 → 24 + 4 = 28 → 2 × 6 = 12 → 28 − 12 = 16.|
+21|50 ÷ (2 + 3) × 4 = ?|40|37|42|38|A|Brackets first, then × ÷ before + −, left to right: 2 + 3 = 5 → 50 ÷ 5 = 10 → 10 × 4 = 40.|
+22|50 ÷ 2 + 3 × 4 = ?|112|39|37|35|C|× ÷ before + −, left to right: 50 ÷ 2 = 25 → 3 × 4 = 12 → 25 + 12 = 37.|
+23|7 × (9 − 4) + 3 = ?|36|40|38|62|C|Brackets first, then × ÷ before + −, left to right: 9 − 4 = 5 → 7 × 5 = 35 → 35 + 3 = 38.|
+24|7 × 9 − 4 + 3 = ?|62|72|64|60|A|× ÷ before + −, left to right: 7 × 9 = 63 → 63 − 4 = 59 → 59 + 3 = 62.|
+25|(5 + 3) × (6 − 2) = ?|30|32|21|34|B|Brackets first, then × ÷ before + −, left to right: 5 + 3 = 8 → 6 − 2 = 4 → 8 × 4 = 32.|
+26|5 + 3 × 6 − 2 = ?|23|21|46|19|B|× ÷ before + −, left to right: 3 × 6 = 18 → 5 + 18 = 23 → 23 − 2 = 21.|
+27|24 ÷ (4 + 2) − 1 = ?|7|5|1|3|D|Brackets first, then × ÷ before + −, left to right: 4 + 2 = 6 → 24 ÷ 6 = 4 → 4 − 1 = 3.|
+28|24 ÷ 4 + 2 − 1 = ?|9|17|5|7|D|× ÷ before + −, left to right: 24 ÷ 4 = 6 → 6 + 2 = 8 → 8 − 1 = 7.|
+29|9 × (2 + 7) − 8 × 5 = ?|365|43|−15|41|D|Brackets first, then × ÷ before + −, left to right: 2 + 7 = 9 → 9 × 9 = 81 → 8 × 5 = 40 → 81 − 40 = 41.|
+30|9 × 2 + 7 − 8 × 5 = ?|85|−13|−17|−15|D|× ÷ before + −, left to right: 9 × 2 = 18 → 18 + 7 = 25 → 8 × 5 = 40 → 25 − 40 = −15.|
+31|(10 − 2) × 5 + 6 = ?|6|46|48|44|B|Brackets first, then × ÷ before + −, left to right: 10 − 2 = 8 → 8 × 5 = 40 → 40 + 6 = 46.|
+32|10 − 2 × 5 + 6 = ?|4|6|8|46|B|× ÷ before + −, left to right: 2 × 5 = 10 → 10 − 10 = 0 → 0 + 6 = 6.|
+33|6 × (11 − 8) ÷ 2 = ?|9|62|7|11|A|Brackets first, then × ÷ before + −, left to right: 11 − 8 = 3 → 6 × 3 = 18 → 18 ÷ 2 = 9.|
+34|6 × 11 − 8 ÷ 2 = ?|60|64|62|29|C|× ÷ before + −, left to right: 6 × 11 = 66 → 8 ÷ 2 = 4 → 66 − 4 = 62.|
+35|45 ÷ (9 − 4) + 3 = ?|10|14|4|12|D|Brackets first, then × ÷ before + −, left to right: 9 − 4 = 5 → 45 ÷ 5 = 9 → 9 + 3 = 12.|
+36|45 ÷ 9 − 4 + 3 = ?|14|6|2|4|D|× ÷ before + −, left to right: 45 ÷ 9 = 5 → 5 − 4 = 1 → 1 + 3 = 4.|
+37|(4 + 6) × (8 − 5) = ?|28|32|30|47|C|Brackets first, then × ÷ before + −, left to right: 4 + 6 = 10 → 8 − 5 = 3 → 10 × 3 = 30.|
+38|4 + 6 × 8 − 5 = ?|45|47|49|75|B|× ÷ before + −, left to right: 6 × 8 = 48 → 4 + 48 = 52 → 52 − 5 = 47.|
+39|3 + 4 × (10 − 6) = ?|28|19|21|37|B|Brackets first, then × ÷ before + −, left to right: 10 − 6 = 4 → 4 × 4 = 16 → 3 + 16 = 19.|
+40|(3 + 4) × 10 − 6 = ?|66|37|64|62|C|Brackets first, then × ÷ before + −, left to right: 3 + 4 = 7 → 7 × 10 = 70 → 70 − 6 = 64.|
+41|20 − (3 + 2) × 4 = ?|2|60|25|0|D|Brackets first, then × ÷ before + −, left to right: 3 + 2 = 5 → 5 × 4 = 20 → 20 − 20 = 0.|
+42|20 − 3 + 2 × 4 = ?|23|76|25|27|C|× ÷ before + −, left to right: 20 − 3 = 17 → 2 × 4 = 8 → 17 + 8 = 25.|
+43|8 × (6 − 9) + 50 = ?|89|26|24|28|B|Brackets first, then × ÷ before + −, left to right: 6 − 9 = −3 → 8 × −3 = −24 → −24 + 50 = 26.|
+44|8 × 6 − 9 + 50 = ?|87|99|91|89|D|× ÷ before + −, left to right: 8 × 6 = 48 → 48 − 9 = 39 → 39 + 50 = 89.|
+45|(36 ÷ 6) + 4 × 3 = ?|20|16|18|30|C|Brackets first, then × ÷ before + −, left to right: 36 ÷ 6 = 6 → 4 × 3 = 12 → 6 + 12 = 18.|
+46|40 ÷ (4 + 6) × 3 = ?|14|28|10|12|D|Brackets first, then × ÷ before + −, left to right: 4 + 6 = 10 → 40 ÷ 10 = 4 → 4 × 3 = 12.|
+47|7 + 5 × (9 − 3) = ?|39|49|37|72|C|Brackets first, then × ÷ before + −, left to right: 9 − 3 = 6 → 5 × 6 = 30 → 7 + 30 = 37.|
+48|(7 + 5) × 9 − 3 = ?|107|103|105|49|C|Brackets first, then × ÷ before + −, left to right: 7 + 5 = 12 → 12 × 9 = 108 → 108 − 3 = 105.|
+49|60 ÷ (5 + 7) × 3 = ?|33|15|13|17|B|Brackets first, then × ÷ before + −, left to right: 5 + 7 = 12 → 60 ÷ 12 = 5 → 5 × 3 = 15.|
+50|60 ÷ 5 + 7 × 3 = ?|33|57|35|31|A|× ÷ before + −, left to right: 60 ÷ 5 = 12 → 7 × 3 = 21 → 12 + 21 = 33.|
+51|(14 − 8) × (3 + 4) = ?|40|42|−6|44|B|Brackets first, then × ÷ before + −, left to right: 14 − 8 = 6 → 3 + 4 = 7 → 6 × 7 = 42.|
+52|14 − 8 × 3 + 4 = ?|−6|−4|22|−8|A|× ÷ before + −, left to right: 8 × 3 = 24 → 14 − 24 = −10 → −10 + 4 = −6.|
+53|9 − (2 + 3) × 5 = ?|22|−16|−14|20|B|Brackets first, then × ÷ before + −, left to right: 2 + 3 = 5 → 5 × 5 = 25 → 9 − 25 = −16.|
+54|9 − 2 + 3 × 5 = ?|22|50|24|20|A|× ÷ before + −, left to right: 9 − 2 = 7 → 3 × 5 = 15 → 7 + 15 = 22.|
+55|12 × (4 − 6) + 30 = ?|4|8|72|6|D|Brackets first, then × ÷ before + −, left to right: 4 − 6 = −2 → 12 × −2 = −24 → −24 + 30 = 6.|
+56|12 × 4 − 6 + 30 = ?|70|74|82|72|D|× ÷ before + −, left to right: 12 × 4 = 48 → 48 − 6 = 42 → 42 + 30 = 72.|
+57|(8 + 8) ÷ (4 + 4) × 5 = ?|30|8|12|10|D|Brackets first, then × ÷ before + −, left to right: 8 + 8 = 16 → 4 + 4 = 8 → 16 ÷ 8 = 2 → 2 × 5 = 10.|
+58|8 + 8 ÷ 4 + 4 × 5 = ?|30|28|40|32|A|× ÷ before + −, left to right: 8 ÷ 4 = 2 → 8 + 2 = 10 → 4 × 5 = 20 → 10 + 20 = 30.|
+59|5 × (3 + 9) − 4 × 10 = ?|560|22|20|−16|C|Brackets first, then × ÷ before + −, left to right: 3 + 9 = 12 → 5 × 12 = 60 → 4 × 10 = 40 → 60 − 40 = 20.|
+60|5 × 3 + 9 − 4 × 10 = ?|−16|−18|200|−14|A|× ÷ before + −, left to right: 5 × 3 = 15 → 15 + 9 = 24 → 4 × 10 = 40 → 24 − 40 = −16.|
+61|63 ÷ (9 − 2) + 3 = ?|12|8|10|14|A|Brackets first, then × ÷ before + −, left to right: 9 − 2 = 7 → 63 ÷ 7 = 9 → 9 + 3 = 12.|
+62|63 ÷ 9 − 2 + 3 = ?|6|10|8|18|C|× ÷ before + −, left to right: 63 ÷ 9 = 7 → 7 − 2 = 5 → 5 + 3 = 8.|
+63|(8 − 3) × (6 + 4) = ?|−6|48|52|50|D|Brackets first, then × ÷ before + −, left to right: 8 − 3 = 5 → 6 + 4 = 10 → 5 × 10 = 50.|
+64|8 − 3 × 6 + 4 = ?|−4|−6|34|−8|B|× ÷ before + −, left to right: 3 × 6 = 18 → 8 − 18 = −10 → −10 + 4 = −6.|
+65|12 + (18 ÷ 6) × 5 = ?|29|75|25|27|D|Brackets first, then × ÷ before + −, left to right: 18 ÷ 6 = 3 → 3 × 5 = 15 → 12 + 15 = 27.|
+66|(12 + 18) ÷ 6 × 5 = ?|27|23|25|35|C|Brackets first, then × ÷ before + −, left to right: 12 + 18 = 30 → 30 ÷ 6 = 5 → 5 × 5 = 25.|
+67|15 − (2 + 1) × 4 = ?|17|3|5|48|B|Brackets first, then × ÷ before + −, left to right: 2 + 1 = 3 → 3 × 4 = 12 → 15 − 12 = 3.|
+68|15 − 2 + 1 × 4 = ?|19|15|56|17|D|× ÷ before + −, left to right: 15 − 2 = 13 → 1 × 4 = 4 → 13 + 4 = 17.|
+69|4 × (9 − 13) + 40 = ?|24|63|22|26|A|Brackets first, then × ÷ before + −, left to right: 9 − 13 = −4 → 4 × −4 = −16 → −16 + 40 = 24.|
+70|4 × 9 − 13 + 40 = ?|65|61|73|63|D|× ÷ before + −, left to right: 4 × 9 = 36 → 36 − 13 = 23 → 23 + 40 = 63.|
+71|(18 + 6) ÷ (3 + 1) × 2 = ?|22|10|14|12|D|Brackets first, then × ÷ before + −, left to right: 18 + 6 = 24 → 3 + 1 = 4 → 24 ÷ 4 = 6 → 6 × 2 = 12.|
+72|18 + 6 ÷ 3 + 1 × 2 = ?|20|22|24|18|B|× ÷ before + −, left to right: 6 ÷ 3 = 2 → 18 + 2 = 20 → 1 × 2 = 2 → 20 + 2 = 22.|
+73|7 × (5 − 8) + 30 = ?|9|7|11|57|A|Brackets first, then × ÷ before + −, left to right: 5 − 8 = −3 → 7 × −3 = −21 → −21 + 30 = 9.|
+74|7 × 5 − 8 + 30 = ?|57|55|67|59|A|× ÷ before + −, left to right: 7 × 5 = 35 → 35 − 8 = 27 → 27 + 30 = 57.|
+75|90 ÷ (9 + 6) × 5 = ?|40|28|32|30|D|Brackets first, then × ÷ before + −, left to right: 9 + 6 = 15 → 90 ÷ 15 = 6 → 6 × 5 = 30.|
+76|90 ÷ 9 + 6 × 5 = ?|42|40|80|38|B|× ÷ before + −, left to right: 90 ÷ 9 = 10 → 6 × 5 = 30 → 10 + 30 = 40.|
+77|(11 − 5) × (2 + 7) = ?|8|56|54|52|C|Brackets first, then × ÷ before + −, left to right: 11 − 5 = 6 → 2 + 7 = 9 → 6 × 9 = 54.|
+78|11 − 5 × 2 + 7 = ?|19|8|10|6|B|× ÷ before + −, left to right: 5 × 2 = 10 → 11 − 10 = 1 → 1 + 7 = 8.|
+79|8 + 3 × (12 − 7) = ?|23|37|55|25|A|Brackets first, then × ÷ before + −, left to right: 12 − 7 = 5 → 3 × 5 = 15 → 8 + 15 = 23.|
+80|(8 + 3) × 12 − 7 = ?|123|125|37|127|B|Brackets first, then × ÷ before + −, left to right: 8 + 3 = 11 → 11 × 12 = 132 → 132 − 7 = 125.|
