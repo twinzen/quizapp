@@ -112,6 +112,13 @@
     "category": "Problem Solving"
   },
   {
+    "file": "QUIZ_Problem_Solving-8.txt",
+    "name": "Fractions & Percentages - 2",
+    "description": "Multi-step fraction and percentage word problems — sequential fraction/percent-of-remainder puzzles, leftover-fraction ratios, cost comparisons, expected win/loss counts, and overlapping-group “neither” problems. 50-question bank, 10 picked per quiz",
+    "number_of_questions": 10,
+    "category": "Problem Solving"
+  },
+  {
     "file": "QUIZ_Math-1.txt",
     "name": "Math Quiz 1: Algebraic Equations",
     "description": "Simple mental-math algebra questions using Expanding Brackets and Clearing Fractions",
@@ -177,8 +184,8 @@
   {
     "file": "QUIZ_Prefix-1.txt",
     "name": "Prefix Quiz 1",
-    "description": "Choose the correct prefix to make an antonym or complete a sentence \u2014 each prefix is used exactly once within its set of 6",
-    "number_of_questions": 24,
+    "description": "Choose the correct prefix to make an antonym, complete a sentence, or build a new word \u2014 each prefix is used at most once within its set",
+    "number_of_questions": 20,
     "category": "English"
   },
   {
