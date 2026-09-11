@@ -13,18 +13,98 @@
       <p>Choose a quiz to start the challenge</p>
     </div>
 
-    <div id="quiz-tabs" class="quiz-tabs"></div>
+    <div id="main-tabs" class="quiz-tabs main-tabs"></div>
 
-    <div id="quiz-grid" class="quiz-grid">
-      <div class="loading">Loading quiz list…</div>
+    <div id="quizzes-view">
+      <div id="quiz-tabs" class="quiz-tabs"></div>
+
+      <div id="quiz-grid" class="quiz-grid">
+        <div class="loading">Loading quiz list…</div>
+      </div>
+    </div>
+
+    <div id="reports-view" class="hidden">
+      <div id="reports-grid" class="quiz-grid">
+        <div class="loading">Loading report list…</div>
+      </div>
     </div>
   </div>
 
-  <script src="app.js?v=3"></script>
+  <script src="app.js?v=9"></script>
   <script>
     const CATEGORIES = ["English", "Math", "Problem Solving"];
+    const MAIN_TABS = ["Quizzes", "Writing Reports"];
     let manifest = [];
+    let reportManifest = [];
     let activeCategory = CATEGORIES[0];
+    let activeMainTab = MAIN_TABS[0];
+
+    function renderMainTabs() {
+      const tabsEl = document.getElementById("main-tabs");
+      tabsEl.innerHTML = "";
+      for (const tab of MAIN_TABS) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "tab-btn" + (tab === activeMainTab ? " active" : "");
+        btn.textContent = tab;
+        btn.addEventListener("click", () => {
+          if (activeMainTab === tab) return;
+          activeMainTab = tab;
+          renderMainTabs();
+          switchMainView();
+        });
+        tabsEl.appendChild(btn);
+      }
+    }
+
+    function switchMainView() {
+      const quizzesView = document.getElementById("quizzes-view");
+      const reportsView = document.getElementById("reports-view");
+      if (activeMainTab === "Quizzes") {
+        quizzesView.classList.remove("hidden");
+        reportsView.classList.add("hidden");
+      } else {
+        quizzesView.classList.add("hidden");
+        reportsView.classList.remove("hidden");
+        if (!reportManifest.length) loadReportList();
+      }
+    }
+
+    async function loadReportList() {
+      const grid = document.getElementById("reports-grid");
+      try {
+        const res = await fetch("reports.json", { cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        reportManifest = await res.json();
+      } catch (err) {
+        grid.innerHTML = `<div class="error-state">
+          Failed to load report list (reports.json).<br />
+          Make sure this page is opened via a local server (not by double-clicking index.html directly).
+        </div>`;
+        return;
+      }
+
+      if (!reportManifest.length) {
+        grid.innerHTML = `<div class="empty-state">No writing reports available yet.</div>`;
+        return;
+      }
+
+      grid.innerHTML = "";
+      for (const report of reportManifest) {
+        const card = document.createElement("div");
+        card.className = "quiz-card";
+        const name = report.name || reportDisplayNameFromFile(report.file);
+        card.innerHTML = `
+          <div class="info">
+            <h2>${escapeHtml(name)}</h2>
+            <p>${escapeHtml(report.date || "")}</p>
+            ${report.writtenBy ? `<div class="count">Written by ${escapeHtml(report.writtenBy)}</div>` : ""}
+          </div>
+          <a class="start-btn" href="report.html?file=${encodeURIComponent(report.file)}">View Report</a>
+        `;
+        grid.appendChild(card);
+      }
+    }
 
     async function loadQuizList() {
       const grid = document.getElementById("quiz-grid");
@@ -107,6 +187,7 @@
       }
     }
 
+    renderMainTabs();
     loadQuizList();
   </script>
 </body>

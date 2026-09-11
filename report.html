@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Writing Report</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page report-page">
+    <a class="back-link" href="index.html">← Back to Quiz List</a>
+    <div id="report-root">
+      <div class="loading">Loading report…</div>
+    </div>
+  </div>
+
+  <script src="app.js?v=9"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const file = params.get("file");
+    const root = document.getElementById("report-root");
+
+    async function init() {
+      if (!file) {
+        root.innerHTML = `<div class="error-state">No report file specified. Please choose a report from the list page.</div>`;
+        return;
+      }
+
+      let report;
+      try {
+        report = await fetchReport(file);
+      } catch (err) {
+        root.innerHTML = `<div class="error-state">
+          Failed to load report "${escapeHtml(file)}".<br />
+          Make sure the file exists and this page is opened via a local server.
+        </div>`;
+        return;
+      }
+
+      let reportDate = "";
+      try {
+        const res = await fetch("reports.json", { cache: "no-store" });
+        if (res.ok) {
+          const manifest = await res.json();
+          const entry = manifest.find((r) => r.file === file);
+          if (entry) reportDate = entry.date || "";
+        }
+      } catch (err) {
+        // Non-fatal: the report itself already loaded fine.
+      }
+
+      renderReport(report, reportDate);
+    }
+
+    const CATEGORY_COLORS = ["pink", "sky", "purple", "yellow", "teal"];
+
+    function renderBreakdownSection(report) {
+      const complete = hasCompleteBreakdown(report.breakdown);
+      const total = complete ? breakdownTotal(report.breakdown) : null;
+      const scoreLabel = complete
+        ? `${total}/100`
+        : report.score
+        ? renderPlainInline(report.score)
+        : "";
+
+      const rows = REPORT_CATEGORIES.map((cat, idx) => {
+        const value = report.breakdown[cat.key];
+        const hasValue = typeof value === "number" && !Number.isNaN(value);
+        const pct = hasValue ? Math.max(0, Math.min(100, (value / REPORT_CATEGORY_MAX) * 100)) : 0;
+        return `
+          <div class="breakdown-row">
+            <div class="breakdown-row-header">
+              <span>${escapeHtml(cat.label)}</span>
+              <span>${hasValue ? `${value}/${REPORT_CATEGORY_MAX}` : "—"}</span>
+            </div>
+            <div class="breakdown-bar-track">
+              <div class="breakdown-bar-fill" style="width:${pct}%;background:var(--${CATEGORY_COLORS[idx]});"></div>
+            </div>
+          </div>
+        `;
+      }).join("");
+
+      return `
+        <div class="report-section">
+          <h2>2. Score Breakdown</h2>
+          <div class="breakdown-card">
+            ${scoreLabel ? `<div class="overview-score">Overall Score: ${scoreLabel}</div>` : ""}
+            ${rows}
+          </div>
+        </div>
+      `;
+    }
+
+    function renderReport(report, reportDate) {
+      root.innerHTML = `
+        <div class="list-header">
+          <h1>✍️ ${renderInline(report.title || reportDisplayNameFromFile(file))}</h1>
+          ${reportDate ? `<p>${escapeHtml(reportDate)}</p>` : ""}
+        </div>
+
+        <div class="report-section">
+          <h2>1. Overview</h2>
+          <div class="overview-card">
+            <div class="overview-comment"><p>${renderInline(report.overallComment) || "No overall comment."}</p></div>
+          </div>
+        </div>
+
+        ${renderBreakdownSection(report)}
+
+        <div class="report-section">
+          <h2>3. Analysis</h2>
+          <div class="split-panel">
+            <div class="panel-col">
+              <h3>📝 Original Writing</h3>
+              <div class="writing-text">${renderParagraphs(report.originalWriting) || "<p>No writing recorded.</p>"}</div>
+            </div>
+            <div class="panel-col">
+              <h3>⚠️ Mistakes</h3>
+              <div class="panel-scroll">
+                ${
+                  report.mistakes.length
+                    ? report.mistakes.map((m) => `
+                      <div class="item-card">
+                        ${m.description ? `<div class="item-description">${renderInline(m.description)}</div>` : ""}
+                        <div class="quote-box quote-box--before"><span class="quote-emoji">❌</span><span class="quote-text">${renderInline(m.wrong)}</span></div>
+                        ${m.correct ? `<div class="quote-box quote-box--after"><span class="quote-emoji">✅</span><span class="quote-text">${renderInline(m.correct)}</span></div>` : ""}
+                      </div>
+                    `).join("")
+                    : "<p>No mistakes recorded.</p>"
+                }
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="report-section">
+          <h2>4. Outstanding Reference</h2>
+          <div class="split-panel">
+            <div class="panel-col">
+              <h3>🌟 Sample Writing</h3>
+              <div class="writing-text">${renderParagraphs(report.referenceWriting) || "<p>No sample recorded.</p>"}</div>
+            </div>
+            <div class="panel-col">
+              <h3>💡 Points to Learn</h3>
+              <div class="panel-scroll">
+                ${
+                  report.learningPoints.length
+                    ? report.learningPoints.map((p) => `
+                      <div class="item-card">
+                        ${p.description ? `<div class="item-description">${renderInline(p.description)}</div>` : ""}
+                        ${p.original ? `<div class="quote-box quote-box--before"><span class="quote-emoji">✏️</span><span class="quote-text">${renderInline(p.original)}</span></div>` : ""}
+                        ${p.betterVersion ? `<div class="quote-box quote-box--after"><span class="quote-emoji">✨</span><span class="quote-text">${renderInline(p.betterVersion)}</span></div>` : ""}
+                      </div>
+                    `).join("")
+                    : "<p>No points recorded.</p>"
+                }
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+
+      syncPanelHeights();
+    }
+
+    // Makes each right-hand panel-col match the height of its left-hand
+    // sibling exactly, scrolling its own content internally if it has more
+    // than fits — instead of the default CSS Grid behaviour of stretching
+    // both columns to the height of the taller one (which leaves empty
+    // space under a short piece of writing).
+    function syncPanelHeights() {
+      const isStacked = window.matchMedia("(max-width: 700px)").matches;
+
+      document.querySelectorAll(".split-panel").forEach((panel) => {
+        const cols = panel.querySelectorAll(":scope > .panel-col");
+        if (cols.length !== 2) return;
+        const [left, right] = cols;
+        const scrollArea = right.querySelector(".panel-scroll");
+        if (!scrollArea) return;
+
+        if (isStacked) {
+          scrollArea.style.maxHeight = "";
+          scrollArea.style.overflowY = "";
+          return;
+        }
+
+        const leftHeight = left.getBoundingClientRect().height;
+        const rightRect = right.getBoundingClientRect();
+        const scrollRect = scrollArea.getBoundingClientRect();
+        const offsetWithinRight = scrollRect.top - rightRect.top;
+        const paddingBottom = parseFloat(getComputedStyle(right).paddingBottom) || 0;
+        const available = leftHeight - offsetWithinRight - paddingBottom;
+        scrollArea.style.maxHeight = Math.max(available, 80) + "px";
+        scrollArea.style.overflowY = "auto";
+      });
+    }
+
+    window.addEventListener("resize", syncPanelHeights);
+
+    init();
+  </script>
+</body>
+</html>
