@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Writing Report</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=2" />
 </head>
 <body>
   <div class="page report-page">
@@ -54,6 +54,32 @@
 
     const CATEGORY_COLORS = ["pink", "sky", "purple", "yellow", "teal"];
 
+    const MARK_THRESHOLDS = [
+      { min: 60, max: 69, label: "Developing" },
+      { min: 70, max: 79, label: "Effective" },
+      { min: 80, max: 89, label: "Strong" },
+      { min: 90, max: 100, label: "Exceptional" },
+    ];
+
+    function markThresholdLabel(total) {
+      const match = MARK_THRESHOLDS.find((t) => total >= t.min && total <= t.max);
+      return match ? match.label : null;
+    }
+
+    function renderMarkThresholds(total) {
+      const currentLabel = typeof total === "number" ? markThresholdLabel(total) : null;
+      return `
+        <div class="threshold-legend">
+          ${MARK_THRESHOLDS.map((t) => `
+            <div class="threshold-chip${t.label === currentLabel ? " threshold-chip--active" : ""}">
+              <span class="threshold-range">${t.min}–${t.max}</span>
+              <span class="threshold-label">${t.label}</span>
+            </div>
+          `).join("")}
+        </div>
+      `;
+    }
+
     function renderBreakdownSection(report) {
       const complete = hasCompleteBreakdown(report.breakdown);
       const total = complete ? breakdownTotal(report.breakdown) : null;
@@ -82,9 +108,10 @@
 
       return `
         <div class="report-section">
-          <h2>2. Score Breakdown</h2>
+          <h2>2. My Scores</h2>
           <div class="breakdown-card">
             ${scoreLabel ? `<div class="overview-score">Overall Score: ${scoreLabel}</div>` : ""}
+            ${renderMarkThresholds(total)}
             ${rows}
           </div>
         </div>
@@ -108,14 +135,14 @@
         ${renderBreakdownSection(report)}
 
         <div class="report-section">
-          <h2>3. Analysis</h2>
+          <h2>3. A Closer Look</h2>
           <div class="split-panel">
             <div class="panel-col">
-              <h3>📝 Original Writing</h3>
-              <div class="writing-text">${renderParagraphs(report.originalWriting) || "<p>No writing recorded.</p>"}</div>
+              <h3>📝 My Writing</h3>
+              <div class="writing-text">${renderParagraphsWithHighlights(report.originalWriting, report.mistakes) || "<p>No writing recorded.</p>"}</div>
             </div>
             <div class="panel-col">
-              <h3>⚠️ Mistakes</h3>
+              <h3>🔍 Things to Fix</h3>
               <div class="panel-scroll">
                 ${
                   report.mistakes.length
@@ -134,14 +161,14 @@
         </div>
 
         <div class="report-section">
-          <h2>4. Outstanding Reference</h2>
+          <h2>4. A Great Example</h2>
           <div class="split-panel">
-            <div class="panel-col">
-              <h3>🌟 Sample Writing</h3>
+            <div class="panel-col panel-col--reference">
+              <h3>🌟 Example Writing</h3>
               <div class="writing-text">${renderParagraphs(report.referenceWriting) || "<p>No sample recorded.</p>"}</div>
             </div>
-            <div class="panel-col">
-              <h3>💡 Points to Learn</h3>
+            <div class="panel-col panel-col--reference">
+              <h3>💡 Cool Things to Try</h3>
               <div class="panel-scroll">
                 ${
                   report.learningPoints.length

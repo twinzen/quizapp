@@ -18,7 +18,9 @@ function escapeHtml(str) {
 
 // Renders **bold** spans, literal "\n" line breaks, "(expr)/N" fractions
 // (e.g. "(3x + 49)/5"), and simple "N/D" fractions (e.g. "3/5") as stacked
-// numerator-over-denominator spans, inside already-escaped text.
+// numerator-over-denominator spans, inside already-escaped text. Also turns
+// the \u0001..\u0002 highlight markers left by markMistakes() into <mark>
+// spans — those control characters pass through escapeHtml() untouched.
 function renderInline(str) {
   return escapeHtml(str)
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
@@ -31,7 +33,9 @@ function renderInline(str) {
     .replace(
       /(\d+)\/(\d+)/g,
       '<span class="frac"><span class="frac-num">$1</span><span class="frac-den">$2</span></span>'
-    );
+    )
+    .replace(/\u0001/g, '<mark class="mistake-highlight">')
+    .replace(/\u0002/g, "</mark>");
 }
 
 // Like renderInline(), but skips the fraction stacking — for text where a
@@ -185,7 +189,7 @@ const REPORT_CATEGORIES = [
   { key: "VOCABULARY_DESCRIPTION", label: "Vocabulary & Description" },
   { key: "SENTENCE_STRUCTURE_STYLE", label: "Sentence Structure & Style" },
   { key: "GRAMMAR", label: "Grammar" },
-  { key: "MECHANICS_FORMATTING", label: "Mechanics & Formatting" },
+  { key: "MECHANICS_FORMATTING", label: "Technical Accuracy" },
 ];
 const REPORT_CATEGORY_MAX = 100 / REPORT_CATEGORIES.length; // 20 points each
 
@@ -326,6 +330,53 @@ function reportDisplayNameFromFile(file) {
 function renderParagraphs(text) {
   if (!text) return "";
   return text
+    .split(/\n{2,}/)
+    .map((para) => `<p>${renderInline(para)}</p>`)
+    .join("");
+}
+
+// Finds each mistake's WRONG text inside the original writing as a plain
+// (non-overlapping) substring match, longest first so a mistake fully
+// contained inside another (e.g. "macaroon and slushie" inside the whole
+// sentence it's part of) doesn't get double-marked.
+function findMistakeRanges(text, mistakes) {
+  const wrongs = [...new Set((mistakes || []).map((m) => m.wrong).filter(Boolean))].sort(
+    (a, b) => b.length - a.length
+  );
+  const ranges = [];
+  wrongs.forEach((wrong) => {
+    let fromIndex = 0;
+    let idx;
+    while ((idx = text.indexOf(wrong, fromIndex)) !== -1) {
+      const end = idx + wrong.length;
+      const overlaps = ranges.some((r) => idx < r.end && end > r.start);
+      if (!overlaps) ranges.push({ start: idx, end });
+      fromIndex = idx + 1;
+    }
+  });
+  return ranges.sort((a, b) => a.start - b.start);
+}
+
+// Wraps each matched mistake range in \u0001..\u0002 markers, which
+// renderInline() later turns into <mark> spans (see renderInline()).
+function markMistakes(text, mistakes) {
+  const ranges = findMistakeRanges(text, mistakes);
+  if (!ranges.length) return text;
+  let result = "";
+  let cursor = 0;
+  ranges.forEach(({ start, end }) => {
+    result += text.slice(cursor, start) + "\u0001" + text.slice(start, end) + "\u0002";
+    cursor = end;
+  });
+  return result + text.slice(cursor);
+}
+
+// Like renderParagraphs(), but also highlights every mistake's WRONG text
+// (see markMistakes()) — used for the "My Writing" panel so it lines up
+// visually with the "Things to Fix" list.
+function renderParagraphsWithHighlights(text, mistakes) {
+  if (!text) return "";
+  return markMistakes(text, mistakes)
     .split(/\n{2,}/)
     .map((para) => `<p>${renderInline(para)}</p>`)
     .join("");

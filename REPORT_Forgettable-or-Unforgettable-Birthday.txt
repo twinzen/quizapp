@@ -1,10 +1,10 @@
 TITLE: Forgettable or Unforgettable Birthday
-OVERALL_COMMENT: This piece shows a decent narrative structure, Keroro, but it is dragged down by atrocious spelling, careless grammar, and basic structural laziness. A Year 5 student should know how to double consonants, avoid sentence fragments, and refrain from typing in all-caps as if writing a text message. Pull your socks up and redraft this immediately.
+OVERALL_COMMENT: You have written a fantastic, engaging story with great dramatic tension and brilliant vocabulary like 'gargantuan'! Your plot flows logically from the sudden problem to a warm, triumphant resolution with Keroro's friends. To raise your mark quickly, make sure to double-check your spelling of common suffixes and ensure every descriptive sentence contains a main verb. 
 
 [BREAKDOWN]
 CONTENT_ORGANISATION: 17
 VOCABULARY_DESCRIPTION: 15
-SENTENCE_STRUCTURE_STYLE: 15
+SENTENCE_STRUCTURE_STYLE: 14
 GRAMMAR: 14
 MECHANICS_FORMATTING: 13
 [/BREAKDOWN]

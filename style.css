@@ -8,6 +8,7 @@
   --purple-light: #ede9fe;
   --yellow: #fbbf24;
   --yellow-light: #fef3c7;
+  --yellow-lighter: #fffbeb;
   --sky: #38bdf8;
   --sky-light: #e0f2fe;
   --text-dark: #4a2e2a;
@@ -266,6 +267,41 @@ body {
   font-size: 1rem;
 }
 
+.panel-col--reference {
+  background: var(--yellow-lighter);
+}
+
+/* ---------- Score Breakdown: mark threshold legend ---------- */
+
+.threshold-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.threshold-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--pink-lighter);
+  border: 2px solid var(--pink-light);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 0.82rem;
+  color: #8a6b66;
+}
+
+.threshold-chip .threshold-range {
+  font-weight: 700;
+}
+
+.threshold-chip--active {
+  background: var(--purple-light);
+  border-color: var(--purple);
+  color: #6d28d9;
+}
+
 /* .panel-scroll's max-height and overflow-y are set inline by
    syncPanelHeights() in report.html to match the sibling column's height. */
 
@@ -276,6 +312,13 @@ body {
 
 .writing-text p:last-child {
   margin-bottom: 0;
+}
+
+.mistake-highlight {
+  background: #fee2e2;
+  color: inherit;
+  border-radius: 3px;
+  padding: 0 2px;
 }
 
 /* Shared "item" card used by both Mistakes and Learning Points: a neutral
