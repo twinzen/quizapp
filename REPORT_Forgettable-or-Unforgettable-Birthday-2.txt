@@ -3,8 +3,8 @@ TITLE: Forgetable or Unforgetable Birthday
 OVERALL_COMMENT: You have written a fantastic, engaging story with great dramatic tension and brilliant vocabulary like 'gargantuan'! Your plot flows logically from the sudden problem to a warm, triumphant resolution with Keroro's friends. To raise your mark quickly, make sure to double-check your spelling of common suffixes and ensure every descriptive sentence contains a main verb.
 
 [BREAKDOWN]
-CONTENT_ORGANISATION: 18
-VOCABULARY_DESCRIPTION: 17
+CONTENT_ORGANISATION: 17
+VOCABULARY_DESCRIPTION: 15
 SENTENCE_STRUCTURE_STYLE: 15
 GRAMMAR: 14
 MECHANICS_FORMATTING: 13
