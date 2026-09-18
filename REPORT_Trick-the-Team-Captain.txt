@@ -132,55 +132,69 @@ DESCRIPTION: This sentence is correct. It works well as a simple ending, althoug
 [REFERENCE_WRITING]
 Trick the Team Captain
 
-It was Wednesday morning when the stern-looking class teacher asked who wanted to be the team captain. Summer, a girl with bright pink hair, nervously bit her lip. She hated speaking in front of thousands of people, but she desperately wanted to stop Tommy Miltons Bob, a rude boy from her team, from getting the chance to win the place for everyone. Since nobody else volunteered, Summer knew she would have to try.
+It was Wednesday morning when the stern-looking class teacher asked who wanted to be the team captain. Summer, a girl with bright pink hair, nervously bit her lip. She hated speaking in front of thousands of people, yet she desperately didn’t want Tommy Milton’s Bob, the rude boy on her team, to become captain and try to lead them to victory. Since nobody else volunteered, Summer knew she would have to try.
 
-As Summer’s best friend, Alice, helped her practise, Tommy called out, “I’ll let you win.” Alice nodded, but Summer narrowed her eyes. “If this is one of his tricks, he won’t fool me,” she thought. The weekend passed in a blur, and before she knew it, the big day had arrived.
+As Summer’s best friend, Alice, helped her practise, Tommy called out confidently, “I’ll let you win.” Alice nodded, but Summer narrowed her eyes. “If this is one of his tricks, he won’t fool me,” she thought. The weekend passed in a blur, and before she knew it, the day of the competition had arrived.
 
-A large group of children lined up outside the hall, whispering excitedly. Strangely, the only person inside was Tommy. Alice looked around anxiously. “Where is Summer?” she cried. Tommy gave a sly smile. Suddenly, Alice realised what had happened. “Tommy, I should have known it was you!” she shouted. “She’s really sick.”
+A large group of children lined up outside the hall. Strangely, the only person inside was Tommy. Alice glanced around anxiously. “Where is Summer?” she cried. Tommy’s lips curled into a sly smile.
 
-The hall door opened, and Mrs Cherry, a kind-hearted teacher, came rushing in. She announced, “Summer is sick.” Just then, a small bottle labelled “sick” slipped from Tommy’s pocket and clattered onto the floor. Amile, a girl with blonde hair, pointed at it and shouted, “Tommy made her sick!”
+“Tommy, I should have known it was you!” Alice shouted.
 
-Whispers spread through the crowd as everyone realised what Tommy had done. A few days later, the results were announced. Summer had won! Tommy faced the consequences of his cruel trick, while Summer received more votes from the other children. From that day on, Tommy stopped being mean.
+“She’s really sick,” Tommy replied, trying to hide his smirk.
+
+Just then, the hall door swung open and Mrs Cherry, a kind-hearted teacher, came rushing towards them. She announced, “Summer is sick.”
+
+Suddenly, a small bottle labelled “Sick” slipped from Tommy’s pocket and clattered onto the floor. Amile, a girl with blonde hair, pointed at it in shock. “Tommy made her sick!”
+
+Immediately, everyone began whispering and talking. Tommy’s cruel trick had been uncovered.
+
+A few days later, Summer was announced as the winner. Tommy had faced the consequences of what he had done, while Summer had received more votes. From that day onwards, Tommy stopped being mean, and Summer had learnt that sometimes standing up to someone is the bravest thing of all.
 [/REFERENCE_WRITING]
 
 [LEARNING_POINT]
-DESCRIPTION: Use more precise vocabulary instead of simple words such as “big”, “nice” or “bad”. Specific word choices make your writing more vivid and interesting.
-ORIGINAL: A large group of kids lined up outside the hall.
-BETTER_VERSION: A large group of children lined up outside the hall, whispering excitedly.
-[/LEARNING_POINT]
-
-[LEARNING_POINT]
-DESCRIPTION: Try using varied sentence openers to make your paragraphs flow more naturally. Starting sentences in different ways helps avoid a repetitive rhythm.
-ORIGINAL: Saturday and Sunday passed so quickly. It was the day.
-BETTER_VERSION: The weekend passed in a blur, and before she knew it, the big day had arrived.
-[/LEARNING_POINT]
-
-[LEARNING_POINT]
-DESCRIPTION: Show a character’s thoughts and feelings through small actions and reactions instead of simply telling the reader what they feel. This makes the character seem more real.
+DESCRIPTION: Use a stronger, more precise adjective instead of a simple word such as “pink”. This gives the reader a clearer picture without adding lots of extra words.
 ORIGINAL: Summer, a girl with pink hair, bit her lip.
 BETTER_VERSION: Summer, a girl with bright pink hair, nervously bit her lip.
 [/LEARNING_POINT]
 
 [LEARNING_POINT]
-DESCRIPTION: Build suspense by giving the reader a clue that something is wrong before revealing exactly what has happened. This makes the reader want to find out more.
+DESCRIPTION: Vary your sentence structure by combining ideas with words such as “yet”, “although” or “while”. This makes your writing flow more naturally and avoids a series of simple sentences.
+ORIGINAL: She hated speaking in front of thousands of people, but at the same time, she desperately didn’t want Tommy Miltons Bob, a rude boy and was in her team who was going to try and get the place to win.
+BETTER_VERSION: She hated speaking in front of thousands of people, yet she desperately didn’t want Tommy Milton’s Bob, the rude boy on her team, to become captain and try to lead them to victory.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Show a character’s thoughts through a small action as well as dialogue. This helps the reader understand the character’s feelings instead of simply being told them.
+ORIGINAL: Alice nodded, but Summer thought, “If this is his trick, he won’t fool me.”
+BETTER_VERSION: Alice nodded, but Summer narrowed her eyes. “If this is one of his tricks, he won’t fool me,” she thought.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Use varied sentence openers to control the pace of your story. Openers such as “Strangely”, “Just then” and “Suddenly” can make important moments stand out.
 ORIGINAL: The only person in there was Tommy.
-BETTER_VERSION: Strangely, the only person inside was Tommy. Alice looked around anxiously.
+BETTER_VERSION: Strangely, the only person inside was Tommy.
 [/LEARNING_POINT]
 
 [LEARNING_POINT]
-DESCRIPTION: Add small sensory or action details at important moments rather than explaining everything directly. A sound or movement can make a scene more dramatic.
+DESCRIPTION: Add a small sensory detail at an important moment to make the action feel real. One carefully chosen sound or movement can make a discovery much more dramatic.
 ORIGINAL: Just then, a bottle labled “sick” fell out of Tommy’s pocket.
-BETTER_VERSION: Just then, a small bottle labelled “sick” slipped from Tommy’s pocket and clattered onto the floor.
+BETTER_VERSION: Suddenly, a small bottle labelled “Sick” slipped from Tommy’s pocket and clattered onto the floor.
 [/LEARNING_POINT]
 
 [LEARNING_POINT]
-DESCRIPTION: Use stronger verbs to make actions more vivid. Instead of repeatedly using simple verbs such as “said”, choose a verb that shows how the character is speaking or reacting.
+DESCRIPTION: Choose precise verbs instead of repeating simple verbs such as “shouted”, “said” and “fell”. Strong verbs can show how a character behaves without needing extra explanation.
 ORIGINAL: Tommy made a sly smile.
-BETTER_VERSION: Tommy gave a sly smile.
+BETTER_VERSION: Tommy’s lips curled into a sly smile.
 [/LEARNING_POINT]
 
 [LEARNING_POINT]
-DESCRIPTION: End with a clear consequence or change in the character so the story feels complete. A strong ending shows the reader what happened because of the events.
+DESCRIPTION: Build suspense by slowing down the most important discovery. A word such as “Suddenly” followed by a precise action makes the reader focus on the moment when the truth is revealed.
+ORIGINAL: Amile, a girl with bloned hair, shouted “Tommy made her sick.
+BETTER_VERSION: Suddenly, a small bottle labelled “Sick” slipped from Tommy’s pocket and clattered onto the floor. Amile, a girl with blonde hair, pointed at it in shock. “Tommy made her sick!”
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: End with a clear final thought that shows what the character has learnt. A strong closing line makes the story feel complete rather than simply stopping after the events.
 ORIGINAL: Tommy stopped being mean after that.
-BETTER_VERSION: From that day on, Tommy stopped being mean.
+BETTER_VERSION: From that day onwards, Tommy stopped being mean, and Summer had learnt that sometimes standing up to someone is the bravest thing of all.
 [/LEARNING_POINT]
