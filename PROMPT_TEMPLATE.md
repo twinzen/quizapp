@@ -107,7 +107,8 @@ as the student's original, but elevated to a strong, polished Year 5
 vocabulary and sentence openers, good pacing, sensory detail used
 sparingly and well. This is not a different story — it is what the
 student's own story would look like at its best. Keep paragraph breaks
-as blank lines, same convention as the original.
+as blank lines, same convention as the original. This sample should
+have at least over 90 out of 100 marks in Year 7 level.
 
 [REFERENCE_WRITING]
 <rewritten exemplary version>
