@@ -1,0 +1,169 @@
+TITLE: Music Festival is Coming
+
+OVERALL_COMMENT: You have written a clear and enjoyable story with a strong beginning, middle and ending. I especially like the way you show Alice’s nervous feelings using details such as her stomach feeling like a knot and the performances passing “like a blur”. To raise your mark fastest, carefully check verb forms and missing words, and remember to proofread dialogue punctuation before you finish.
+
+[BREAKDOWN]
+CONTENT_ORGANISATION: 18
+VOCABULARY_DESCRIPTION: 17
+SENTENCE_STRUCTURE_STYLE: 17
+GRAMMAR: 14
+MECHANICS_FORMATTING: 14
+[/BREAKDOWN]
+
+[ORIGINAL_WRITING]
+Music Festival is Coming
+
+A beautiful tune danced down the
+hallway. Alice Chan, a violinist with dark turquoise hair, woke up by her sister,
+Crystal, who was playing the flute. Why was she playing it so early? She
+wondered. Her brain swirled until it remembered. Of course! It was the music
+festival at school.
+
+“Are you nervous? asked Alice’s mum.
+
+“Yes,” responed Crystal.
+
+Alice answered, “A bit.”
+
+As the school came in sight, they could
+hear the chattering of nervous children. “Brring!” The bell had rang. Alice’s
+stomach felt like it twisted itself into a knot. She imagined lots of teachers,
+students and families watching her. If her lost, she would let her families
+down.
+
+She knew she had to try. The performances
+passed like a blur. Soon, it was her go. She stepped on the stage, closed her
+eyes and started playing Trivosky 3rd movement in D major on the violin.
+People started cheering. In a few minutes, Alice couldn’t stop smiling.
+
+It was time to announce the winners. She
+bit her lip. “The winner is …… Alice Chan!” annouced the head teacher. Alice’s
+eyes filled with tears of joy. She had won! She knew all along that practice
+makes perfect.
+[/ORIGINAL_WRITING]
+
+[MISTAKE]
+WRONG: woke up by her sister
+CORRECT: woke up to the sound of her sister
+DESCRIPTION: “Woke up by” is not the natural expression here. Use “woke up to the sound of” to show that the flute playing woke Alice.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: “Are you nervous? asked Alice’s mum.
+CORRECT: “Are you nervous?” asked Alice’s mum.
+DESCRIPTION: The question mark must come before the closing quotation mark because the question is part of the spoken words.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: responed
+CORRECT: responded
+DESCRIPTION: “Responded” is the correct spelling. Remember that the word contains “nd” before the ending.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: The bell had rang.
+CORRECT: The bell had rung.
+DESCRIPTION: After “had”, you need the past participle. The past participle of “ring” is “rung”, not “rang”.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: If her lost
+CORRECT: If she lost
+DESCRIPTION: “She” is the subject pronoun needed here. “Her” is used as an object or possessive word.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: let her families down
+CORRECT: let her family down
+DESCRIPTION: “Family” is being used as a group here, so it should be singular. The usual expression is “let her family down”.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: Soon, it was her go.
+CORRECT: Soon, it was her turn.
+DESCRIPTION: “It was her turn” is the natural English expression when someone is about to perform.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: Trivosky
+CORRECT: Tchaikovsky
+DESCRIPTION: If you mean the famous Russian composer Tchaikovsky, his name is spelled “Tchaikovsky”. Be especially careful with the spelling of names and titles you have learned.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: annouced
+CORRECT: announced
+DESCRIPTION: “Announced” is the correct spelling. The word has “ann” in the middle.
+[/MISTAKE]
+
+[REFERENCE_WRITING]
+Music Festival is Coming
+
+A beautiful tune danced down the hallway. Alice Chan, a violinist with dark turquoise hair, woke to the gentle sound of her sister, Crystal, playing the flute beside her. Why was she playing so early? Alice wondered sleepily. Her thoughts swirled around her foggy mind until, suddenly, she remembered. Of course! It was the school music festival.
+
+“Are you nervous?” asked Alice’s mum.
+
+“Yes,” responded Crystal nervously.
+
+Alice smiled. “A bit.”
+
+As the school came into sight, Alice could hear the chattering of nervous children all around her. “Brrring!” The bell rang loudly, making her jump. Suddenly, her stomach twisted itself into a tight knot. She imagined rows of teachers, students and families watching her from the audience. What if she lost? She would let her family down.
+
+Taking a deep breath, Alice reminded herself that she had practised for this moment. She knew she had to try her best.
+
+The performances passed in a blur of music and applause. Soon, it was her turn. With trembling hands, she stepped onto the stage. She closed her eyes for a moment, took one final breath and began playing Tchaikovsky's Third Movement in D major on her violin. The beautiful melody floated through the hall. As she reached the final note, the audience burst into loud applause. Alice opened her eyes and could not stop smiling.
+
+Finally, it was time to announce the winners. Alice nervously bit her lip as the head teacher stepped forward.
+
+“The winner is... Alice Chan!” announced the head teacher.
+
+For a moment, Alice stood completely still. Then, her eyes filled with tears of joy. She had won! All those hours of practice had been worth it. At last, she understood that hard work and determination really could make a difference.
+[/REFERENCE_WRITING]
+
+[LEARNING_POINT]
+DESCRIPTION: Use a more varied sentence opener instead of beginning several sentences with the character's name or “She”. This makes your writing flow more naturally and keeps the reader interested.
+ORIGINAL: Alice answered, “A bit.”
+BETTER_VERSION: Alice smiled. “A bit.”
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Add a small amount of sensory detail to help the reader experience the scene. Sound, movement or physical sensations can make a moment feel more vivid without making the description too long.
+ORIGINAL: As the school came in sight, they could hear the chattering of nervous children.
+BETTER_VERSION: As the school came into sight, Alice could hear the chattering of nervous children all around her.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Show the character's nervousness through a physical reaction before explaining the feeling. This helps the reader experience the emotion rather than simply being told about it.
+ORIGINAL: Alice’s stomach felt like it twisted itself into a knot.
+BETTER_VERSION: Suddenly, her stomach twisted itself into a tight knot. She imagined rows of teachers, students and families watching her from the audience.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Add a character's thoughts or actions to show how they deal with a problem. This makes the character's emotions develop instead of moving immediately from worry to success.
+ORIGINAL: She knew she had to try.
+BETTER_VERSION: Taking a deep breath, Alice reminded herself that she had practised for this moment. She knew she had to try her best.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Slow down an important moment instead of rushing through it. Small actions such as taking a breath, closing your eyes or describing the audience's reaction can make the performance feel more exciting.
+ORIGINAL: She stepped on the stage, closed her eyes and started playing Trivosky 3rd movement in D major on the violin.
+BETTER_VERSION: With trembling hands, she stepped onto the stage. She closed her eyes for a moment, took one final breath and began playing Tchaikovsky's Third Movement in D major on her violin.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Use precise vocabulary instead of repeating simple words such as “started”, “time” and “won”. More exact verbs and nouns create a stronger picture for the reader.
+ORIGINAL: People started cheering.
+BETTER_VERSION: As she reached the final note, the audience burst into loud applause.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Build suspense just before an important reveal by showing the character's reaction first. This makes the reader want to find out what happens next.
+ORIGINAL: “The winner is …… Alice Chan!” annouced the head teacher.
+BETTER_VERSION: For a moment, Alice stood completely still. Then, her eyes filled with tears of joy. She had won!
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: End with a reflective closing line that shows what the character has learned. A strong ending can give the story a satisfying sense of conclusion rather than simply stopping when the event is over.
+ORIGINAL: She knew all along that practice makes perfect.
+BETTER_VERSION: All those hours of practice had been worth it. At last, she understood that hard work and determination really could make a difference.
+[/LEARNING_POINT]
