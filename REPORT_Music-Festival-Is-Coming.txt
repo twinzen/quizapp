@@ -1,100 +1,139 @@
-TITLE: Music Festival is Coming
+TITLE: Alice's Music Festival
 
-OVERALL_COMMENT: You have written a clear and enjoyable story with a strong beginning, middle and ending. I especially like the way you show Alice’s nervous feelings using details such as her stomach feeling like a knot and the performances passing “like a blur”. To raise your mark fastest, carefully check verb forms and missing words, and remember to proofread dialogue punctuation before you finish.
+OVERALL_COMMENT: You have created a clear and enjoyable story with a strong beginning, middle and ending. I especially like the way you show Alice's nervousness through details such as her stomach feeling like a knot. To raise your mark fastest, check your spelling carefully and watch for irregular past-tense verbs such as “rang” and “announced”; also try to vary your sentence openings a little more.
 
 [BREAKDOWN]
-CONTENT_ORGANISATION: 18
-VOCABULARY_DESCRIPTION: 17
-SENTENCE_STRUCTURE_STYLE: 17
-GRAMMAR: 14
-MECHANICS_FORMATTING: 14
+
+CONTENT_ORGANISATION: 18/20
+
+VOCABULARY_DESCRIPTION: 17/20
+
+SENTENCE_STRUCTURE_STYLE: 17/20
+
+GRAMMAR: 17/20
+
+MECHANICS_FORMATTING: 15/20
+
 [/BREAKDOWN]
 
 [ORIGINAL_WRITING]
-Music Festival is Coming
 
-A beautiful tune danced down the
-hallway. Alice Chan, a violinist with dark turquoise hair, woke up by her sister,
-Crystal, who was playing the flute. Why was she playing it so early? She
-wondered. Her brain swirled until it remembered. Of course! It was the music
-festival at school.
+A beautiful tune danced down the hallway. Alice Chan, a violinist with dark turquoise hair, woke up by her sister, Crystal, who was playing the flute. Why was she playing it so early? She wondered. Her brain swirled until it remembered. Of course! It was the music festival at school.
 
-“Are you nervous? asked Alice’s mum.
+“Are you nervous?” asked Alice’s mum.
 
 “Yes,” responed Crystal.
 
 Alice answered, “A bit.”
 
-As the school came in sight, they could
-hear the chattering of nervous children. “Brring!” The bell had rang. Alice’s
-stomach felt like it twisted itself into a knot. She imagined lots of teachers,
-students and families watching her. If her lost, she would let her families
-down.
+As the school came in sight, they could hear the chattering of nervous children. “Brring!” The bell had rang. Alice’s stomach felt like it twisted itself into a knot. She imagined lots of teachers, students and families watching her. If she lost, she would let her families down.
 
-She knew she had to try. The performances
-passed like a blur. Soon, it was her go. She stepped on the stage, closed her
-eyes and started playing Trivosky 3rd movement in D major on the violin.
-People started cheering. In a few minutes, Alice couldn’t stop smiling.
+She knew she had to try. The performances passed like a blur. Soon, it was her go. She stepped on the stage, closed her eyes and started playing Trivosky 3rd movement in D major on the violin. People started cheering. In a few minutes, Alice couldn’t stop smiling.
 
-It was time to announce the winners. She
-bit her lip. “The winner is …… Alice Chan!” annouced the head teacher. Alice’s
-eyes filled with tears of joy. She had won! She knew all along that practice
-makes perfect.
+It was time to announce the winners. She bit her lip. “The winner is …… Alice Chan!” annouced the head teacher. Alice’s eyes filled with tears of joy. She had won! She knew all along that practice makes perfect.
+
 [/ORIGINAL_WRITING]
 
 [MISTAKE]
+
 WRONG: woke up by her sister
-CORRECT: woke up to the sound of her sister
-DESCRIPTION: “Woke up by” is not the natural expression here. Use “woke up to the sound of” to show that the flute playing woke Alice.
+
+CORRECT: woke up to her sister
+
+DESCRIPTION: We normally say someone “wakes up to” a sound or activity that is happening. “Woke up by” would usually mean that someone physically woke Alice.
+
 [/MISTAKE]
 
 [MISTAKE]
-WRONG: “Are you nervous? asked Alice’s mum.
-CORRECT: “Are you nervous?” asked Alice’s mum.
-DESCRIPTION: The question mark must come before the closing quotation mark because the question is part of the spoken words.
+
+WRONG: “Why was she playing it so early? She wondered.
+
+CORRECT: “Why was she playing it so early?” she wondered.
+
+DESCRIPTION: The question mark belongs inside the quotation marks because it is part of the question. “She wondered” should not begin with a capital letter because it continues the same sentence.
+
 [/MISTAKE]
 
 [MISTAKE]
-WRONG: responed
-CORRECT: responded
-DESCRIPTION: “Responded” is the correct spelling. Remember that the word contains “nd” before the ending.
+
+WRONG: “Yes,” responed Crystal.
+
+CORRECT: “Yes,” responded Crystal.
+
+DESCRIPTION: “Responed” is a spelling mistake. The correct past-tense spelling is “responded”.
+
 [/MISTAKE]
 
 [MISTAKE]
+
 WRONG: The bell had rang.
+
 CORRECT: The bell had rung.
-DESCRIPTION: After “had”, you need the past participle. The past participle of “ring” is “rung”, not “rang”.
+
+DESCRIPTION: After “had”, you need the past participle. The verb “ring” changes to “rang” in the simple past but “rung” after “had”.
+
 [/MISTAKE]
 
 [MISTAKE]
-WRONG: If her lost
-CORRECT: If she lost
-DESCRIPTION: “She” is the subject pronoun needed here. “Her” is used as an object or possessive word.
+
+WRONG: Alice’s stomach felt like it twisted itself into a knot.
+
+CORRECT: Alice’s stomach felt as if it had twisted itself into a knot.
+
+DESCRIPTION: After “felt like”, this sentence sounds awkward because “like” is followed by an action clause. “Felt as if it had twisted itself into a knot” makes the comparison clearer and more natural.
+
 [/MISTAKE]
 
 [MISTAKE]
-WRONG: let her families down
-CORRECT: let her family down
-DESCRIPTION: “Family” is being used as a group here, so it should be singular. The usual expression is “let her family down”.
+
+WRONG: she would let her families down.
+
+CORRECT: she would let her family down.
+
+DESCRIPTION: “Family” is normally used as a collective noun here. You are talking about Alice’s family as one group, so “family” is correct.
+
 [/MISTAKE]
 
 [MISTAKE]
+
 WRONG: Soon, it was her go.
+
 CORRECT: Soon, it was her turn.
-DESCRIPTION: “It was her turn” is the natural English expression when someone is about to perform.
+
+DESCRIPTION: The usual English expression is “it was her turn”. “It was her go” is understandable in some varieties of English, but “her turn” is the more natural choice for formal school writing.
+
 [/MISTAKE]
 
 [MISTAKE]
-WRONG: Trivosky
-CORRECT: Tchaikovsky
-DESCRIPTION: If you mean the famous Russian composer Tchaikovsky, his name is spelled “Tchaikovsky”. Be especially careful with the spelling of names and titles you have learned.
+
+WRONG: started playing Trivosky 3rd movement
+
+CORRECT: started playing Tchaikovsky's 3rd movement
+
+DESCRIPTION: “Trivosky” appears to be a spelling mistake for the composer's name “Tchaikovsky”. When naming a particular composer's movement, an apostrophe can also make the meaning clearer.
+
 [/MISTAKE]
 
 [MISTAKE]
-WRONG: annouced
-CORRECT: announced
-DESCRIPTION: “Announced” is the correct spelling. The word has “ann” in the middle.
+
+WRONG: “The winner is …… Alice Chan!” annouced
+
+CORRECT: “The winner is … Alice Chan!” announced
+
+DESCRIPTION: “Annouced” is misspelled; the correct spelling is “announced”. You also only need one ellipsis (three dots) rather than six dots.
+
 [/MISTAKE]
+
+[MISTAKE]
+
+WRONG: practice makes perfect.
+
+CORRECT: practice makes perfect.
+
+DESCRIPTION: This sentence is grammatically correct. However, because the story is mainly narrated in the past tense, “She knew all along that practice makes perfect” works because this is a general saying that remains true. No correction is needed here.
+
+[/MISTAKE]
+
 
 [REFERENCE_WRITING]
 Music Festival is Coming
