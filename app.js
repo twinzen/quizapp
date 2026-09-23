@@ -335,6 +335,16 @@ function renderParagraphs(text) {
     .join("");
 }
 
+// Counts whitespace-separated words, ignoring **bold** markers and tokens
+// that are pure punctuation (e.g. a stray "—" between spaces).
+function countWords(text) {
+  if (!text) return 0;
+  return text
+    .replace(/\*\*/g, "")
+    .split(/\s+/)
+    .filter((token) => /[\p{L}\p{N}]/u.test(token)).length;
+}
+
 // Finds each mistake's WRONG text inside the original writing as a plain
 // (non-overlapping) substring match, longest first so a mistake fully
 // contained inside another (e.g. "macaroon and slushie" inside the whole

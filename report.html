@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Writing Report</title>
-  <link rel="stylesheet" href="style.css?v=2" />
+  <link rel="stylesheet" href="style.css?v=3" />
 </head>
 <body>
   <div class="page report-page">
@@ -14,7 +14,7 @@
     </div>
   </div>
 
-  <script src="app.js?v=9"></script>
+  <script src="app.js?v=10"></script>
   <script>
     const params = new URLSearchParams(window.location.search);
     const file = params.get("file");
@@ -38,18 +38,22 @@
       }
 
       let reportDate = "";
+      let reportYear = "";
       try {
         const res = await fetch("reports.json", { cache: "no-store" });
         if (res.ok) {
           const manifest = await res.json();
           const entry = manifest.find((r) => r.file === file);
-          if (entry) reportDate = entry.date || "";
+          if (entry) {
+            reportDate = entry.date || "";
+            reportYear = entry.year || "";
+          }
         }
       } catch (err) {
         // Non-fatal: the report itself already loaded fine.
       }
 
-      renderReport(report, reportDate);
+      renderReport(report, reportDate, reportYear);
     }
 
     const CATEGORY_COLORS = ["pink", "sky", "purple", "yellow", "teal"];
@@ -80,7 +84,7 @@
       `;
     }
 
-    function renderBreakdownSection(report) {
+    function renderBreakdownSection(report, reportYear) {
       const complete = hasCompleteBreakdown(report.breakdown);
       const total = complete ? breakdownTotal(report.breakdown) : null;
       const scoreLabel = complete
@@ -111,6 +115,7 @@
           <h2>2. My Scores</h2>
           <div class="breakdown-card">
             ${scoreLabel ? `<div class="overview-score">Overall Score: ${scoreLabel}</div>` : ""}
+            ${reportYear ? `<p class="score-note">Scores are based on the Year ${escapeHtml(String(reportYear))} standard.</p>` : ""}
             ${renderMarkThresholds(total)}
             ${rows}
           </div>
@@ -118,7 +123,7 @@
       `;
     }
 
-    function renderReport(report, reportDate) {
+    function renderReport(report, reportDate, reportYear) {
       root.innerHTML = `
         <div class="list-header">
           <h1>✍️ ${renderInline(report.title || reportDisplayNameFromFile(file))}</h1>
@@ -132,7 +137,7 @@
           </div>
         </div>
 
-        ${renderBreakdownSection(report)}
+        ${renderBreakdownSection(report, reportYear)}
 
         <div class="report-section">
           <h2>3. A Closer Look</h2>
@@ -140,6 +145,7 @@
             <div class="panel-col">
               <h3>📝 My Writing</h3>
               <div class="writing-text">${renderParagraphsWithHighlights(report.originalWriting, report.mistakes) || "<p>No writing recorded.</p>"}</div>
+              ${report.originalWriting ? `<div class="word-count">Word count: ${countWords(report.originalWriting)}</div>` : ""}
             </div>
             <div class="panel-col">
               <h3>🔍 Things to Fix</h3>
@@ -166,6 +172,7 @@
             <div class="panel-col panel-col--reference">
               <h3>🌟 Example Writing</h3>
               <div class="writing-text">${renderParagraphs(report.referenceWriting) || "<p>No sample recorded.</p>"}</div>
+              ${report.referenceWriting ? `<div class="word-count">Word count: ${countWords(report.referenceWriting)}</div>` : ""}
             </div>
             <div class="panel-col panel-col--reference">
               <h3>💡 Cool Things to Try</h3>

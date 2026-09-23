@@ -3,24 +3,28 @@
     "file": "REPORT_Forgettable-or-Unforgettable-Birthday.txt",
     "name": "Forgettable or Unforgettable Birthday",
     "date": "2026-09-01",
-    "writtenBy": "Callie Lai (Year 4)"
+    "writtenBy": "Callie Lai",
+    "year": 4
   },
   {
     "file": "REPORT_Trick-the-Team-Captain.txt",
     "name": "Trick the Team Captain",
     "date": "2026-09-17",
-    "writtenBy": "Callie Lai (Year 4)"
+    "writtenBy": "Callie Lai",
+    "year": 4
   },
   {
     "file": "REPORT_Music-Festival-Is-Coming.txt",
     "name": "Music festival is coming",
     "date": "2026-09-22",
-    "writtenBy": "Callie Lai (Year 4)"
+    "writtenBy": "Callie Lai",
+    "year": 4
   },
   {
     "file": "REPORT_Paganini.txt",
     "name": "Paganini",
     "date": "2026-09-23",
-    "writtenBy": "Chloe Lai (Year 6)"
-  }   
+    "writtenBy": "Chloe Lai",
+    "year": 6
+  }
 ]

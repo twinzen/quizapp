@@ -30,7 +30,7 @@
     </div>
   </div>
 
-  <script src="app.js?v=9"></script>
+  <script src="app.js?v=10"></script>
   <script>
     const CATEGORIES = ["English", "Math", "Problem Solving"];
     const MAIN_TABS = ["Quizzes", "Writing Reports"];
@@ -98,7 +98,7 @@
           <div class="info">
             <h2>${escapeHtml(name)}</h2>
             <p>${escapeHtml(report.date || "")}</p>
-            ${report.writtenBy ? `<div class="count">Written by ${escapeHtml(report.writtenBy)}</div>` : ""}
+            ${report.writtenBy ? `<div class="count">Written by ${escapeHtml(report.writtenBy)}${report.year ? ` (Year ${escapeHtml(String(report.year))})` : ""}</div>` : ""}
           </div>
           <a class="start-btn" href="report.html?file=${encodeURIComponent(report.file)}">View Report</a>
         `;

@@ -197,6 +197,21 @@ body {
   margin-bottom: 12px;
 }
 
+.score-note {
+  margin: 0 0 12px;
+  font-size: 0.9rem;
+  font-style: italic;
+  opacity: 0.75;
+}
+
+.word-count {
+  margin-top: 12px;
+  text-align: right;
+  font-size: 0.9rem;
+  font-weight: 700;
+  opacity: 0.7;
+}
+
 .overview-comment p {
   margin: 0;
   line-height: 1.6;
