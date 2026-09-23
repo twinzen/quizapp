@@ -1,0 +1,162 @@
+TITLE: Paganini
+OVERALL_COMMENT: You have written a wonderfully enthusiastic article about Paganini, and your passion for playing the violin shines through clearly! Your clear three-paragraph structure and imaginative descriptions—like comparing your excitement to the feeling of your birthday—make this piece engaging to read. To raise your marks quickly, focus on matching plural nouns with "them" rather than "it", and carefully re-read your sentences to catch missing words and small spelling errors.
+
+[BREAKDOWN]
+CONTENT_ORGANISATION: 17
+VOCABULARY_DESCRIPTION: 15
+SENTENCE_STRUCTURE_STYLE: 13
+GRAMMAR: 12
+MECHANICS_FORMATTING: 13
+[/BREAKDOWN]
+
+[ORIGINAL_WRITING]
+Paganini
+
+Paganini is a famous violinist who performed for rich getalmans and women a long time ago. He composed a great number of pieces. These pieces are extremly difficult and only a handful of violinist today can play it. However, there are some easier pieces as well.
+
+I want to meet him is because I learn the violin and I alway want to become better. Maybe he will teach me some impossible skill that only he can do. Even if he cannot teach me, if I see him play from one metre will be even to make me extremely exited; the “exited emotion” of “tomorrow will be your birthday”! Another reason I want to see him play is because there are rumors about he can do three octaves at once and he is controlled by devil when he play!
+
+Sadly, Paganini died hundreds of years before. But his pieces are still here, right now, which only a few who can play it. I hope one day I can play it too!
+[/ORIGINAL_WRITING]
+
+[MISTAKE]
+WRONG: rich getalmans and women
+CORRECT: rich gentlemen and women
+DESCRIPTION: "Getalmans" is a misspelling of "gentlemen". The plural of "man" is "men", so "gentlemen" ends with "-men".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: extremly difficult
+CORRECT: extremely difficult
+DESCRIPTION: Remember to keep the 'e' when adding '-ly' to "extreme" to spell "extremely".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: a handful of violinist
+CORRECT: a handful of violinists
+DESCRIPTION: After the phrase "a handful of", you need the plural noun "violinists" instead of singular "violinist".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: play it.
+CORRECT: play them.
+DESCRIPTION: You are referring back to the plural noun "pieces", so use the plural pronoun "them" rather than "it".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: I want to meet him is because
+CORRECT: The reason I want to meet him is that
+DESCRIPTION: Writing "I want to meet him is because" creates an awkward sentence structure. Use either "I want to meet him because..." or "The reason I want to meet him is that...".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: I learn the violin
+CORRECT: I am learning the violin
+DESCRIPTION: To express an action that is currently ongoing in your life, use the present continuous form "I am learning" rather than "I learn".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: I alway want
+CORRECT: I have always wanted
+DESCRIPTION: "Alway" is missing the final 's' for "always". Using "have always wanted" also creates a much smoother present perfect sentence.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: some impossible skill
+CORRECT: some impossible skills
+DESCRIPTION: The determiner "some" here refers to multiple techniques, so "skill" should be pluralized to "skills".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: if I see him play from one metre will be even to make me extremely exited
+CORRECT: seeing him play from one metre away would be enough to make me extremely excited
+DESCRIPTION: This sentence needs a noun phrase like "seeing him play" as its subject, and "enough" instead of "even". Also, "excited" is spelled with a 'c'.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: “exited emotion”
+CORRECT: "excited emotion"
+DESCRIPTION: "Exited" means left a place, while "excited" (spelled with a 'c') describes a feeling of enthusiasm.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: rumors about he can do
+CORRECT: rumours that he could do
+DESCRIPTION: Follow "rumours" with "that..." when introducing a full clause. Note also that in British English, "rumours" is spelled with a 'u'.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: controlled by devil
+CORRECT: controlled by the devil
+DESCRIPTION: Singular nouns like "devil" require an article like "the" before them.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: when he play!
+CORRECT: when he plays!
+DESCRIPTION: Present-tense verbs with third-person singular subjects ("he") need an 's' on the end, so it should be "he plays".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: died hundreds of years before.
+CORRECT: died hundreds of years ago.
+DESCRIPTION: Use "ago" when counting back time from the present moment rather than "before".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: which only a few who can play it.
+CORRECT: which only a few can play.
+DESCRIPTION: Including "who" makes this clause incomplete. Removing "who" forms a proper relative clause linked to "pieces".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: play it too!
+CORRECT: play them too!
+DESCRIPTION: Use the plural pronoun "them" to match the plural noun "pieces" you mentioned earlier.
+[/MISTAKE]
+
+[REFERENCE_WRITING]
+Paganini
+
+Paganini was a virtuoso violinist who captivated wealthy aristocracy in the nineteenth century with his extraordinary musical talent. Throughout his legendary career, he composed groundbreaking pieces that pushed the instrument to its absolute limits—so much so that only a handful of master musicians today can perform them effortlessly. Although many of his compositions remain notoriously difficult, a few accessible works still allow young musicians to experience his genius.
+
+As an aspiring violinist who is constantly striving to improve, I would give anything to meet this musical genius in person. I imagine him demonstrating one of his seemingly impossible techniques, unlocking secrets that no modern tutor could ever teach me. Even just standing a metre away and watching his fingers dance across the fingerboard would fill me with electrifying thrill—that exact, restless joy you feel on the eve of your birthday! Beyond his incredible skill, I am fascinated by the wild legends surrounding him: people whispered that he could stretch three octaves at once and even claimed he was possessed by the devil when he played.
+
+Sadly, Paganini passed away centuries ago, making a face-to-face meeting impossible. Nevertheless, his breathtaking music endures, serving as an ultimate test for the world's finest violinists. One day, with enough dedication and practice, I hope I will be able to play his masterworks too.
+[/REFERENCE_WRITING]
+
+[LEARNING_POINT]
+DESCRIPTION: Using precise subject terminology, like "virtuoso" and "aristocracy", elevates your writing and instantly makes you sound like an expert on your subject.
+ORIGINAL: Paganini is a famous violinist who performed for rich getalmans and women a long time ago.
+BETTER_VERSION: Paganini was a virtuoso violinist who captivated wealthy aristocracy in the nineteenth century with his extraordinary musical talent.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Starting sentences with complex subordinate clauses creates a smoother rhythm and stops your writing from sounding repetitive.
+ORIGINAL: I want to meet him is because I learn the violin and I alway want to become better.
+BETTER_VERSION: As an aspiring violinist who is constantly striving to improve, I would give anything to meet this musical genius in person.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Replacing plain actions with vivid, dynamic verbs like "fingers dance" creates clear imagery in your reader's mind.
+ORIGINAL: if I see him play from one metre will be even to make me extremely exited;
+BETTER_VERSION: Even just standing a metre away and watching his fingers dance across the fingerboard would fill me with electrifying thrill—
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Expressing excitement through descriptive phrases rather than repeating simple emotion words makes your enthusiasm feel much more powerful.
+ORIGINAL: the “exited emotion” of “tomorrow will be your birthday”!
+BETTER_VERSION: that exact, restless joy you feel on the eve of your birthday!
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: When referring back to a plural noun like "pieces", always use the plural pronoun "them" to keep your grammar accurate and clear.
+ORIGINAL: These pieces are extremly difficult and only a handful of violinist today can play it.
+BETTER_VERSION: Throughout his legendary career, he composed groundbreaking pieces that pushed the instrument to its absolute limits—so much so that only a handful of master musicians today can perform them effortlessly.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Linking the historical figure's legacy back to your personal ambition creates a strong, inspiring final sentence for your piece.
+ORIGINAL: I hope one day I can play it too!
+BETTER_VERSION: One day, with enough dedication and practice, I hope I will be able to play his masterworks too.
+[/LEARNING_POINT]
