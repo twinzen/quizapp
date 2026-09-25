@@ -1,0 +1,156 @@
+TITLE: The STAR Alien
+OVERALL_COMMENT: You have a wonderful imagination, and your vivid descriptions—such as the purple river gown and glowing palace—create a magical alien world. To raise your marks significantly, focus on maintaining past tense consistently throughout your writing and re-reading to spot minor spelling mistakes. Adding a clear newspaper headline and journalist introduction would also help meet the prompt's format requirement!
+
+[BREAKDOWN]
+CONTENT_ORGANISATION: 14
+VOCABULARY_DESCRIPTION: 16
+SENTENCE_STRUCTURE_STYLE: 13
+GRAMMAR: 10
+MECHANICS_FORMATTING: 10
+[/BREAKDOWN]
+
+[ORIGINAL_WRITING]
+The STAR Alien
+
+In the middle of the universe, a glowing palace of stars floated gentaly. It shimmered and glow just like a real star. In side, pale colour light hung on the violet walls as star-shaped cusions lay on the velvety floor. When I walked in a gorgeous alien-fairy met me. Her gown is like a river flowing peacfully with purple water. Sliver stars shone on it. She invited me a teacup with delicious space tea.
+
+Her name is Queen Rosalina the first and she take care of glowing star babies, telling stories of mysterious planet, singing and then giving them to their fathers and mothers. When she sing her voice is better then proffesional orgestras.
+[/ORIGINAL_WRITING]
+
+[MISTAKE]
+WRONG: floated gentaly.
+CORRECT: floated gently.
+DESCRIPTION: The adverb 'gently' is misspelled here as 'gentaly'. Make sure to drop the 'a' when forming this adverb.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: It shimmered and glow
+CORRECT: It shimmered and glowed
+DESCRIPTION: Keep your past-tense verbs consistent throughout the sentence; 'shimmered' should be matched with 'glowed'.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: In side
+CORRECT: Inside
+DESCRIPTION: 'Inside' should be written as a single word rather than two separate words.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: pale colour light
+CORRECT: pale-coloured light
+DESCRIPTION: Use the hyphenated adjective 'pale-coloured' to describe the noun 'light'.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: star-shaped cusions
+CORRECT: star-shaped cushions
+DESCRIPTION: Remember to include the letter 'h' in 'cushions'.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: When I walked in a gorgeous alien-fairy met me.
+CORRECT: When I walked in, a gorgeous alien-fairy met me.
+DESCRIPTION: Place a comma after an introductory clause like 'When I walked in' to give your reader a brief pause.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: Her gown is like
+CORRECT: Her gown was like
+DESCRIPTION: Use the past-tense verb 'was' to match the narrative tense of your story.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: flowing peacfully
+CORRECT: flowing peacefully
+DESCRIPTION: Keep the full word 'peace' before adding the suffix '-fully' to spell 'peacefully'.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: Sliver stars
+CORRECT: Silver stars
+DESCRIPTION: Double-check your spelling: 'sliver' means a thin piece, whereas 'silver' is the shiny metallic color you intended.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: She invited me a teacup with delicious space tea.
+CORRECT: She offered me a teacup of delicious space tea.
+DESCRIPTION: Use 'offered me a teacup of' or 'invited me to share a teacup of' for standard phrasing and prepositions.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: Her name is Queen Rosalina the first
+CORRECT: Her name was Queen Rosalina the First
+DESCRIPTION: Change 'is' to 'was' for past-tense consistency, and capitalize 'First' as part of a formal title.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: she take care
+CORRECT: she took care
+DESCRIPTION: Use the past-tense verb 'took' instead of the present-tense form 'take'.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: stories of mysterious planet,
+CORRECT: stories of mysterious planets,
+DESCRIPTION: Use the plural noun 'planets' because she tells stories about more than one world.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: When she sing
+CORRECT: When she sang,
+DESCRIPTION: Use the past-tense verb 'sang' instead of 'sing', and follow the introductory clause with a comma.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: her voice is better then
+CORRECT: her voice was better than
+DESCRIPTION: Switch 'is' to 'was' to maintain past tense, and use 'than' rather than 'then' when making a comparison.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: proffesional orgestras.
+CORRECT: professional orchestras.
+DESCRIPTION: 'Professional' has one 'f' and double 's', while 'orchestras' is spelled with 'ch' instead of 'g'.
+[/MISTAKE]
+
+[REFERENCE_WRITING]
+In the middle of the universe, a glowing palace of stars floated gently, shimmering against the dark expanse. Inside, soft, violet light cast a gentle glow across the walls, while plush, star-shaped cushions littered the velvety floor. As I stepped inside, an ethereal alien-fairy glided forward to greet me. Her majestic gown billowed like a peaceful river of purple water, speckled with glimmering silver stars. Courteously, she offered me a delicate teacup filled with delicious space tea.
+
+Her name was Queen Rosalina the First, the caring guardian of the glowing star babies. Throughout the day, she would weave tales of distant, mysterious planets and sing sweet lullabies to the infants before returning them to their waiting parents. When she sang, her melodic voice was far sweeter and more magnificent than a grand orchestra.
+[/REFERENCE_WRITING]
+
+[LEARNING_POINT]
+DESCRIPTION: Keep your story in the past tense throughout so the reader stays immersed without being distracted by shifting timeframes.
+ORIGINAL: Her gown is like a river flowing peacfully with purple water.
+BETTER_VERSION: Her majestic gown billowed like a peaceful river of purple water, speckled with glimmering silver stars.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Use precise verbs and prepositions to make your actions sound clear and natural, avoiding awkward phrases like "invited me a teacup".
+ORIGINAL: She invited me a teacup with delicious space tea.
+BETTER_VERSION: Courteously, she offered me a delicate teacup filled with delicious space tea.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Start sentences with fronted adverbials or action clauses to vary your sentence openers and build smooth pacing.
+ORIGINAL: When I walked in a gorgeous alien-fairy met me.
+BETTER_VERSION: As I stepped inside, an ethereal alien-fairy glided forward to greet me.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Replace common adjectives with more evocative, high-level vocabulary to elevate the tone of your descriptive writing.
+ORIGINAL: In side, pale colour light hung on the violet walls as star-shaped cusions lay on the velvety floor.
+BETTER_VERSION: Inside, soft, violet light cast a gentle glow across the walls, while plush, star-shaped cushions littered the velvety floor.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Combine related character actions into smooth, multi-clause sentences rather than listing tasks connected with repetitive conjunctions.
+ORIGINAL: Her name is Queen Rosalina the first and she take care of glowing star babies, telling stories of mysterious planet, singing and then giving them to their fathers and mothers.
+BETTER_VERSION: Throughout the day, she would weave tales of distant, mysterious planets and sing sweet lullabies to the infants before returning them to their waiting parents.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Craft comparisons using elevated vocabulary and correct phrasing, ensuring your adjectives convey grand scale and beauty.
+ORIGINAL: When she sing her voice is better then proffesional orgestras.
+BETTER_VERSION: When she sang, her melodic voice was far sweeter and more magnificent than a grand orchestra.
+[/LEARNING_POINT]
