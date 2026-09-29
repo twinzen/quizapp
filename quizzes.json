@@ -1,63 +1,14 @@
 [
   {
     "file": "QUIZ_Synonyms-1.txt",
-    "name": "Synonyms Quiz 1",
-    "description": "Test your knowledge of English synonyms",
-    "number_of_questions": 20,
-    "category": "English"
-  },
-  {
-    "file": "QUIZ_Synonyms-2.txt",
-    "name": "Synonyms Quiz 2",
-    "description": "Test your knowledge of English synonyms",
-    "number_of_questions": 20,
-    "category": "English"
-  },
-  {
-    "file": "QUIZ_Synonyms-3.txt",
-    "name": "Synonyms Quiz 3",
-    "description": "Test your knowledge of English synonyms",
-    "number_of_questions": 20,
-    "category": "English"
-  },
-  {
-    "file": "QUIZ_Synonyms-4.txt",
-    "name": "Synonyms Quiz 4",
-    "description": "Test your knowledge of English synonyms",
-    "number_of_questions": 20,
-    "category": "English"
-  },
-  {
-    "file": "QUIZ_Synonyms-5.txt",
-    "name": "Synonyms Quiz 5",
-    "description": "Test your knowledge of English synonyms",
-    "number_of_questions": 20,
-    "category": "English"
-  },
-  {
-    "file": "QUIZ_Synonyms-6.txt",
-    "name": "Synonyms Quiz 6",
+    "name": "Synonyms Quiz",
     "description": "Test your knowledge of English synonyms",
     "number_of_questions": 20,
     "category": "English"
   },
   {
     "file": "QUIZ_Antonym-1.txt",
-    "name": "Antonyms Quiz 1",
-    "description": "Test your knowledge of English antonyms",
-    "number_of_questions": 20,
-    "category": "English"
-  },
-  {
-    "file": "QUIZ_Antonym-2.txt",
-    "name": "Antonyms Quiz 2",
-    "description": "Test your knowledge of English antonyms",
-    "number_of_questions": 20,
-    "category": "English"
-  },
-  {
-    "file": "QUIZ_Antonym-3.txt",
-    "name": "Antonyms Quiz 3",
+    "name": "Antonyms Quiz",
     "description": "Test your knowledge of English antonyms",
     "number_of_questions": 20,
     "category": "English"
@@ -114,7 +65,7 @@
   {
     "file": "QUIZ_Problem_Solving-8.txt",
     "name": "Fractions & Percentages - 2",
-    "description": "Multi-step fraction and percentage word problems — sequential fraction/percent-of-remainder puzzles, leftover-fraction ratios, cost comparisons, expected win/loss counts, and overlapping-group “neither” problems. 50-question bank, 10 picked per quiz",
+    "description": "Multi-step fraction and percentage word problems \u2014 sequential fraction/percent-of-remainder puzzles, leftover-fraction ratios, cost comparisons, expected win/loss counts, and overlapping-group \u201cneither\u201d problems. 50-question bank, 10 picked per quiz",
     "number_of_questions": 10,
     "category": "Problem Solving"
   },
@@ -149,35 +100,35 @@
   {
     "file": "QUIZ_Math-5.txt",
     "name": "Math Quiz 5: Time Differences",
-    "description": "Work out the difference between two clock times — in minutes, as \"X hours Y minutes\", or as decimal hours",
+    "description": "Work out the difference between two clock times \u2014 in minutes, as \"X hours Y minutes\", or as decimal hours",
     "number_of_questions": 20,
     "category": "Math"
   },
   {
     "file": "QUIZ_Math-6.txt",
     "name": "Math Quiz 6: Fraction Calculations",
-    "description": "Mental-math fraction arithmetic — add, subtract, multiply, divide, mixed numbers, and fractions raised to a power",
+    "description": "Mental-math fraction arithmetic \u2014 add, subtract, multiply, divide, mixed numbers, and fractions raised to a power",
     "number_of_questions": 20,
     "category": "Math"
   },
   {
     "file": "QUIZ_Math-7.txt",
     "name": "Math Quiz 7: Order of Operations (BODMAS)",
-    "description": "Mental-math sense-checking of brackets and calculation sequence — spot how brackets change the answer and apply × ÷ before + −, left to right",
+    "description": "Mental-math sense-checking of brackets and calculation sequence \u2014 spot how brackets change the answer and apply \u00d7 \u00f7 before + \u2212, left to right",
     "number_of_questions": 15,
     "category": "Math"
   },
   {
     "file": "QUIZ_Math-8.txt",
-    "name": "Math Quiz 8: Number Sense — Formula Reasoning",
-    "description": "Given a known multiplication or division fact, pick the formula that correctly derives a related fact via scaling, compensation, or decimal shifts — without recalculating from scratch",
+    "name": "Math Quiz 8: Number Sense \u2014 Formula Reasoning",
+    "description": "Given a known multiplication or division fact, pick the formula that correctly derives a related fact via scaling, compensation, or decimal shifts \u2014 without recalculating from scratch",
     "number_of_questions": 15,
     "category": "Math"
   },
   {
     "file": "QUIZ_Math-9.txt",
     "name": "Math Quiz 9: Estimating Division",
-    "description": "Roughly guess big-number ÷ big-number by rounding to friendly numbers or testing the options — 100-question bank, 20 picked per quiz",
+    "description": "Roughly guess big-number \u00f7 big-number by rounding to friendly numbers or testing the options \u2014 100-question bank, 20 picked per quiz",
     "number_of_questions": 20,
     "category": "Math"
   },
@@ -192,6 +143,13 @@
     "file": "QUIZ_Suffix-1.txt",
     "name": "Suffix Quiz 1",
     "description": "Choose the correct suffix to complete a sentence, or spot the word that cannot take a given suffix \u2014 each suffix is used exactly once within its set of 5",
+    "number_of_questions": 20,
+    "category": "English"
+  },
+  {
+    "file": "QUIZ_Spelling-1.txt",
+    "name": "Spelling Quiz",
+    "description": "Spot the correctly spelled word or sentence \u2014 questions taken from past papers",
     "number_of_questions": 20,
     "category": "English"
   }

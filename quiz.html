@@ -84,6 +84,10 @@
       const total = questions.length;
       const { subtitle, main } = splitQuestion(q.question);
       const progressPct = Math.round((current / total) * 100);
+      // Shuffle option order on every render. data-letter keeps the original
+      // letter (used for scoring/feedback); the badge shows the display position.
+      const originalLetters = q.optionLetters || Object.keys(q.options);
+      const shuffledLetters = shuffle(originalLetters);
 
       root.innerHTML = `
         <div class="quiz-top">
@@ -105,9 +109,9 @@
         </div>
 
         <div class="options-grid" id="options-grid">
-          ${(q.optionLetters || Object.keys(q.options)).map((letter, i) => `
+          ${shuffledLetters.map((letter, i) => `
             <div class="option" data-letter="${letter}" style="--opt-color:${optionColor(i)}">
-              <div class="badge">${letter}</div>
+              <div class="badge">${originalLetters[i]}</div>
               <div class="option-text">${renderInline(q.options[letter])}</div>
             </div>
           `).join("")}
