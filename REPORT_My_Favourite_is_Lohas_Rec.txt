@@ -1,0 +1,154 @@
+TITLE: My Favouriete is Lohas Rec
+OVERALL_COMMENT: You have a delightful imagination and a real flair for vivid details, such as the "banana-yellow hives" and the quirky statues playing musical instruments! To raise your marks significantly, focus on keeping your tenses consistent throughout your piece and checking your subject-verb agreement. Proofreading carefully for small typos and spelling errors before submitting will make your creative writing shine even brighter.
+
+[BREAKDOWN]
+CONTENT_ORGANISATION: 15
+VOCABULARY_DESCRIPTION: 16
+SENTENCE_STRUCTURE_STYLE: 13
+GRAMMAR: 10
+MECHANICS_FORMATTING: 12
+[/BREAKDOWN]
+
+[ORIGINAL_WRITING]
+My Favouriete is Lohas Rec
+
+My favourite place ever is Lohas Rec. Not only it brings me down memory lane, it also have sea turtles and sparkling fishes swimming in a warm pond. The big statues were amazing and come were petting a dog, even one was playing the double bass. The beautiful butterflies plays among the flowers while busy bees collected nectar into their banana-yellow hives.
+
+A park hid behind trees. It has a tall climbing frames with children splashing in freezing, ice-cold water. A small hill grow and children run around, laughing as they run. People walk for exercise and the amenity sets up fun things for people to try. Children plays lively in this amazing Rec.
+
+Time flies by and I don’t live in Hong Kong anymore. I really miss it, but every time a go back, I will definetly go there. It stills lives in my heart and every time I close my eyes, I can feel the gentle breeze whooshing pass me.
+[/ORIGINAL_WRITING]
+
+[MISTAKE]
+WRONG: My Favouriete is Lohas Rec
+CORRECT: My Favourite is Lohas Rec
+DESCRIPTION: "Favourite" is misspelled here with an extra "e". Make sure to double-check your title for spelling before handing in your work.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: Not only it brings
+CORRECT: Not only does it bring
+DESCRIPTION: When you begin a clause with the restrictive phrase "Not only", you must invert the word order by adding an auxiliary verb like "does".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: it also have
+CORRECT: it also has
+DESCRIPTION: The singular pronoun "it" requires the singular verb form "has" rather than "have".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: sparkling fishes
+CORRECT: sparkling fish
+DESCRIPTION: The standard plural form for a group of fish is "fish", not "fishes".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: come were petting
+CORRECT: some were petting
+DESCRIPTION: This is a typo where "come" was written instead of "some".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: butterflies plays
+CORRECT: butterflies play
+DESCRIPTION: "Butterflies" is a plural noun, so it takes the plural verb "play" rather than "plays".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: busy bees collected
+CORRECT: busy bees collect
+DESCRIPTION: Keep your tenses consistent within the sentence; since you started in the present tense ("butterflies play"), use the present tense "collect".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: A park hid
+CORRECT: A park hides
+DESCRIPTION: Because the surrounding descriptions of the park are in the present tense, "hid" should be switched to the present tense "hides".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: a tall climbing frames
+CORRECT: a tall climbing frame
+DESCRIPTION: The singular article "a" must match a singular noun ("frame"), not the plural "frames".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: A small hill grow
+CORRECT: A small hill grows
+DESCRIPTION: The singular subject "A small hill" requires the singular verb "grows".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: Children plays
+CORRECT: Children play
+DESCRIPTION: "Children" is a plural noun, so it requires the plural verb form "play" instead of "plays".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: every time a go back
+CORRECT: every time I go back
+DESCRIPTION: The personal pronoun "I" must always be capitalised, and it was mistakenly typed here as "a".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: definetly
+CORRECT: definitely
+DESCRIPTION: "Definitely" is misspelled here. Remember that it contains the root word "finite" and ends in "-itely".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: It stills lives
+CORRECT: It still lives
+DESCRIPTION: "Still" acts as an adverb here and should not have an "-s" added to it.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: whooshing pass me
+CORRECT: whooshing past me
+DESCRIPTION: Use the preposition "past" when describing motion going by something, rather than the verb "pass".
+[/MISTAKE]
+
+[REFERENCE_WRITING]
+My absolute favourite place in the world is Lohas Rec. Not only does it send me strolling down memory lane, but it also features a warm pond where sea turtles glide alongside sparkling fish. Towering statues stand throughout the grounds—some sculpted petting a dog, while another grand figure plays the double bass. Fluttering butterflies dance among the vibrant blossoms, while industrious bees gather nectar to carry back to their banana-yellow hives.
+
+Hidden behind a canopy of lush trees lies the main park. Here, tall climbing frames tower over children as they splash in the brisk, ice-cold water features. Gentle grassy hills roll across the landscape, where youngsters race about, their laughter echoing through the air. Adults enjoy peaceful walks for exercise while community stalls set up engaging activities for everyone to try. Everywhere you look, children play joyfully in this vibrant park.
+
+Time flies by, and I no longer live in Hong Kong. I miss it immensely, but whenever I return, a visit to Lohas Rec is my top priority. It still holds a cherished place in my heart; every time I close my eyes, I can still feel the gentle breeze swooping past me.
+[/REFERENCE_WRITING]
+
+[LEARNING_POINT]
+DESCRIPTION: When using 'not only' at the start of a sentence, invert the subject and verb (e.g. 'Not only does it...') and ensure your verbs agree with singular nouns. This advanced structure creates an engaging, fluent rhythm for your reader.
+ORIGINAL: Not only it brings me down memory lane, it also have sea turtles and sparkling fishes swimming in a warm pond.
+BETTER_VERSION: Not only does it send me strolling down memory lane, but it also features a warm pond where sea turtles glide alongside sparkling fish.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Swap simple, generic adjectives like 'big' and 'amazing' for precise, evocative vocabulary. Words like 'towering' and 'grand' give your reader a much clearer picture of scale and detail.
+ORIGINAL: The big statues were amazing and come were petting a dog, even one was playing the double bass.
+BETTER_VERSION: Towering statues stand throughout the grounds—some sculpted petting a dog, while another grand figure plays the double bass.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Maintain consistent verb tenses throughout your paragraph so your reader isn't confused by sudden shifts between past and present. Keeping actions in a single present tense keeps the scene feeling active and cohesive.
+ORIGINAL: The beautiful butterflies plays among the flowers while busy bees collected nectar into their banana-yellow hives.
+BETTER_VERSION: Fluttering butterflies dance among the vibrant blossoms, while industrious bees gather nectar to carry back to their banana-yellow hives.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Begin sentences with prepositional phrases or participial openers to vary your sentence structures and smoothly introduce new spaces. This avoids starting every sentence with a basic subject and verb.
+ORIGINAL: A park hid behind trees.
+BETTER_VERSION: Hidden behind a canopy of lush trees lies the main park.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Avoid repeating the same verb in quick succession, such as 'run... as they run'. Instead, use varied dynamic verbs like 'race' and expand on sensory details like where the sound travels.
+ORIGINAL: A small hill grow and children run around, laughing as they run.
+BETTER_VERSION: Gentle grassy hills roll across the landscape, where youngsters race about, their laughter echoing through the air.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Watch out for homophones and small grammatical slips, such as using 'pass' (verb) instead of 'past' (preposition/adverb) or 'stills' instead of 'still'. Polishing these details ensures your writing flows effortlessly and demonstrates complete control.
+ORIGINAL: It stills lives in my heart and every time I close my eyes, I can feel the gentle breeze whooshing pass me.
+BETTER_VERSION: It still holds a cherished place in my heart; every time I close my eyes, I can still feel the gentle breeze swooping past me.
+[/LEARNING_POINT]
