@@ -717,3 +717,220 @@ body {
   padding: 60px 0;
   color: #8a6b66;
 }
+
+/* ---------- Page 5: Writing dictionary ---------- */
+
+.dict-category {
+  margin-bottom: 28px;
+}
+
+.dict-category h2 {
+  color: var(--pink);
+  font-size: 1.2rem;
+  margin: 0 0 14px;
+}
+
+.dict-none {
+  margin: 0;
+  color: #8a6b66;
+  font-style: italic;
+}
+
+.dict-page {
+  max-width: 980px;
+}
+
+.dict-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+/* Vibe badge: coloured through the --vibe custom property, which is set
+   inline from the vibe colours in dictionary.json. */
+.dict-vibe {
+  display: inline-block;
+  flex-shrink: 0;
+  color: var(--vibe, #6b7280);
+  background: color-mix(in srgb, var(--vibe, #6b7280) 12%, #fff);
+  border: 1.5px solid color-mix(in srgb, var(--vibe, #6b7280) 35%, #fff);
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.dict-hint {
+  margin: 0 0 14px;
+  font-size: 0.9rem;
+  font-style: italic;
+  opacity: 0.75;
+}
+
+.dict-subheading {
+  margin: 20px 0 10px;
+  font-size: 0.95rem;
+}
+
+.dict-hint + .dict-subheading {
+  margin-top: 0;
+}
+
+.dict-count {
+  color: #8a6b66;
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-left: 4px;
+}
+
+.dict-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.dict-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  color: var(--text-dark);
+  border: 2px solid var(--pink-light);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.dict-chip::before {
+  content: "";
+  flex-shrink: 0;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--vibe, #6b7280);
+}
+
+.dict-chip--word {
+  cursor: pointer;
+  transition: transform 0.12s ease, background 0.12s ease, border-color 0.12s ease;
+}
+
+.dict-chip--word:hover {
+  transform: translateY(-1px);
+  border-color: var(--pink);
+}
+
+.dict-chip--word.active {
+  background: var(--pink-lighter);
+  border-color: var(--pink);
+}
+
+.dict-sentences {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dict-sentences li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 12px 0 12px 14px;
+  border-left: 4px solid var(--vibe, #6b7280);
+  border-bottom: 1px solid var(--pink-light);
+  line-height: 1.7;
+}
+
+.dict-sentences li:last-child {
+  border-bottom: none;
+}
+
+.dict-sentences .dict-vibe {
+  margin-top: 4px;
+}
+
+.dict-inline-word {
+  background: none;
+  border: none;
+  border-bottom: 2px dotted var(--pink);
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: #be185d;
+  cursor: pointer;
+}
+
+.dict-inline-word:hover,
+.dict-inline-word.active {
+  background: var(--pink-light);
+  border-bottom-style: solid;
+}
+
+.dict-bubble {
+  position: absolute;
+  z-index: 10;
+  width: max-content;
+  max-width: min(280px, calc(100vw - 24px));
+  background: #fff;
+  border: 2px solid var(--pink);
+  border-radius: 16px;
+  padding: 12px 14px;
+  box-shadow: 0 6px 18px rgba(236, 72, 153, 0.25);
+  line-height: 1.5;
+}
+
+.dict-bubble.hidden {
+  display: none;
+}
+
+/* The little pointer: a rotated square showing two of its borders, lined
+   up with the clicked word through --arrow-x (set in dictionary.html). */
+.dict-bubble::before {
+  content: "";
+  position: absolute;
+  left: var(--arrow-x, 50%);
+  top: -8px;
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+  background: #fff;
+  border-left: 2px solid var(--pink);
+  border-top: 2px solid var(--pink);
+  transform: rotate(45deg);
+}
+
+.dict-bubble--above::before {
+  top: auto;
+  bottom: -8px;
+  transform: rotate(225deg);
+}
+
+.dict-bubble-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.dict-bubble-head strong {
+  color: var(--pink);
+  font-size: 1.05rem;
+}
+
+.dict-pos {
+  color: #8a6b66;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.dict-bubble-text {
+  margin-bottom: 8px;
+}

@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Quiz Center</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=4" />
 </head>
 <body>
   <div class="page">
@@ -30,16 +30,28 @@
         <div class="loading">Loading report list…</div>
       </div>
     </div>
+
+    <div id="dictionary-view" class="hidden">
+      <div id="dictionary-list">
+        <div class="loading">Loading dictionary…</div>
+      </div>
+    </div>
   </div>
 
   <script src="app.js?v=10"></script>
   <script>
     const CATEGORIES = ["English", "Math", "Problem Solving"];
-    const MAIN_TABS = ["Quizzes", "Writing Reports"];
+    const MAIN_TABS = ["Quizzes", "Writing Reports", "Dictionary"];
+    const MAIN_VIEWS = {
+      "Quizzes": "quizzes-view",
+      "Writing Reports": "reports-view",
+      "Dictionary": "dictionary-view",
+    };
     let manifest = [];
     let reportManifest = [];
     let reportWriters = [];
     let activeWriter = null;
+    let dictionaryIndex = null;
     let activeCategory = CATEGORIES[0];
     let activeMainTab = MAIN_TABS[0];
 
@@ -62,16 +74,80 @@
     }
 
     function switchMainView() {
-      const quizzesView = document.getElementById("quizzes-view");
-      const reportsView = document.getElementById("reports-view");
-      if (activeMainTab === "Quizzes") {
-        quizzesView.classList.remove("hidden");
-        reportsView.classList.add("hidden");
-      } else {
-        quizzesView.classList.add("hidden");
-        reportsView.classList.remove("hidden");
-        if (!reportManifest.length) loadReportList();
+      for (const [tab, viewId] of Object.entries(MAIN_VIEWS)) {
+        document.getElementById(viewId).classList.toggle("hidden", tab !== activeMainTab);
       }
+      if (activeMainTab === "Writing Reports" && !reportManifest.length) loadReportList();
+      if (activeMainTab === "Dictionary" && !dictionaryIndex) loadDictionaryList();
+    }
+
+    async function loadDictionaryList() {
+      const list = document.getElementById("dictionary-list");
+      try {
+        const res = await fetch("dictionary.json", { cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        dictionaryIndex = await res.json();
+      } catch (err) {
+        list.innerHTML = `<div class="error-state">
+          Failed to load dictionary (dictionary.json).<br />
+          Make sure this page is opened via a local server (not by double-clicking index.html directly).
+        </div>`;
+        return;
+      }
+
+      const categories = dictionaryIndex.categories || [];
+      if (!categories.length) {
+        list.innerHTML = `<div class="empty-state">No dictionary categories available yet.</div>`;
+        return;
+      }
+
+      list.innerHTML = "";
+      for (const category of categories) {
+        const section = document.createElement("div");
+        section.className = "dict-category";
+        section.innerHTML = `<h2>${escapeHtml(category.name)}</h2>`;
+
+        const topics = category.topics || [];
+        if (!topics.length) {
+          section.insertAdjacentHTML("beforeend", `<p class="dict-none">No topics yet.</p>`);
+        } else {
+          const grid = document.createElement("div");
+          grid.className = "quiz-grid";
+          for (const topic of topics) grid.appendChild(renderTopicCard(topic));
+          section.appendChild(grid);
+        }
+        list.appendChild(section);
+      }
+    }
+
+    function renderTopicCard(topic) {
+      const card = document.createElement("div");
+      card.className = "quiz-card";
+      card.innerHTML = `
+        <div class="info">
+          <h2>${escapeHtml(topic.name)}</h2>
+          <div class="count">Loading…</div>
+        </div>
+        <a class="start-btn" href="dictionary.html?file=${encodeURIComponent(topic.file)}">Open</a>
+      `;
+
+      // Fetch just to show what's inside the topic; failures are non-fatal here.
+      const countEl = card.querySelector(".count");
+      fetch(topic.file, { cache: "no-store" })
+        .then((res) => {
+          if (!res.ok) throw new Error("HTTP " + res.status);
+          return res.json();
+        })
+        .then((data) => {
+          const sizeOf = (group) => Object.values(group || {}).reduce((sum, list) => sum + list.length, 0);
+          countEl.textContent =
+            `${sizeOf(data.words)} words · ${sizeOf(data.phrases)} phrases · ${(data.sentences || []).length} sentences`;
+        })
+        .catch(() => {
+          countEl.textContent = "Failed to load topic";
+        });
+
+      return card;
     }
 
     async function loadReportList() {
@@ -224,7 +300,11 @@
       }
     }
 
+    // dictionary.html links back here with #dictionary to reopen its tab.
+    if (window.location.hash === "#dictionary") activeMainTab = "Dictionary";
+
     renderMainTabs();
+    switchMainView();
     loadQuizList();
   </script>
 </body>

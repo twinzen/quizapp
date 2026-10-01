@@ -1,0 +1,57 @@
+{
+  "name": "Writing Dictionary",
+  "year": 10,
+  "vibes": [
+    { "name": "General", "color": "#6b7280", "description": "Common, neutral, natural description that fits any mood" },
+    { "name": "Peaceful", "color": "#0ea5e9", "description": "Calm, quiet, gentle and safe" },
+    { "name": "Beautiful", "color": "#d97706", "description": "Bright, dazzling, picture-perfect" },
+    { "name": "Wild", "color": "#0f766e", "description": "Stormy, rough, powerful and untamed" },
+    { "name": "Lonely", "color": "#7c3aed", "description": "Empty, isolated, far from anyone" },
+    { "name": "Menacing", "color": "#b91c1c", "description": "Dark, threatening, dangerous" },
+    { "name": "Lively", "color": "#ea580c", "description": "Busy, playful, full of movement and noise" }
+  ],
+  "categories": [
+    {
+      "name": "Landscapes",
+      "folder": "landscapes",
+      "topics": [
+        { "name": "Beaches", "file": "dictionary/landscapes/beaches.json" },
+        { "name": "Forests and Woods", "file": "dictionary/landscapes/forests-and-woods.json" },
+        { "name": "Mountains", "file": "dictionary/landscapes/mountains.json" },
+        { "name": "Caves", "file": "dictionary/landscapes/caves.json" },
+        { "name": "Islands", "file": "dictionary/landscapes/islands.json" },
+        { "name": "Deserts", "file": "dictionary/landscapes/deserts.json" },
+        { "name": "Ground and Paths", "file": "dictionary/landscapes/ground-and-paths.json" },
+        { "name": "Streams and Rivers", "file": "dictionary/landscapes/streams-and-rivers.json" },
+        { "name": "Lakes and Waterfalls", "file": "dictionary/landscapes/lakes-and-waterfalls.json" },
+        { "name": "Sea and Waves", "file": "dictionary/landscapes/sea-and-waves.json" }
+      ]
+    },
+    {
+      "name": "Settlements",
+      "folder": "settlements",
+      "topics": [
+        { "name": "Cities", "file": "dictionary/settlements/cities.json" },
+        { "name": "Towns", "file": "dictionary/settlements/towns.json" },
+        { "name": "Villages", "file": "dictionary/settlements/villages.json" },
+        { "name": "Roads", "file": "dictionary/settlements/roads.json" },
+        { "name": "Gardens", "file": "dictionary/settlements/gardens.json" },
+        { "name": "Parks and Playgrounds", "file": "dictionary/settlements/parks-and-playgrounds.json" },
+        { "name": "Buildings", "file": "dictionary/settlements/buildings.json" },
+        { "name": "Gates and Doors", "file": "dictionary/settlements/gates-and-doors.json" },
+        { "name": "Halls", "file": "dictionary/settlements/halls.json" },
+        { "name": "Corridors", "file": "dictionary/settlements/corridors.json" },
+        { "name": "Stairs", "file": "dictionary/settlements/stairs.json" },
+        { "name": "Bedrooms", "file": "dictionary/settlements/bedrooms.json" },
+        { "name": "Kitchens", "file": "dictionary/settlements/kitchens.json" },
+        { "name": "Living Rooms", "file": "dictionary/settlements/living-rooms.json" },
+        { "name": "Dining Rooms", "file": "dictionary/settlements/dining-rooms.json" }
+      ]
+    },
+    {
+      "name": "Atmosphere",
+      "folder": "atmosphere",
+      "topics": []
+    }
+  ]
+}

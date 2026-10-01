@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Writing Dictionary</title>
+  <link rel="stylesheet" href="style.css?v=4" />
+</head>
+<body>
+  <div class="page dict-page">
+    <a class="back-link" href="index.html#dictionary">← Back to Dictionary</a>
+    <div id="dict-root">
+      <div class="loading">Loading dictionary…</div>
+    </div>
+  </div>
+
+  <script src="app.js?v=10"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const file = params.get("file");
+    const root = document.getElementById("dict-root");
+
+    const WORD_GROUPS = [
+      { key: "nouns", label: "Nouns", pos: "noun" },
+      { key: "adjectives", label: "Adjectives", pos: "adjective" },
+      { key: "verbs", label: "Verbs", pos: "verb" },
+    ];
+    const FALLBACK_VIBE_COLOR = "#6b7280";
+
+    let vibeColors = {};
+    // Every word on the WORDS list, in render order. Clickable words (both
+    // the chips and the linked words inside sentences) point back into this
+    // array through their data-word index.
+    let wordEntries = [];
+    let wordPattern = null;
+    const wordIndexByText = new Map();
+
+    async function init() {
+      if (!file) {
+        root.innerHTML = `<div class="error-state">No topic specified. Please choose a topic from the dictionary page.</div>`;
+        return;
+      }
+
+      let topic;
+      try {
+        const res = await fetch(file, { cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        topic = await res.json();
+      } catch (err) {
+        root.innerHTML = `<div class="error-state">
+          Failed to load topic "${escapeHtml(file)}".<br />
+          Make sure the file exists and this page is opened via a local server.
+        </div>`;
+        return;
+      }
+
+      let vibes = [];
+      try {
+        const res = await fetch("dictionary.json", { cache: "no-store" });
+        if (res.ok) vibes = (await res.json()).vibes || [];
+      } catch (err) {
+        // Non-fatal: the topic still renders, just with grey vibe badges.
+      }
+
+      renderTopic(topic, vibes);
+    }
+
+    function vibeStyle(vibe) {
+      return `style="--vibe:${vibeColors[vibe] || FALLBACK_VIBE_COLOR}"`;
+    }
+
+    function renderVibeBadge(vibe) {
+      return vibe ? `<span class="dict-vibe" ${vibeStyle(vibe)}>${escapeHtml(vibe)}</span>` : "";
+    }
+
+    function escapeRegExp(str) {
+      return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+
+    function indexWords(words) {
+      wordEntries = [];
+      wordIndexByText.clear();
+      for (const group of WORD_GROUPS) {
+        for (const word of words[group.key] || []) {
+          const key = word.text.toLowerCase();
+          if (!wordIndexByText.has(key)) wordIndexByText.set(key, wordEntries.length);
+          wordEntries.push({ ...word, pos: group.pos });
+        }
+      }
+      // Longest first, so "rock pools" wins over a shorter word inside it.
+      const alternatives = [...wordIndexByText.keys()].sort((a, b) => b.length - a.length).map(escapeRegExp);
+      wordPattern = alternatives.length ? new RegExp(`\\b(${alternatives.join("|")})\\b`, "gi") : null;
+    }
+
+    // Turns every whole-word match of a WORDS entry inside a sentence into a
+    // clickable button, leaving the rest as plain escaped text.
+    function linkWords(text) {
+      if (!wordPattern) return escapeHtml(text);
+      let html = "";
+      let cursor = 0;
+      for (const match of text.matchAll(wordPattern)) {
+        const idx = wordIndexByText.get(match[0].toLowerCase());
+        html += escapeHtml(text.slice(cursor, match.index));
+        html += `<button type="button" class="dict-inline-word" data-word="${idx}">${escapeHtml(match[0])}</button>`;
+        cursor = match.index + match[0].length;
+      }
+      return html + escapeHtml(text.slice(cursor));
+    }
+
+    function renderWordGroup(group, words) {
+      const list = words[group.key] || [];
+      if (!list.length) return "";
+      const chips = list.map((word) => {
+        const idx = wordIndexByText.get(word.text.toLowerCase());
+        return `<button type="button" class="dict-chip dict-chip--word" data-word="${idx}" ${vibeStyle(word.vibe)}>${escapeHtml(word.text)}</button>`;
+      }).join("");
+      return `
+        <h3 class="dict-subheading">${group.label} <span class="dict-count">${list.length}</span></h3>
+        <div class="dict-chips">${chips}</div>
+      `;
+    }
+
+    function renderPhrases(list) {
+      if (!list || !list.length) return `<p class="dict-none">Nothing here yet.</p>`;
+      return `<div class="dict-chips">${list.map((phrase) =>
+        `<span class="dict-chip" ${vibeStyle(phrase.vibe)} title="${escapeHtml(phrase.vibe || "")}">${escapeHtml(phrase.text)}</span>`
+      ).join("")}</div>`;
+    }
+
+    function renderSentences(list) {
+      if (!list || !list.length) return `<p class="dict-none">Nothing here yet.</p>`;
+      return `<ul class="dict-sentences">${list.map((sentence) => `
+        <li ${vibeStyle(sentence.vibe)}>
+          <span class="dict-sentence-text">${linkWords(sentence.text)}</span>
+          ${renderVibeBadge(sentence.vibe)}
+        </li>
+      `).join("")}</ul>`;
+    }
+
+    function renderTopic(topic, vibes) {
+      vibeColors = {};
+      for (const vibe of vibes) {
+        if (/^#[0-9a-f]{3,8}$/i.test(vibe.color || "")) vibeColors[vibe.name] = vibe.color;
+      }
+
+      const words = topic.words || {};
+      const phrases = topic.phrases || {};
+      indexWords(words);
+
+      const usedVibes = vibes.filter((vibe) => (topic.vibes || []).includes(vibe.name));
+      const legend = usedVibes.length
+        ? `<div class="dict-legend">${usedVibes.map((vibe) =>
+            `<span class="dict-vibe" ${vibeStyle(vibe.name)} title="${escapeHtml(vibe.description || "")}">${escapeHtml(vibe.name)}</span>`
+          ).join("")}</div>`
+        : "";
+
+      document.title = `${topic.topic || "Topic"} – Writing Dictionary`;
+      root.innerHTML = `
+        <div class="list-header">
+          <h1>📖 ${escapeHtml(topic.topic || "Topic")}</h1>
+          ${topic.category ? `<p>${escapeHtml(topic.category)}</p>` : ""}
+        </div>
+        ${legend}
+
+        <div class="report-section">
+          <h2>Words</h2>
+          <div class="overview-card">
+            <p class="dict-hint">Tap a word to see what it means.</p>
+            ${WORD_GROUPS.map((group) => renderWordGroup(group, words)).join("") || `<p class="dict-none">Nothing here yet.</p>`}
+          </div>
+        </div>
+
+        <div class="report-section">
+          <h2>Phrases – Nouns and Adjectives</h2>
+          <div class="overview-card">${renderPhrases(phrases.nounsAndAdjectives)}</div>
+        </div>
+
+        <div class="report-section">
+          <h2>Phrases – Verbs</h2>
+          <div class="overview-card">${renderPhrases(phrases.verbs)}</div>
+        </div>
+
+        <div class="report-section">
+          <h2>Sentences</h2>
+          <div class="overview-card">
+            <p class="dict-hint">Tap an underlined word to see what it means.</p>
+            ${renderSentences(topic.sentences)}
+          </div>
+        </div>
+      `;
+    }
+
+    // ---- Explanation bubble ----
+    // A single bubble element is reused for every word and positioned in
+    // page coordinates, so it stays attached to its word while scrolling.
+
+    const bubble = document.createElement("div");
+    bubble.className = "dict-bubble hidden";
+    bubble.setAttribute("role", "status");
+    document.body.appendChild(bubble);
+    let bubbleAnchor = null;
+
+    function closeBubble() {
+      if (!bubbleAnchor) return;
+      bubbleAnchor.classList.remove("active");
+      bubbleAnchor = null;
+      bubble.classList.add("hidden");
+    }
+
+    function positionBubble() {
+      const margin = 12;
+      const gap = 10;
+      const anchorRect = bubbleAnchor.getBoundingClientRect();
+      const width = bubble.offsetWidth;
+      const height = bubble.offsetHeight;
+      const viewportWidth = document.documentElement.clientWidth;
+      const anchorCenter = anchorRect.left + anchorRect.width / 2;
+
+      const left = Math.max(margin, Math.min(anchorCenter - width / 2, viewportWidth - width - margin));
+      // Sits below the word unless it would run off the bottom of the screen.
+      const above = anchorRect.bottom + gap + height > window.innerHeight && anchorRect.top - gap - height > 0;
+      const top = above ? anchorRect.top - gap - height : anchorRect.bottom + gap;
+
+      bubble.classList.toggle("dict-bubble--above", above);
+      bubble.style.left = left + window.scrollX + "px";
+      bubble.style.top = top + window.scrollY + "px";
+      bubble.style.setProperty("--arrow-x", Math.max(18, Math.min(anchorCenter - left, width - 18)) + "px");
+    }
+
+    function openBubble(anchor) {
+      const word = wordEntries[Number(anchor.dataset.word)];
+      if (!word) return;
+      closeBubble();
+      bubbleAnchor = anchor;
+      anchor.classList.add("active");
+      bubble.innerHTML = `
+        <div class="dict-bubble-head">
+          <strong>${escapeHtml(word.text)}</strong>
+          <span class="dict-pos">${word.pos}</span>
+        </div>
+        <div class="dict-bubble-text">${escapeHtml(word.explanation || "No explanation yet.")}</div>
+        ${renderVibeBadge(word.vibe)}
+      `;
+      bubble.classList.remove("hidden");
+      positionBubble();
+    }
+
+    document.addEventListener("click", (event) => {
+      const anchor = event.target.closest("[data-word]");
+      if (anchor) {
+        if (anchor === bubbleAnchor) closeBubble();
+        else openBubble(anchor);
+        return;
+      }
+      if (!bubble.contains(event.target)) closeBubble();
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") closeBubble();
+    });
+
+    window.addEventListener("resize", () => {
+      if (bubbleAnchor) positionBubble();
+    });
+
+    init();
+  </script>
+</body>
+</html>
