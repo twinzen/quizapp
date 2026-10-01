@@ -763,6 +763,44 @@ body {
   white-space: nowrap;
 }
 
+/* Legend badges are buttons: tapping one shows only that vibe's items. */
+.dict-vibe-toggle {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* The selected badge is filled and carries a small × that clears the filter. */
+.dict-vibe-toggle[aria-pressed="true"] {
+  color: #fff;
+  background: var(--vibe, #6b7280);
+  border-color: var(--vibe, #6b7280);
+}
+
+.dict-vibe-toggle[aria-pressed="true"]::after {
+  content: "×";
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  margin: 0 -4px 0 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  line-height: 1.15em;
+  text-align: center;
+}
+
+.dict-vibe-toggle.dict-vibe-dimmed {
+  opacity: 0.55;
+}
+
+.dict-hint.dict-legend-hint {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.dict-page [data-vibe].dict-off {
+  display: none;
+}
+
 .dict-hint {
   margin: 0 0 14px;
   font-size: 0.9rem;
@@ -859,12 +897,12 @@ body {
 .dict-inline-word {
   background: none;
   border: none;
-  border-bottom: 2px dotted var(--pink);
+  border-bottom: 2px dotted currentColor;
   border-radius: 0;
   padding: 0;
   margin: 0;
   font: inherit;
-  color: #be185d;
+  color: inherit;
   cursor: pointer;
 }
 

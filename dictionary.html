@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Writing Dictionary</title>
-  <link rel="stylesheet" href="style.css?v=4" />
+  <link rel="stylesheet" href="style.css?v=8" />
 </head>
 <body>
   <div class="page dict-page">
@@ -76,6 +76,11 @@
       return `style="--vibe:${vibeColors[vibe] || FALLBACK_VIBE_COLOR}"`;
     }
 
+    // Colour plus the vibe name, which the legend uses to hide and show items.
+    function vibeAttrs(vibe) {
+      return `data-vibe="${escapeHtml(vibe || "")}" ${vibeStyle(vibe)}`;
+    }
+
     function renderVibeBadge(vibe) {
       return vibe ? `<span class="dict-vibe" ${vibeStyle(vibe)}>${escapeHtml(vibe)}</span>` : "";
     }
@@ -119,10 +124,10 @@
       if (!list.length) return "";
       const chips = list.map((word) => {
         const idx = wordIndexByText.get(word.text.toLowerCase());
-        return `<button type="button" class="dict-chip dict-chip--word" data-word="${idx}" ${vibeStyle(word.vibe)}>${escapeHtml(word.text)}</button>`;
+        return `<button type="button" class="dict-chip dict-chip--word" data-word="${idx}" ${vibeAttrs(word.vibe)}>${escapeHtml(word.text)}</button>`;
       }).join("");
       return `
-        <h3 class="dict-subheading">${group.label} <span class="dict-count">${list.length}</span></h3>
+        <h3 class="dict-subheading">${group.label} <span class="dict-count" data-total="${list.length}">${list.length}</span></h3>
         <div class="dict-chips">${chips}</div>
       `;
     }
@@ -130,14 +135,14 @@
     function renderPhrases(list) {
       if (!list || !list.length) return `<p class="dict-none">Nothing here yet.</p>`;
       return `<div class="dict-chips">${list.map((phrase) =>
-        `<span class="dict-chip" ${vibeStyle(phrase.vibe)} title="${escapeHtml(phrase.vibe || "")}">${escapeHtml(phrase.text)}</span>`
+        `<span class="dict-chip" ${vibeAttrs(phrase.vibe)} title="${escapeHtml(phrase.vibe || "")}">${escapeHtml(phrase.text)}</span>`
       ).join("")}</div>`;
     }
 
     function renderSentences(list) {
       if (!list || !list.length) return `<p class="dict-none">Nothing here yet.</p>`;
       return `<ul class="dict-sentences">${list.map((sentence) => `
-        <li ${vibeStyle(sentence.vibe)}>
+        <li ${vibeAttrs(sentence.vibe)}>
           <span class="dict-sentence-text">${linkWords(sentence.text)}</span>
           ${renderVibeBadge(sentence.vibe)}
         </li>
@@ -156,8 +161,9 @@
 
       const usedVibes = vibes.filter((vibe) => (topic.vibes || []).includes(vibe.name));
       const legend = usedVibes.length
-        ? `<div class="dict-legend">${usedVibes.map((vibe) =>
-            `<span class="dict-vibe" ${vibeStyle(vibe.name)} title="${escapeHtml(vibe.description || "")}">${escapeHtml(vibe.name)}</span>`
+        ? `<p class="dict-hint dict-legend-hint">Tap a mood to show only that mood.</p>
+          <div class="dict-legend">${usedVibes.map((vibe) =>
+            `<button type="button" class="dict-vibe dict-vibe-toggle" data-vibe-toggle="${escapeHtml(vibe.name)}" aria-pressed="false" ${vibeStyle(vibe.name)} title="${escapeHtml(vibe.description || "")}">${escapeHtml(vibe.name)}</button>`
           ).join("")}</div>`
         : "";
 
@@ -170,6 +176,14 @@
           ${breadcrumb ? `<p>${escapeHtml(breadcrumb)}</p>` : ""}
         </div>
         ${legend}
+
+        <div class="report-section">
+          <h2>Sentences</h2>
+          <div class="overview-card">
+            <p class="dict-hint">Tap an underlined word to see what it means.</p>
+            ${renderSentences(topic.sentences)}
+          </div>
+        </div>
 
         <div class="report-section">
           <h2>Words</h2>
@@ -187,14 +201,6 @@
         <div class="report-section">
           <h2>Phrases – Verbs</h2>
           <div class="overview-card">${renderPhrases(phrases.verbs)}</div>
-        </div>
-
-        <div class="report-section">
-          <h2>Sentences</h2>
-          <div class="overview-card">
-            <p class="dict-hint">Tap an underlined word to see what it means.</p>
-            ${renderSentences(topic.sentences)}
-          </div>
         </div>
       `;
     }
@@ -254,7 +260,40 @@
       positionBubble();
     }
 
+    // ---- Vibe filter ----
+    // Tapping a legend badge shows only that vibe's sentences, words and
+    // phrases. Tapping the selected badge again (its × mark) clears the filter.
+
+    let activeVibe = null;
+
+    function applyVibeFilter() {
+      for (const badge of root.querySelectorAll("[data-vibe-toggle]")) {
+        const selected = badge.dataset.vibeToggle === activeVibe;
+        badge.setAttribute("aria-pressed", String(selected));
+        badge.classList.toggle("dict-vibe-dimmed", activeVibe !== null && !selected);
+        badge.setAttribute("aria-label", selected
+          ? `${badge.dataset.vibeToggle}: showing only this mood. Tap to show everything.`
+          : `Show only ${badge.dataset.vibeToggle}`);
+      }
+      for (const item of root.querySelectorAll("[data-vibe]")) {
+        item.classList.toggle("dict-off", activeVibe !== null && item.dataset.vibe !== activeVibe);
+      }
+      // Word counts follow what is currently shown.
+      for (const count of root.querySelectorAll(".dict-count")) {
+        const chips = count.closest(".dict-subheading").nextElementSibling;
+        const shown = chips.querySelectorAll("[data-vibe]:not(.dict-off)").length;
+        count.textContent = shown === Number(count.dataset.total) ? shown : `${shown} of ${count.dataset.total}`;
+      }
+      if (bubbleAnchor && bubbleAnchor.closest(".dict-off")) closeBubble();
+    }
+
     document.addEventListener("click", (event) => {
+      const badge = event.target.closest("[data-vibe-toggle]");
+      if (badge) {
+        activeVibe = badge.dataset.vibeToggle === activeVibe ? null : badge.dataset.vibeToggle;
+        applyVibeFilter();
+        return;
+      }
       const anchor = event.target.closest("[data-word]");
       if (anchor) {
         if (anchor === bubbleAnchor) closeBubble();

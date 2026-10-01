@@ -132,7 +132,18 @@
         {
           "name": "Animals",
           "folder": "animals",
-          "topics": []
+          "topics": [
+            { "name": "Type and Body Parts", "file": "dictionary/creatures/animals/type-and-body-parts.json" },
+            { "name": "Covering", "file": "dictionary/creatures/animals/covering.json" },
+            { "name": "Head", "file": "dictionary/creatures/animals/head.json" },
+            { "name": "Eyes", "file": "dictionary/creatures/animals/eyes.json" },
+            { "name": "Arms and Legs", "file": "dictionary/creatures/animals/arms-and-legs.json" },
+            { "name": "Wings and Tails", "file": "dictionary/creatures/animals/wings-and-tails.json" },
+            { "name": "Smell and Sound", "file": "dictionary/creatures/animals/smell-and-sound.json" },
+            { "name": "Movement", "file": "dictionary/creatures/animals/movement.json" },
+            { "name": "Habitat", "file": "dictionary/creatures/animals/habitat.json" },
+            { "name": "Abilities and Actions", "file": "dictionary/creatures/animals/abilities-and-actions.json" }
+          ]
         },
         {
           "name": "Mythology",
