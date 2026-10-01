@@ -10,48 +10,151 @@
     { "name": "Menacing", "color": "#b91c1c", "description": "Dark, threatening, dangerous" },
     { "name": "Lively", "color": "#ea580c", "description": "Busy, playful, full of movement and noise" }
   ],
-  "categories": [
+  "sections": [
     {
-      "name": "Landscapes",
-      "folder": "landscapes",
-      "topics": [
-        { "name": "Beaches", "file": "dictionary/landscapes/beaches.json" },
-        { "name": "Forests and Woods", "file": "dictionary/landscapes/forests-and-woods.json" },
-        { "name": "Mountains", "file": "dictionary/landscapes/mountains.json" },
-        { "name": "Caves", "file": "dictionary/landscapes/caves.json" },
-        { "name": "Islands", "file": "dictionary/landscapes/islands.json" },
-        { "name": "Deserts", "file": "dictionary/landscapes/deserts.json" },
-        { "name": "Ground and Paths", "file": "dictionary/landscapes/ground-and-paths.json" },
-        { "name": "Streams and Rivers", "file": "dictionary/landscapes/streams-and-rivers.json" },
-        { "name": "Lakes and Waterfalls", "file": "dictionary/landscapes/lakes-and-waterfalls.json" },
-        { "name": "Sea and Waves", "file": "dictionary/landscapes/sea-and-waves.json" }
+      "name": "Settings",
+      "folder": "settings",
+      "categories": [
+        {
+          "name": "Landscapes",
+          "folder": "landscapes",
+          "topics": [
+            { "name": "Beaches", "file": "dictionary/settings/landscapes/beaches.json" },
+            { "name": "Forests and Woods", "file": "dictionary/settings/landscapes/forests-and-woods.json" },
+            { "name": "Mountains", "file": "dictionary/settings/landscapes/mountains.json" },
+            { "name": "Caves", "file": "dictionary/settings/landscapes/caves.json" },
+            { "name": "Islands", "file": "dictionary/settings/landscapes/islands.json" },
+            { "name": "Deserts", "file": "dictionary/settings/landscapes/deserts.json" },
+            { "name": "Ground and Paths", "file": "dictionary/settings/landscapes/ground-and-paths.json" },
+            { "name": "Streams and Rivers", "file": "dictionary/settings/landscapes/streams-and-rivers.json" },
+            { "name": "Lakes and Waterfalls", "file": "dictionary/settings/landscapes/lakes-and-waterfalls.json" },
+            { "name": "Sea and Waves", "file": "dictionary/settings/landscapes/sea-and-waves.json" }
+          ]
+        },
+        {
+          "name": "Settlements",
+          "folder": "settlements",
+          "topics": [
+            { "name": "Cities", "file": "dictionary/settings/settlements/cities.json" },
+            { "name": "Towns", "file": "dictionary/settings/settlements/towns.json" },
+            { "name": "Villages", "file": "dictionary/settings/settlements/villages.json" },
+            { "name": "Roads", "file": "dictionary/settings/settlements/roads.json" },
+            { "name": "Gardens", "file": "dictionary/settings/settlements/gardens.json" },
+            { "name": "Parks and Playgrounds", "file": "dictionary/settings/settlements/parks-and-playgrounds.json" },
+            { "name": "Buildings", "file": "dictionary/settings/settlements/buildings.json" },
+            { "name": "Gates and Doors", "file": "dictionary/settings/settlements/gates-and-doors.json" },
+            { "name": "Halls", "file": "dictionary/settings/settlements/halls.json" },
+            { "name": "Corridors", "file": "dictionary/settings/settlements/corridors.json" },
+            { "name": "Stairs", "file": "dictionary/settings/settlements/stairs.json" },
+            { "name": "Bedrooms", "file": "dictionary/settings/settlements/bedrooms.json" },
+            { "name": "Kitchens", "file": "dictionary/settings/settlements/kitchens.json" },
+            { "name": "Living Rooms", "file": "dictionary/settings/settlements/living-rooms.json" },
+            { "name": "Dining Rooms", "file": "dictionary/settings/settlements/dining-rooms.json" }
+          ]
+        },
+        {
+          "name": "Atmosphere",
+          "folder": "atmosphere",
+          "topics": [
+            { "name": "Day", "file": "dictionary/settings/atmosphere/day.json" },
+            { "name": "Evening", "file": "dictionary/settings/atmosphere/evening.json" },
+            { "name": "Night", "file": "dictionary/settings/atmosphere/night.json" },
+            { "name": "Spring", "file": "dictionary/settings/atmosphere/spring.json" },
+            { "name": "Summer", "file": "dictionary/settings/atmosphere/summer.json" },
+            { "name": "Autumn", "file": "dictionary/settings/atmosphere/autumn.json" },
+            { "name": "Winter", "file": "dictionary/settings/atmosphere/winter.json" },
+            { "name": "Rain", "file": "dictionary/settings/atmosphere/rain.json" },
+            { "name": "Mist and Fog", "file": "dictionary/settings/atmosphere/mist-and-fog.json" },
+            { "name": "Wind", "file": "dictionary/settings/atmosphere/wind.json" },
+            { "name": "Thunder and Lightning", "file": "dictionary/settings/atmosphere/thunder-and-lightning.json" },
+            { "name": "Smell", "file": "dictionary/settings/atmosphere/smell.json" },
+            { "name": "Touch", "file": "dictionary/settings/atmosphere/touch.json" },
+            { "name": "Sound - Calm", "file": "dictionary/settings/atmosphere/sound-calm.json" },
+            { "name": "Sound - Quiet Noises", "file": "dictionary/settings/atmosphere/sound-quiet-noises.json" },
+            { "name": "Sound - Startling Noises", "file": "dictionary/settings/atmosphere/sound-startling-noises.json" }
+          ]
+        }
       ]
     },
     {
-      "name": "Settlements",
-      "folder": "settlements",
-      "topics": [
-        { "name": "Cities", "file": "dictionary/settlements/cities.json" },
-        { "name": "Towns", "file": "dictionary/settlements/towns.json" },
-        { "name": "Villages", "file": "dictionary/settlements/villages.json" },
-        { "name": "Roads", "file": "dictionary/settlements/roads.json" },
-        { "name": "Gardens", "file": "dictionary/settlements/gardens.json" },
-        { "name": "Parks and Playgrounds", "file": "dictionary/settlements/parks-and-playgrounds.json" },
-        { "name": "Buildings", "file": "dictionary/settlements/buildings.json" },
-        { "name": "Gates and Doors", "file": "dictionary/settlements/gates-and-doors.json" },
-        { "name": "Halls", "file": "dictionary/settlements/halls.json" },
-        { "name": "Corridors", "file": "dictionary/settlements/corridors.json" },
-        { "name": "Stairs", "file": "dictionary/settlements/stairs.json" },
-        { "name": "Bedrooms", "file": "dictionary/settlements/bedrooms.json" },
-        { "name": "Kitchens", "file": "dictionary/settlements/kitchens.json" },
-        { "name": "Living Rooms", "file": "dictionary/settlements/living-rooms.json" },
-        { "name": "Dining Rooms", "file": "dictionary/settlements/dining-rooms.json" }
+      "name": "Characters",
+      "folder": "characters",
+      "categories": [
+        {
+          "name": "Appearance",
+          "folder": "appearance",
+          "topics": [
+            { "name": "Age", "file": "dictionary/characters/appearance/age.json" },
+            { "name": "Height and Shape", "file": "dictionary/characters/appearance/height-and-shape.json" },
+            { "name": "Face - Shape", "file": "dictionary/characters/appearance/face-shape.json" },
+            { "name": "Face - Colour and Texture", "file": "dictionary/characters/appearance/face-colour-and-texture.json" },
+            { "name": "Face - Wounds and Scars", "file": "dictionary/characters/appearance/face-wounds-and-scars.json" },
+            { "name": "Eyes - Colour", "file": "dictionary/characters/appearance/eyes-colour.json" },
+            { "name": "Eyes - Size", "file": "dictionary/characters/appearance/eyes-size.json" },
+            { "name": "Mouth and Teeth", "file": "dictionary/characters/appearance/mouth-and-teeth.json" },
+            { "name": "Nose", "file": "dictionary/characters/appearance/nose.json" },
+            { "name": "Ears", "file": "dictionary/characters/appearance/ears.json" },
+            { "name": "Hands and Fingers", "file": "dictionary/characters/appearance/hands-and-fingers.json" },
+            { "name": "Hair - Colour", "file": "dictionary/characters/appearance/hair-colour.json" },
+            { "name": "Hair - Style", "file": "dictionary/characters/appearance/hair-style.json" },
+            { "name": "Clothes", "file": "dictionary/characters/appearance/clothes.json" },
+            { "name": "Voice", "file": "dictionary/characters/appearance/voice.json" }
+          ]
+        },
+        {
+          "name": "Emotions and Personality",
+          "folder": "emotions-and-personality",
+          "topics": [
+            { "name": "Excited, Happy - Emotions", "file": "dictionary/characters/emotions-and-personality/excited-happy-emotions.json" },
+            { "name": "Excited, Happy - Expressions", "file": "dictionary/characters/emotions-and-personality/excited-happy-expressions.json" },
+            { "name": "Excited, Happy - Face", "file": "dictionary/characters/emotions-and-personality/excited-happy-face.json" },
+            { "name": "Excited, Happy - Voice", "file": "dictionary/characters/emotions-and-personality/excited-happy-voice.json" },
+            { "name": "Excited, Happy - Movement", "file": "dictionary/characters/emotions-and-personality/excited-happy-movement.json" }
+          ]
+        }
       ]
     },
     {
-      "name": "Atmosphere",
-      "folder": "atmosphere",
-      "topics": []
+      "name": "Creatures",
+      "folder": "creatures",
+      "categories": [
+        {
+          "name": "Animals",
+          "folder": "animals",
+          "topics": []
+        },
+        {
+          "name": "Mythology",
+          "folder": "mythology",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "name": "Food",
+      "folder": "food",
+      "categories": [
+        {
+          "name": "Everyday Meals",
+          "folder": "everyday-meals",
+          "topics": []
+        },
+        {
+          "name": "Feasts",
+          "folder": "feasts",
+          "topics": []
+        },
+        {
+          "name": "Desserts",
+          "folder": "desserts",
+          "topics": []
+        },
+        {
+          "name": "Drinks",
+          "folder": "drinks",
+          "topics": []
+        }
+      ]
     }
   ]
 }

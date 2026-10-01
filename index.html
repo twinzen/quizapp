@@ -32,6 +32,8 @@
     </div>
 
     <div id="dictionary-view" class="hidden">
+      <div id="dictionary-tabs" class="quiz-tabs"></div>
+
       <div id="dictionary-list">
         <div class="loading">Loading dictionary…</div>
       </div>
@@ -52,6 +54,8 @@
     let reportWriters = [];
     let activeWriter = null;
     let dictionaryIndex = null;
+    let dictionarySections = [];
+    let activeSection = null;
     let activeCategory = CATEGORIES[0];
     let activeMainTab = MAIN_TABS[0];
 
@@ -95,9 +99,42 @@
         return;
       }
 
-      const categories = dictionaryIndex.categories || [];
+      dictionarySections = dictionaryIndex.sections || [];
+      if (!dictionarySections.length) {
+        list.innerHTML = `<div class="empty-state">No dictionary sections available yet.</div>`;
+        return;
+      }
+
+      // dictionary.html links back with #dictionary/<section folder> to reopen its section.
+      const wantedFolder = window.location.hash.split("/")[1];
+      activeSection = dictionarySections.find((section) => section.folder === wantedFolder) || dictionarySections[0];
+      renderDictionaryTabs();
+      renderDictionaryList();
+    }
+
+    function renderDictionaryTabs() {
+      const tabsEl = document.getElementById("dictionary-tabs");
+      tabsEl.innerHTML = "";
+      for (const section of dictionarySections) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "tab-btn" + (section === activeSection ? " active" : "");
+        btn.textContent = section.name;
+        btn.addEventListener("click", () => {
+          if (activeSection === section) return;
+          activeSection = section;
+          renderDictionaryTabs();
+          renderDictionaryList();
+        });
+        tabsEl.appendChild(btn);
+      }
+    }
+
+    function renderDictionaryList() {
+      const list = document.getElementById("dictionary-list");
+      const categories = activeSection.categories || [];
       if (!categories.length) {
-        list.innerHTML = `<div class="empty-state">No dictionary categories available yet.</div>`;
+        list.innerHTML = `<div class="empty-state">No categories in this section yet.</div>`;
         return;
       }
 
@@ -300,8 +337,8 @@
       }
     }
 
-    // dictionary.html links back here with #dictionary to reopen its tab.
-    if (window.location.hash === "#dictionary") activeMainTab = "Dictionary";
+    // dictionary.html links back here with #dictionary/<section folder> to reopen its tab.
+    if (window.location.hash.split("/")[0] === "#dictionary") activeMainTab = "Dictionary";
 
     renderMainTabs();
     switchMainView();

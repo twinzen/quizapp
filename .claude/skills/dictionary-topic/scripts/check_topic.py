@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Validate a Writing Dictionary topic file and, if it passes, rewrite it in the house layout.
 
-Usage: python3 check_topic.py dictionary/<category-folder>/<topic>.json [--no-format]
+Usage: python3 check_topic.py dictionary/<section-folder>/<category-folder>/<topic>.json [--no-format]
 """
 import json
 import sys
@@ -16,7 +16,7 @@ RANGES = {
     ("phrases", "verbs"): (12, 24),
 }
 SENTENCES = 30
-KEYS = ["category", "topic", "vibes", "words", "phrases", "sentences"]
+KEYS = ["section", "category", "topic", "vibes", "words", "phrases", "sentences"]
 MAX_EXPLANATION_WORDS = 25
 
 
@@ -47,15 +47,21 @@ def check(path):
         index = json.loads(index_path.read_text(encoding="utf-8"))
         allowed = [v["name"] for v in index.get("vibes", [])]
         rel = path.resolve().relative_to(index_path.parent).as_posix()
-        category = next((c for c in index["categories"] if c["name"] == d["category"]), None)
-        if category is None:
-            errors.append(f'Category "{d["category"]}" is not in dictionary.json')
+        section = next((s for s in index.get("sections", []) if s["name"] == d["section"]), None)
+        category = None
+        if section is None:
+            errors.append(f'Section "{d["section"]}" is not in dictionary.json')
         else:
-            if path.resolve().parent.name != category["folder"]:
-                errors.append(f'File should be in dictionary/{category["folder"]}/ for category "{d["category"]}"')
+            category = next((c for c in section["categories"] if c["name"] == d["category"]), None)
+            if category is None:
+                errors.append(f'Category "{d["category"]}" is not in section "{d["section"]}" in dictionary.json')
+        if category is not None:
+            folder = f'dictionary/{section["folder"]}/{category["folder"]}'
+            if path.resolve().parent != (index_path.parent / folder).resolve():
+                errors.append(f'File should be in {folder}/ for "{d["section"]}" / "{d["category"]}"')
             entry = next((t for t in category["topics"] if t["file"] == rel), None)
             if entry is None:
-                errors.append(f'Not registered: add {{"name": "{d["topic"]}", "file": "{rel}"}} to "{d["category"]}" in dictionary.json')
+                errors.append(f'Not registered: add {{"name": "{d["topic"]}", "file": "{rel}"}} to "{d["section"]}" / "{d["category"]}" in dictionary.json')
             elif entry["name"] != d["topic"]:
                 errors.append(f'Topic name "{d["topic"]}" differs from "{entry["name"]}" in dictionary.json')
 
@@ -113,7 +119,7 @@ def check(path):
         errors.append(f"vibes: should list the vibes used, in dictionary.json order: {json.dumps(expected_vibes)}")
 
     if not errors:
-        print(f'{d["category"]} / {d["topic"]}')
+        print(f'{d["section"]} / {d["category"]} / {d["topic"]}')
         for where, entries in lists.items():
             print(f"  {'.'.join(where):28} {len(entries)}")
         print("  vibes: " + ", ".join(f"{v} {used[v]}" for v in expected_vibes))
@@ -131,6 +137,7 @@ def render(d):
 
     return (
         "{\n"
+        f'  "section": {json.dumps(d["section"], ensure_ascii=False)},\n'
         f'  "category": {json.dumps(d["category"], ensure_ascii=False)},\n'
         f'  "topic": {json.dumps(d["topic"], ensure_ascii=False)},\n'
         f'  "vibes": {json.dumps(d["vibes"], ensure_ascii=False)},\n'

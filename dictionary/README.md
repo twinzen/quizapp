@@ -1,38 +1,44 @@
 # Writing Dictionary
 
-Descriptive vocabulary for settings, organised as **category → topic**.
+Descriptive vocabulary for Year 10 writing, organised as **section → category → topic**.
 
 ```
-dictionary.json                    index of categories and topics (repo root, like quizzes.json)
+dictionary.json                          index of sections, categories and topics (repo root, like quizzes.json)
 dictionary/
-  landscapes/
-    beaches.json                   one file per topic
-    forests-and-woods.json
-    mountains.json
-    caves.json
-  settlements/
-    roads.json
-    gardens.json
-    buildings.json
-  atmosphere/
-    seasons.json
-    sound.json
-    smell-and-touch.json
+  settings/                              one folder per section
+    landscapes/                          one folder per category
+      beaches.json                       one file per topic
+      forests-and-woods.json
+    settlements/
+      cities.json
+    atmosphere/
+  characters/
+    appearance/
+    emotions-and-personality/
+  creatures/
+    animals/
+    mythology/
+  food/
+    everyday-meals/
+    feasts/
+    desserts/
+    drinks/
 ```
 
-Only `landscapes/beaches.json` exists so far; the other names show the naming convention.
+Folders are created when their first topic is added, so a category with no topics has no folder yet.
 
 ## Adding a topic
 
 In Claude Code, run `/dictionary-topic <topic>` (e.g. `/dictionary-topic Mountains`) to generate, register and validate a topic file. To do it by hand:
 
-1. Create `dictionary/<category-folder>/<topic-name>.json` (lowercase, hyphens for spaces).
+1. Create `dictionary/<section-folder>/<category-folder>/<topic-name>.json` (lowercase, hyphens for spaces).
 2. Add it to that category's `topics` list in `dictionary.json`.
 
 ## Topic file format
 
 ```json
 {
+  "section": "Settings",
   "category": "Landscapes",
   "topic": "Beaches",
   "vibes": ["General", "Peaceful", "Wild"],
