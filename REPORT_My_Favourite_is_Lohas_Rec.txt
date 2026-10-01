@@ -10,20 +10,15 @@ MECHANICS_FORMATTING: 12
 [/BREAKDOWN]
 
 [ORIGINAL_WRITING]
-My Favouriete is Lohas Rec
+My Favourite is Lohas Rec
 
-My favourite place ever is Lohas Rec. Not only it brings me down memory lane, it also have sea turtles and sparkling fishes swimming in a warm pond. The big statues were amazing and come were petting a dog, even one was playing the double bass. The beautiful butterflies plays among the flowers while busy bees collected nectar into their banana-yellow hives.
+My favourite place ever is Lohas Rec. Not only it brings me down memory lane, it also have sea turtles and sparkling fishes swimming in a warm pond. The big statues were amazing and some were petting a dog, even one was playing the double bass. The beautiful butterflies plays among the flowers while busy bees collected nectar into their banana-yellow hives.
 
 A park hid behind trees. It has a tall climbing frames with children splashing in freezing, ice-cold water. A small hill grow and children run around, laughing as they run. People walk for exercise and the amenity sets up fun things for people to try. Children plays lively in this amazing Rec.
 
 Time flies by and I don’t live in Hong Kong anymore. I really miss it, but every time a go back, I will definetly go there. It stills lives in my heart and every time I close my eyes, I can feel the gentle breeze whooshing pass me.
 [/ORIGINAL_WRITING]
 
-[MISTAKE]
-WRONG: My Favouriete is Lohas Rec
-CORRECT: My Favourite is Lohas Rec
-DESCRIPTION: "Favourite" is misspelled here with an extra "e". Make sure to double-check your title for spelling before handing in your work.
-[/MISTAKE]
 
 [MISTAKE]
 WRONG: Not only it brings
@@ -41,12 +36,6 @@ DESCRIPTION: The singular pronoun "it" requires the singular verb form "has" rat
 WRONG: sparkling fishes
 CORRECT: sparkling fish
 DESCRIPTION: The standard plural form for a group of fish is "fish", not "fishes".
-[/MISTAKE]
-
-[MISTAKE]
-WRONG: come were petting
-CORRECT: some were petting
-DESCRIPTION: This is a typo where "come" was written instead of "some".
 [/MISTAKE]
 
 [MISTAKE]
