@@ -110,7 +110,17 @@
             { "name": "Concentrating, Determined - Expressions", "file": "dictionary/characters/emotions-and-personality/concentrating-determined-expressions.json" },
             { "name": "Concentrating, Determined - Face", "file": "dictionary/characters/emotions-and-personality/concentrating-determined-face.json" },
             { "name": "Concentrating, Determined - Voice", "file": "dictionary/characters/emotions-and-personality/concentrating-determined-voice.json" },
-            { "name": "Concentrating, Determined - Movement", "file": "dictionary/characters/emotions-and-personality/concentrating-determined-movement.json" }
+            { "name": "Concentrating, Determined - Movement", "file": "dictionary/characters/emotions-and-personality/concentrating-determined-movement.json" },
+            { "name": "Sympathetic, Caring - Emotions", "file": "dictionary/characters/emotions-and-personality/sympathetic-caring-emotions.json" },
+            { "name": "Sympathetic, Caring - Expressions", "file": "dictionary/characters/emotions-and-personality/sympathetic-caring-expressions.json" },
+            { "name": "Sympathetic, Caring - Face", "file": "dictionary/characters/emotions-and-personality/sympathetic-caring-face.json" },
+            { "name": "Sympathetic, Caring - Voice", "file": "dictionary/characters/emotions-and-personality/sympathetic-caring-voice.json" },
+            { "name": "Sympathetic, Caring - Movement", "file": "dictionary/characters/emotions-and-personality/sympathetic-caring-movement.json" },
+            { "name": "Angry, Aggressive, Irritated, Impatient - Emotions", "file": "dictionary/characters/emotions-and-personality/angry-aggressive-irritated-impatient-emotions.json" },
+            { "name": "Angry, Aggressive, Irritated, Impatient - Expressions", "file": "dictionary/characters/emotions-and-personality/angry-aggressive-irritated-impatient-expressions.json" },
+            { "name": "Angry, Aggressive, Irritated, Impatient - Face", "file": "dictionary/characters/emotions-and-personality/angry-aggressive-irritated-impatient-face.json" },
+            { "name": "Angry, Aggressive, Irritated, Impatient - Voice", "file": "dictionary/characters/emotions-and-personality/angry-aggressive-irritated-impatient-voice.json" },
+            { "name": "Angry, Aggressive, Irritated, Impatient - Movement", "file": "dictionary/characters/emotions-and-personality/angry-aggressive-irritated-impatient-movement.json" }
           ]
         }
       ]

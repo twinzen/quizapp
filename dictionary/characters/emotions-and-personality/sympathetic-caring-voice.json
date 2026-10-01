@@ -1,0 +1,616 @@
+{
+  "section": "Characters",
+  "category": "Emotions and Personality",
+  "topic": "Sympathetic, Caring - Voice",
+  "vibes": [
+    "General",
+    "Peaceful",
+    "Beautiful",
+    "Wild",
+    "Lonely",
+    "Menacing",
+    "Lively"
+  ],
+  "words": {
+    "nouns": [
+      {
+        "text": "voice",
+        "vibe": "General",
+        "explanation": "The sound a person makes when speaking."
+      },
+      {
+        "text": "tone",
+        "vibe": "General",
+        "explanation": "The feeling that a voice carries."
+      },
+      {
+        "text": "whisper",
+        "vibe": "Peaceful",
+        "explanation": "Words spoken very softly."
+      },
+      {
+        "text": "murmur",
+        "vibe": "Peaceful",
+        "explanation": "A low, soft way of speaking."
+      },
+      {
+        "text": "sigh",
+        "vibe": "General",
+        "explanation": "A long, soft breath out."
+      },
+      {
+        "text": "lullaby",
+        "vibe": "Peaceful",
+        "explanation": "A gentle song sung to send a child to sleep."
+      },
+      {
+        "text": "sob",
+        "vibe": "Lonely",
+        "explanation": "A gasping sound made while crying."
+      },
+      {
+        "text": "tremor",
+        "vibe": "Lonely",
+        "explanation": "A slight shaking."
+      },
+      {
+        "text": "words",
+        "vibe": "Peaceful",
+        "explanation": "The sounds that make up speech."
+      },
+      {
+        "text": "comfort",
+        "vibe": "Peaceful",
+        "explanation": "The easing of pain or sadness."
+      },
+      {
+        "text": "question",
+        "vibe": "General",
+        "explanation": "Something asked."
+      },
+      {
+        "text": "throat",
+        "vibe": "General",
+        "explanation": "The front of the neck and the tube inside it."
+      },
+      {
+        "text": "ear",
+        "vibe": "General",
+        "explanation": "The part of the head used for hearing."
+      },
+      {
+        "text": "silence",
+        "vibe": "General",
+        "explanation": "The complete lack of sound."
+      },
+      {
+        "text": "promise",
+        "vibe": "Peaceful",
+        "explanation": "Words saying that something will surely be done."
+      },
+      {
+        "text": "sympathy",
+        "vibe": "Menacing",
+        "explanation": "The feeling of being sorry for someone."
+      },
+      {
+        "text": "emotion",
+        "vibe": "Lonely",
+        "explanation": "Strong feeling."
+      },
+      {
+        "text": "air",
+        "vibe": "General",
+        "explanation": "The space around us."
+      },
+      {
+        "text": "blanket",
+        "vibe": "General",
+        "explanation": "A warm covering."
+      },
+      {
+        "text": "baby",
+        "vibe": "General",
+        "explanation": "A very young child."
+      },
+      {
+        "text": "room",
+        "vibe": "General",
+        "explanation": "A space inside a building."
+      },
+      {
+        "text": "breath",
+        "vibe": "General",
+        "explanation": "The air that goes in and out of the lungs."
+      }
+    ],
+    "adjectives": [
+      {
+        "text": "soft",
+        "vibe": "Peaceful",
+        "explanation": "Quiet and gentle."
+      },
+      {
+        "text": "soothing",
+        "vibe": "Peaceful",
+        "explanation": "Making you feel calm."
+      },
+      {
+        "text": "low",
+        "vibe": "Peaceful",
+        "explanation": "Quiet and deep."
+      },
+      {
+        "text": "gentle",
+        "vibe": "Peaceful",
+        "explanation": "Kind and mild."
+      },
+      {
+        "text": "thick",
+        "vibe": "Lonely",
+        "explanation": "Heavy with feeling."
+      },
+      {
+        "text": "choked",
+        "vibe": "Lonely",
+        "explanation": "Hardly able to come out."
+      },
+      {
+        "text": "warm",
+        "vibe": "Peaceful",
+        "explanation": "Friendly and loving."
+      },
+      {
+        "text": "comforting",
+        "vibe": "Peaceful",
+        "explanation": "Easing pain or sadness."
+      },
+      {
+        "text": "shaky",
+        "vibe": "Lonely",
+        "explanation": "Trembling."
+      },
+      {
+        "text": "unsteady",
+        "vibe": "Lonely",
+        "explanation": "Not firm."
+      },
+      {
+        "text": "quiet",
+        "vibe": "General",
+        "explanation": "Making little noise."
+      },
+      {
+        "text": "anxious",
+        "vibe": "General",
+        "explanation": "Worried."
+      },
+      {
+        "text": "patient",
+        "vibe": "Peaceful",
+        "explanation": "Able to wait calmly."
+      },
+      {
+        "text": "coaxing",
+        "vibe": "Peaceful",
+        "explanation": "Gently persuading."
+      },
+      {
+        "text": "long",
+        "vibe": "General",
+        "explanation": "Lasting a great time."
+      },
+      {
+        "text": "heartfelt",
+        "vibe": "General",
+        "explanation": "Deeply and truly felt."
+      },
+      {
+        "text": "sweet",
+        "vibe": "Menacing",
+        "explanation": "Pleasant, sometimes falsely so."
+      },
+      {
+        "text": "false",
+        "vibe": "Menacing",
+        "explanation": "Not real."
+      },
+      {
+        "text": "bright",
+        "vibe": "Lively",
+        "explanation": "Cheerful."
+      },
+      {
+        "text": "encouraging",
+        "vibe": "Lively",
+        "explanation": "Giving hope and confidence."
+      },
+      {
+        "text": "fierce",
+        "vibe": "Wild",
+        "explanation": "Strong and intense."
+      },
+      {
+        "text": "urgent",
+        "vibe": "Wild",
+        "explanation": "Needing attention at once."
+      },
+      {
+        "text": "tender",
+        "vibe": "Peaceful",
+        "explanation": "Loving and gentle."
+      },
+      {
+        "text": "husky",
+        "vibe": "Peaceful",
+        "explanation": "Low and slightly rough."
+      }
+    ],
+    "verbs": [
+      {
+        "text": "calmed",
+        "vibe": "Peaceful",
+        "explanation": "Made peaceful."
+      },
+      {
+        "text": "dropped",
+        "vibe": "Peaceful",
+        "explanation": "Became quieter."
+      },
+      {
+        "text": "caught",
+        "vibe": "Lonely",
+        "explanation": "Stuck for a moment."
+      },
+      {
+        "text": "wrapped",
+        "vibe": "Peaceful",
+        "explanation": "Folded around."
+      },
+      {
+        "text": "crooned",
+        "vibe": "Peaceful",
+        "explanation": "Sang or spoke in a low, gentle voice."
+      },
+      {
+        "text": "whispered",
+        "vibe": "Peaceful",
+        "explanation": "Spoke very softly."
+      },
+      {
+        "text": "trembled",
+        "vibe": "Lonely",
+        "explanation": "Shook slightly."
+      },
+      {
+        "text": "hung",
+        "vibe": "General",
+        "explanation": "Stayed in the air."
+      },
+      {
+        "text": "hushed",
+        "vibe": "Peaceful",
+        "explanation": "Made quiet."
+      },
+      {
+        "text": "coaxed",
+        "vibe": "Peaceful",
+        "explanation": "Persuaded gently."
+      },
+      {
+        "text": "cracked",
+        "vibe": "Lonely",
+        "explanation": "Broke suddenly."
+      },
+      {
+        "text": "sighed",
+        "vibe": "General",
+        "explanation": "Let out a long, soft breath."
+      },
+      {
+        "text": "promised",
+        "vibe": "Peaceful",
+        "explanation": "Said that something would surely be done."
+      },
+      {
+        "text": "softened",
+        "vibe": "General",
+        "explanation": "Became gentler."
+      },
+      {
+        "text": "dripped",
+        "vibe": "Menacing",
+        "explanation": "Was full of something that seemed to ooze out."
+      },
+      {
+        "text": "cheered",
+        "vibe": "Lively",
+        "explanation": "Shouted encouragement."
+      },
+      {
+        "text": "hissed",
+        "vibe": "Wild",
+        "explanation": "Spoke in a sharp whisper."
+      },
+      {
+        "text": "murmured",
+        "vibe": "Peaceful",
+        "explanation": "Spoke low and softly."
+      },
+      {
+        "text": "soothed",
+        "vibe": "Peaceful",
+        "explanation": "Calmed."
+      },
+      {
+        "text": "reassured",
+        "vibe": "Peaceful",
+        "explanation": "Took away someone's worry."
+      },
+      {
+        "text": "faltered",
+        "vibe": "Lonely",
+        "explanation": "Became weak and unsteady."
+      },
+      {
+        "text": "asked",
+        "vibe": "General",
+        "explanation": "Put a question."
+      },
+      {
+        "text": "comforted",
+        "vibe": "Peaceful",
+        "explanation": "Eased someone's sadness."
+      },
+      {
+        "text": "hummed",
+        "vibe": "Peaceful",
+        "explanation": "Sang with the lips closed."
+      }
+    ]
+  },
+  "phrases": {
+    "nounsAndAdjectives": [
+      {
+        "text": "Soft, soothing murmur",
+        "vibe": "Peaceful"
+      },
+      {
+        "text": "Low, gentle voice",
+        "vibe": "Peaceful"
+      },
+      {
+        "text": "Thick, choked voice",
+        "vibe": "Lonely"
+      },
+      {
+        "text": "Warm, comforting words",
+        "vibe": "Peaceful"
+      },
+      {
+        "text": "Shaky, unsteady voice",
+        "vibe": "Lonely"
+      },
+      {
+        "text": "Quiet, anxious question",
+        "vibe": "General"
+      },
+      {
+        "text": "Patient, coaxing tone",
+        "vibe": "Peaceful"
+      },
+      {
+        "text": "Long, heartfelt sigh",
+        "vibe": "General"
+      },
+      {
+        "text": "Sweet, false sympathy",
+        "vibe": "Menacing"
+      },
+      {
+        "text": "Bright, encouraging voice",
+        "vibe": "Lively"
+      },
+      {
+        "text": "Fierce, urgent whisper",
+        "vibe": "Wild"
+      },
+      {
+        "text": "Tender, husky whisper",
+        "vibe": "Peaceful"
+      }
+    ],
+    "verbs": [
+      {
+        "text": "Calmed the crying baby",
+        "vibe": "Peaceful"
+      },
+      {
+        "text": "Dropped almost to a whisper",
+        "vibe": "Peaceful"
+      },
+      {
+        "text": "Caught in her throat",
+        "vibe": "Lonely"
+      },
+      {
+        "text": "Wrapped around him like a blanket",
+        "vibe": "Peaceful"
+      },
+      {
+        "text": "Crooned a lullaby",
+        "vibe": "Peaceful"
+      },
+      {
+        "text": "Whispered in her ear",
+        "vibe": "Peaceful"
+      },
+      {
+        "text": "Trembled with emotion",
+        "vibe": "Lonely"
+      },
+      {
+        "text": "Hung in the air",
+        "vibe": "General"
+      },
+      {
+        "text": "Hushed the frightened child",
+        "vibe": "Peaceful"
+      },
+      {
+        "text": "Coaxed him gently",
+        "vibe": "Peaceful"
+      },
+      {
+        "text": "Cracked on the last word",
+        "vibe": "Lonely"
+      },
+      {
+        "text": "Sighed with sympathy",
+        "vibe": "General"
+      },
+      {
+        "text": "Promised softly",
+        "vibe": "Peaceful"
+      },
+      {
+        "text": "Softened at once",
+        "vibe": "General"
+      },
+      {
+        "text": "Dripped from every word",
+        "vibe": "Menacing"
+      },
+      {
+        "text": "Cheered them on",
+        "vibe": "Lively"
+      },
+      {
+        "text": "Hissed across the room",
+        "vibe": "Wild"
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "text": "A soft, soothing murmur calmed the crying baby.",
+      "vibe": "Peaceful"
+    },
+    {
+      "text": "His low, gentle voice dropped almost to a whisper.",
+      "vibe": "Peaceful"
+    },
+    {
+      "text": "Her thick, choked voice caught in her throat.",
+      "vibe": "Lonely"
+    },
+    {
+      "text": "Her warm, comforting words wrapped around him like a blanket.",
+      "vibe": "Peaceful"
+    },
+    {
+      "text": "She crooned a lullaby until the small fists uncurled.",
+      "vibe": "Peaceful"
+    },
+    {
+      "text": "\"It will pass,\" he whispered in her ear.",
+      "vibe": "Peaceful"
+    },
+    {
+      "text": "His shaky, unsteady voice trembled with emotion.",
+      "vibe": "Lonely"
+    },
+    {
+      "text": "A quiet, anxious question hung in the air.",
+      "vibe": "General"
+    },
+    {
+      "text": "She hushed the frightened child and rocked him.",
+      "vibe": "Peaceful"
+    },
+    {
+      "text": "She coaxed him gently down from the tree.",
+      "vibe": "Peaceful"
+    },
+    {
+      "text": "His voice cracked on the last word.",
+      "vibe": "Lonely"
+    },
+    {
+      "text": "She sighed with sympathy and took his hand.",
+      "vibe": "General"
+    },
+    {
+      "text": "\"I'll stay,\" she promised softly.",
+      "vibe": "Peaceful"
+    },
+    {
+      "text": "His voice softened at once.",
+      "vibe": "General"
+    },
+    {
+      "text": "Sweet, false sympathy dripped from every word.",
+      "vibe": "Menacing"
+    },
+    {
+      "text": "A bright, encouraging voice cheered them on from the gate.",
+      "vibe": "Lively"
+    },
+    {
+      "text": "A fierce, urgent whisper hissed across the room: \"Leave her alone.\"",
+      "vibe": "Wild"
+    },
+    {
+      "text": "\"There now,\" came a tender, husky whisper in the dark.",
+      "vibe": "Peaceful"
+    },
+    {
+      "text": "\"How dare you,\" she said, and her voice shook with protective fury.",
+      "vibe": "Wild"
+    },
+    {
+      "text": "\"I'm so sorry,\" he said, and faltered.",
+      "vibe": "Lonely"
+    },
+    {
+      "text": "She tried to speak, but only a sob came.",
+      "vibe": "Lonely"
+    },
+    {
+      "text": "\"Poor thing,\" he said, in a tone that meant nothing of the kind.",
+      "vibe": "Menacing"
+    },
+    {
+      "text": "He murmured and soothed until the horse stood quiet.",
+      "vibe": "Peaceful"
+    },
+    {
+      "text": "\"You did your best,\" she reassured him, and meant it.",
+      "vibe": "Peaceful"
+    },
+    {
+      "text": "He hummed under his breath as he bandaged the paw.",
+      "vibe": "Peaceful"
+    },
+    {
+      "text": "\"Does it hurt?\" she asked, with a long, heartfelt sigh.",
+      "vibe": "General"
+    },
+    {
+      "text": "She spoke in a patient, coaxing tone, as one speaks to a frightened animal.",
+      "vibe": "General"
+    },
+    {
+      "text": "\"You can do it!\" they called, and their voices carried her up the last steps.",
+      "vibe": "Lively"
+    },
+    {
+      "text": "Her voice was as soft as a hand on the forehead.",
+      "vibe": "Beautiful"
+    },
+    {
+      "text": "She comforted him in a silence that was kinder than words.",
+      "vibe": "Peaceful"
+    }
+  ]
+}
