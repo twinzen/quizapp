@@ -86,17 +86,13 @@
           "topics": [
             { "name": "Age", "file": "dictionary/characters/appearance/age.json" },
             { "name": "Height and Shape", "file": "dictionary/characters/appearance/height-and-shape.json" },
-            { "name": "Face - Shape", "file": "dictionary/characters/appearance/face-shape.json" },
-            { "name": "Face - Colour and Texture", "file": "dictionary/characters/appearance/face-colour-and-texture.json" },
-            { "name": "Face - Wounds and Scars", "file": "dictionary/characters/appearance/face-wounds-and-scars.json" },
-            { "name": "Eyes - Colour", "file": "dictionary/characters/appearance/eyes-colour.json" },
-            { "name": "Eyes - Size", "file": "dictionary/characters/appearance/eyes-size.json" },
+            { "name": "Face", "file": "dictionary/characters/appearance/face.json" },
+            { "name": "Eyes", "file": "dictionary/characters/appearance/eyes.json" },
             { "name": "Mouth and Teeth", "file": "dictionary/characters/appearance/mouth-and-teeth.json" },
             { "name": "Nose", "file": "dictionary/characters/appearance/nose.json" },
             { "name": "Ears", "file": "dictionary/characters/appearance/ears.json" },
             { "name": "Hands and Fingers", "file": "dictionary/characters/appearance/hands-and-fingers.json" },
-            { "name": "Hair - Colour", "file": "dictionary/characters/appearance/hair-colour.json" },
-            { "name": "Hair - Style", "file": "dictionary/characters/appearance/hair-style.json" },
+            { "name": "Hair", "file": "dictionary/characters/appearance/hair.json" },
             { "name": "Clothes", "file": "dictionary/characters/appearance/clothes.json" },
             { "name": "Voice", "file": "dictionary/characters/appearance/voice.json" }
           ]
@@ -109,7 +105,12 @@
             { "name": "Excited, Happy - Expressions", "file": "dictionary/characters/emotions-and-personality/excited-happy-expressions.json" },
             { "name": "Excited, Happy - Face", "file": "dictionary/characters/emotions-and-personality/excited-happy-face.json" },
             { "name": "Excited, Happy - Voice", "file": "dictionary/characters/emotions-and-personality/excited-happy-voice.json" },
-            { "name": "Excited, Happy - Movement", "file": "dictionary/characters/emotions-and-personality/excited-happy-movement.json" }
+            { "name": "Excited, Happy - Movement", "file": "dictionary/characters/emotions-and-personality/excited-happy-movement.json" },
+            { "name": "Concentrating, Determined - Emotions", "file": "dictionary/characters/emotions-and-personality/concentrating-determined-emotions.json" },
+            { "name": "Concentrating, Determined - Expressions", "file": "dictionary/characters/emotions-and-personality/concentrating-determined-expressions.json" },
+            { "name": "Concentrating, Determined - Face", "file": "dictionary/characters/emotions-and-personality/concentrating-determined-face.json" },
+            { "name": "Concentrating, Determined - Voice", "file": "dictionary/characters/emotions-and-personality/concentrating-determined-voice.json" },
+            { "name": "Concentrating, Determined - Movement", "file": "dictionary/characters/emotions-and-personality/concentrating-determined-movement.json" }
           ]
         }
       ]
