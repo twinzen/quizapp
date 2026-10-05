@@ -1,0 +1,157 @@
+TITLE: Fox Noise
+OVERALL_COMMENT: You have written a wonderfully atmospheric story with fantastic descriptive vocabulary like "downy," "wobbling," and "frosty," alongside brilliant dialogue punctuation. To push your writing to top marks, keep a close eye on past-tense consistency throughout your narrative and check prepositions carefully during proofreading. Fixing these minor grammatical habits will immediately make your writing shine with polished confidence!
+
+[BREAKDOWN]
+CONTENT_ORGANISATION: 16
+VOCABULARY_DESCRIPTION: 15
+SENTENCE_STRUCTURE_STYLE: 14
+GRAMMAR: 12
+MECHANICS_FORMATTING: 13
+[/BREAKDOWN]
+
+[ORIGINAL_WRITING]
+Fox Noise
+A 11 years old girl called Summer had a wise, smart twin who is called Spring. Their cosy, warm bedroom had a soft, downy bunk bed filled with adorable toys. The gleaming moon shone down on the wooden floorboard which was covered in a 一marshmallow-pink mat.
+All of a sudden there was a small scatch and a squeak. Startled, she woke. “What is that?” whimpered Summer.
+Spring shrugged. There was it again. They both layed in silent, wide awake.
+A wild crieing echoed the silent hall. “Ahh!” shrieked Spring. “What is that?” They both tiptoed to the window. Summer’s legs were shivering. The dark, pitch black sky looked scary at night.
+They decided to call their brave dad. Their dad crashed in the door. “What is it?” he asked, confused.
+“We heard a cry!” said Summer, her voice wobbling. But there was silence. Out of nowhere, a cry echoed in frosty air.
+“Listen,” whispered their dad, “I think it’s a fox.”
+“Really?” Spring asked worriedly. Dad nodded confidently.
+The girls snuggled in their cosy covers. They squeezed their eyes shut. Summer and Spring tossed and turn until they drifted of to sleep.
+[/ORIGINAL_WRITING]
+
+[MISTAKE]
+WRONG: A 11 years old girl
+CORRECT: An 11-year-old girl
+DESCRIPTION: Use "An" before words that begin with a vowel sound, and hyphenate "11-year-old" when it is used before a noun.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: who is called Spring.
+CORRECT: who was called Spring.
+DESCRIPTION: Since your story is written in the past tense, maintain consistency by using "was" instead of "is".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: a 一marshmallow-pink mat.
+CORRECT: a marshmallow-pink mat.
+DESCRIPTION: Remove the stray character in front of "marshmallow".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: a small scatch
+CORRECT: a small scratch
+DESCRIPTION: The word "scratch" requires an 'r' after the letter 'c'.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: There was it again.
+CORRECT: There it was again.
+DESCRIPTION: In English, the pronoun "it" should come before the verb "was" in this phrase.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: layed in silent,
+CORRECT: lay in silence,
+DESCRIPTION: The past tense of "lie" (to recline) is "lay", and the preposition "in" must be followed by the noun "silence" rather than the adjective "silent".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: A wild crieing
+CORRECT: A wild crying
+DESCRIPTION: When forming the present participle of "cry", keep the 'y' and add "-ing".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: echoed the silent hall.
+CORRECT: echoed through the silent hall.
+DESCRIPTION: The verb "echoed" needs a preposition like "through" or "in" to show how sound travels through a room.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: crashed in the door.
+CORRECT: crashed through the door.
+DESCRIPTION: Use the preposition "through" rather than "in" when entering forcefully across a doorway.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: echoed in frosty air.
+CORRECT: echoed in the frosty air.
+DESCRIPTION: Include the article "the" before "frosty air" to refer to the specific outdoor atmosphere.
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: tossed and turn
+CORRECT: tossed and turned
+DESCRIPTION: Keep your tenses consistent by using the past-tense form "turned" alongside "tossed".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: drifted of to sleep.
+CORRECT: drifted off to sleep.
+DESCRIPTION: Use the spelling "off" with two 'f's for the phrasal verb "drifted off".
+[/MISTAKE]
+
+[REFERENCE_WRITING]
+Summer shared a snug bedroom with her twin sister, Spring, whose clever mind was always one step ahead of her own. Silver moonlight streamed through the window, illuminating the polished wooden floorboards and resting gently on the soft, marshmallow-pink rug beneath their bunk bed.
+
+All of a sudden, a faint scratch rattled against the windowpane, followed by a sharp squeak. Startled, Summer bolted upright. “What was that?” she whimpered, clutching her duvet.
+
+Spring shrugged, though her eyes were wide with tension. There it was again. Both girls lay in breathless silence, wide awake and waiting.
+
+An eerie, wild wail echoed through the quiet house. “Ahh!” shrieked Spring, jumping up. “What is that?” They both tiptoed nervously to the window, Summer’s legs trembling with every step. Outside, the pitch-black sky seemed to envelop the garden in mystery.
+
+They decided to call their brave dad. Moments later, Dad burst through the door. “What is it?” he asked, looking around in confusion.
+
+“We heard a cry!” said Summer, her voice wobbling. For a second, total silence returned. Then, out of nowhere, the shrill wail echoed through the frosty air once again.
+
+“Listen,” whispered their dad softly, “I think it’s just a fox.”
+
+“Really?” Spring asked nervously. Dad nodded with a reassuring smile.
+
+Relieved, the girls snuggled deep into their cosy covers and squeezed their eyes shut. Though they tossed and turned for a few minutes, the steady rhythm of their breathing soon drifted them off to sleep.
+[/REFERENCE_WRITING]
+
+[LEARNING_POINT]
+DESCRIPTION: Avoid stacking redundant adjectives like "wise, smart" or repeating passive introductions. Showing character traits through descriptive detail makes your opening sentence far more engaging.
+ORIGINAL: A 11 years old girl called Summer had a wise, smart twin who is called Spring.
+BETTER_VERSION: Summer shared a snug bedroom with her twin sister, Spring, whose clever mind was always one step ahead of her own.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Use standard past-tense verbs like "lay" rather than "layed" and ensure natural word order ("There it was" instead of "There was it"). Correcting these small grammatical errors keeps your prose fluid and professional.
+ORIGINAL: Spring shrugged. There was it again. They both layed in silent, wide awake.
+BETTER_VERSION: Spring shrugged, though her eyes were wide with tension. There it was again. Both girls lay in breathless silence, wide awake and waiting.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Swap generic words like "scary" or simple verbs like "shivering" for vivid sensory language and dynamic action verbs. Showing fear through character movement creates much stronger tension for the reader.
+ORIGINAL: Summer’s legs were shivering. The dark, pitch black sky looked scary at night.
+BETTER_VERSION: Summer’s legs trembling with every step. Outside, the pitch-black sky seemed to envelop the garden in mystery.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Select precise verbs and prepositions, such as "burst through" instead of "crashed in," to convey sudden action clearly and naturally.
+ORIGINAL: Their dad crashed in the door.
+BETTER_VERSION: Moments later, Dad burst through the door.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Replace repeated nouns like "a cry" with specific auditory vocabulary such as "shrill wail" to heighten suspense and build atmosphere.
+ORIGINAL: Out of nowhere, a cry echoed in frosty air.
+BETTER_VERSION: Then, out of nowhere, the shrill wail echoed through the frosty air once again.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Combine dialogue with expressive body language, such as "nodded with a reassuring smile," to show character emotions rather than relying on plain adverbs.
+ORIGINAL: “Really?” Spring asked worriedly. Dad nodded confidently.
+BETTER_VERSION: “Really?” Spring asked nervously. Dad nodded with a reassuring smile.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Ensure correct spelling of homophones like "off" instead of "of" and maintain consistent past-tense verbs like "tossed and turned". Finishing with a balanced, rhythmic sentence creates a polished ending.
+ORIGINAL: Summer and Spring tossed and turn until they drifted of to sleep.
+BETTER_VERSION: Though they tossed and turned for a few minutes, the steady rhythm of their breathing soon drifted them off to sleep.
+[/LEARNING_POINT]
