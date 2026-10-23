@@ -70,6 +70,34 @@
     "category": "Problem Solving"
   },
   {
+    "file": "QUIZ_Problem_Solving-9.txt",
+    "name": "Problem Solving Quiz 9: Two-Step Unit & Currency Conversions",
+    "description": "Convert between US/imperial and metric units (e.g. quarts \u2192 cups \u2192 ml), or between currencies using two exchange rates (e.g. \u00a3 \u2192 $ \u2192 \u00a5), in both directions \u2014 pick the correct formula. 62-question bank, 10 picked per quiz",
+    "number_of_questions": 10,
+    "category": "Problem Solving"
+  },
+  {
+    "file": "QUIZ_Problem_Solving-10.txt",
+    "name": "Problem Solving Quiz 10: Venn Diagrams",
+    "description": "Read and complete two- and three-circle Venn diagrams \u2014 find totals, overlaps, \u201conly\u201d and \u201cneither\u201d groups, with harder questions using fractions, percentages, smallest/largest overlaps and x. 30-question bank, 10 picked per quiz",
+    "number_of_questions": 10,
+    "category": "Problem Solving"
+  },
+  {
+    "file": "QUIZ_Problem_Solving-11.txt",
+    "name": "Problem Solving Quiz 11: Counting Problems",
+    "description": "Year 6 counting puzzles \u2014 outfits and menus, lining people up, making numbers from digits, and handshakes and matches where order doesn't matter. 41-question bank, 10 picked per quiz",
+    "number_of_questions": 10,
+    "category": "Problem Solving"
+  },
+  {
+    "file": "QUIZ_Problem_Solving-12.txt",
+    "name": "Problem Solving Quiz 12: Two Equations, Two Unknowns",
+    "description": "Year 6 word problems with two unknowns — sum and difference, comparing two shopping lists, doubling one list, and chickens-and-cows \"suppose they were all the same\" puzzles. 40-question bank, 10 picked per quiz",
+    "number_of_questions": 10,
+    "category": "Problem Solving"
+  },
+  {
     "file": "QUIZ_Math-1.txt",
     "name": "Math Quiz 1: Algebraic Equations",
     "description": "Simple mental-math algebra questions using Expanding Brackets and Clearing Fractions",
@@ -130,6 +158,20 @@
     "name": "Math Quiz 9: Estimating Division",
     "description": "Roughly guess big-number \u00f7 big-number by rounding to friendly numbers or testing the options \u2014 100-question bank, 20 picked per quiz",
     "number_of_questions": 20,
+    "category": "Math"
+  },
+  {
+    "file": "QUIZ_Math-10.txt",
+    "name": "Math Quiz 10: Finding Angles",
+    "description": "Read the diagram and work out the missing angle \u2014 straight lines, parallel lines, triangles, shapes with 4 to 8 sides, regular polygons joined together, circles and clock hands. 40-question bank, 10 picked per quiz",
+    "number_of_questions": 10,
+    "category": "Math"
+  },
+  {
+    "file": "QUIZ_Math-11.txt",
+    "name": "Math Quiz 11: Three Equations, Three Unknowns",
+    "description": "Given x + y, y + z and x + z, find one unknown \u2014 add all three equations to get x + y + z, then take away the pair without your letter. 50-question bank, 10 picked per quiz",
+    "number_of_questions": 10,
     "category": "Math"
   },
   {

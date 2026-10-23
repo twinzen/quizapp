@@ -58,6 +58,14 @@ function splitQuestion(raw) {
   return { subtitle: raw.slice(0, idx).trim(), main: raw.slice(idx + 2).trim() };
 }
 
+// A Question field may also include "[figure:path/to/image.svg]" to show a
+// picture (e.g. an angle diagram) above the question text.
+function extractFigure(raw) {
+  const m = raw.match(/\[figure:([^\]]+)\]/);
+  if (!m) return { figure: "", text: raw };
+  return { figure: m[1].trim(), text: raw.replace(m[0], "").trim() };
+}
+
 function parseQuizBank(text) {
   const lines = text.split(/\r?\n/).filter((l) => l.trim().length > 0);
   if (lines.length === 0) return [];
