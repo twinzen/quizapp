@@ -1,0 +1,134 @@
+TITLE: Why is travelling worth the money?
+OVERALL_COMMENT: You have written an engaging and persuasive piece with a wonderfully clear structure and ambitious vocabulary such as "gargantuan" and "breath-taking". To raise your marks even further, focus on proofreading your work to catch spelling errors like "oppertunaty" and "advanture". Additionally, take care with verb phrasing, such as using "isn't worth" instead of "doesn't worth".
+
+[BREAKDOWN]
+CONTENT_ORGANISATION: 18
+VOCABULARY_DESCRIPTION: 16
+SENTENCE_STRUCTURE_STYLE: 16
+GRAMMAR: 16
+MECHANICS_FORMATTING: 13
+[/BREAKDOWN]
+
+[ORIGINAL_WRITING]
+Why is travelling worth the money?
+
+Do you think that travelling is worth the money? While many people believe it doesn’t worth the money they work to get, I personly believe it deserves all of those pounds as travelling is an extremely exciting oppertunaty for you to have fun!
+
+First of all, you explore different things in the country. You can experience all kinds of food, culture and visit different places. For instance, when you go to France, you can try appertising, new food like crepes in a café with a complety different view and visit the breath-taking, gargantuan Eiffel Tower!
+
+Secondly, you can create amazing memories by taking a handful of pictures. Even if it is pouring with rain, the scene will be different from your hometown!
+
+Thirdly, different countries have different products! You can buy some stunning soverniers for your family and friends and yourself to remember the thrilling advanture you had!
+
+Above all, I believe that when you go to different countries, it can boarden your knowledge, and is mentally and physically good for you. When you step onto a country you know that it will be a magical advanture waiting for you!
+[/ORIGINAL_WRITING]
+
+[MISTAKE]
+WRONG: it doesn’t worth
+CORRECT: it isn’t worth
+DESCRIPTION: The word "worth" functions as an adjective here, so it requires the linking verb "is" ("isn't worth") rather than "does".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: I personly believe
+CORRECT: I personally believe
+DESCRIPTION: "Personally" is an adverb formed by adding "-ly" to the adjective "personal", requiring double "l".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: exciting oppertunaty
+CORRECT: exciting opportunity
+DESCRIPTION: The word "opportunity" is spelled with "o" and "u" in the middle syllables ("op-por-tu-ni-ty").
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: appertising
+CORRECT: appetising
+DESCRIPTION: "Appetising" is spelled with an "e" in the second syllable rather than an "r".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: complety
+CORRECT: completely
+DESCRIPTION: When adding "-ly" to form an adverb from a word ending in "-e" like "complete", retain the "e".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: soverniers
+CORRECT: souvenirs
+DESCRIPTION: "Souvenirs" is spelled with "ou" and "ve" in the first two syllables ("s-o-u-v-e-n-i-r-s").
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: thrilling advanture
+CORRECT: thrilling adventure
+DESCRIPTION: "Adventure" is spelled with an "e" in the second syllable ("ad-ven-ture").
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: boarden
+CORRECT: broaden
+DESCRIPTION: The word is "broaden" (meaning to widen or expand), where the vowel "o" comes after the "r".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: step onto a country
+CORRECT: step into a country
+DESCRIPTION: We use "into" or "in" when referring to entering a country, rather than the preposition "onto".
+[/MISTAKE]
+
+[MISTAKE]
+WRONG: magical advanture
+CORRECT: magical adventure
+DESCRIPTION: "Adventure" is spelled with an "e" in the second syllable ("ad-ven-ture").
+[/MISTAKE]
+
+[REFERENCE_WRITING]
+Why is travelling worth the money?
+
+Do you think that travelling is worth the money? While many people argue that holiday expenses are an unnecessary luxury, I firmly believe that every single pound is well spent, as travelling is an extraordinarily exciting opportunity to discover the world!
+
+To begin with, journeying to another country allows us to immerse ourselves in fascinating new cultures and landscapes. For instance, imagine travelling to France: you could spend a peaceful morning savouring freshly made, appetising crêpes at a bustling pavement café, before gazing up at the breathtaking, majestic Eiffel Tower as it looms into the Parisian sky.
+
+Furthermore, travelling allows us to capture unforgettable memories that last a lifetime. Even when the weather takes an unexpected turn and it starts pouring with rain, observing a foreign city under stormy skies offers a captivating contrast to our familiar surroundings at home. Every photograph taken becomes a cherished keepsake.
+
+In addition, exploring international markets gives us the chance to discover unique local goods and authentic crafts. Purchasing thoughtful souvenirs for family, friends—and even yourself—serves as a tangible reminder of the thrilling adventures you experienced together.
+
+Most importantly of all, stepping foot in an unfamiliar land broadens your mind, enriches your knowledge, and revitalises both physical and mental well-being. Ultimately, whenever you step off a plane into a new country, you are not merely spending money; you are investing in a magical adventure that will stay with you forever.
+[/REFERENCE_WRITING]
+
+[LEARNING_POINT]
+DESCRIPTION: Correcting grammatical verb structures ensures your writing is clear and natural; "worth" acts as an adjective here, so it requires "is not worth" rather than "doesn't worth". Correcting spelling errors like "personly" and "oppertunaty" also immediately increases your accuracy mark.
+ORIGINAL: While many people believe it doesn’t worth the money they work to get, I personly believe it deserves all of those pounds as travelling is an extremely exciting oppertunaty for you to have fun!
+BETTER_VERSION: While many people argue that holiday expenses are an unnecessary luxury, I firmly believe that every single pound is well spent, as travelling is an extraordinarily exciting opportunity to discover the world!
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Instead of relying on basic sequence openers like "First of all", "Secondly", and "Thirdly", use formal cohesive devices such as "To begin with" or "Furthermore". This makes your persuasive writing flow smoothly and sounds much more authoritative to the reader.
+ORIGINAL: Secondly, you can create amazing memories by taking a handful of pictures.
+BETTER_VERSION: Furthermore, travelling allows us to capture unforgettable memories that last a lifetime.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Enrich simple descriptions with vivid active verbs and sensory details to bring your examples to life. Action verbs like "savouring" and "looms" paint a compelling picture in the reader's mind.
+ORIGINAL: For instance, when you go to France, you can try appertising, new food like crepes in a café with a complety different view and visit the breath-taking, gargantuan Eiffel Tower!
+BETTER_VERSION: For instance, imagine travelling to France: you could spend a peaceful morning savouring freshly made, appetising crêpes at a bustling pavement café, before gazing up at the breathtaking, majestic Eiffel Tower as it looms into the Parisian sky.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Expand on your ideas by explaining why an atmosphere is special rather than just stating that it is different. Highlighting how bad weather can create a "captivating contrast" makes your argument far more thoughtful and convincing.
+ORIGINAL: Even if it is pouring with rain, the scene will be different from your hometown!
+BETTER_VERSION: Even when the weather takes an unexpected turn and it starts pouring with rain, observing a foreign city under stormy skies offers a captivating contrast to our familiar surroundings at home.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: Swap out simple, generic nouns like "products" for precise and sophisticated vocabulary choices like "authentic crafts" or "tangible reminder". Precise vocabulary demonstrates maturity and elevates the formality of your essay.
+ORIGINAL: You can buy some stunning soverniers for your family and friends and yourself to remember the thrilling advanture you had!
+BETTER_VERSION: Purchasing thoughtful souvenirs for family, friends—and even yourself—serves as a tangible reminder of the thrilling adventures you experienced together.
+[/LEARNING_POINT]
+
+[LEARNING_POINT]
+DESCRIPTION: End your argument with a powerful final statement that re-frames your main thesis in a fresh way. Comparing travel to an "investment" rather than an expense leaves your reader with a lasting, persuasive impression.
+ORIGINAL: When you step onto a country you know that it will be a magical advanture waiting for you!
+BETTER_VERSION: Ultimately, whenever you step off a plane into a new country, you are not merely spending money; you are investing in a magical adventure that will stay with you forever.
+[/LEARNING_POINT]
